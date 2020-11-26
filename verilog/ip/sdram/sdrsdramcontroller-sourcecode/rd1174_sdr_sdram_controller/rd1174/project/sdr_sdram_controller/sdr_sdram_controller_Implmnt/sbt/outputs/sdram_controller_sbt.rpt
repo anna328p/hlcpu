@@ -1,0 +1,226 @@
+* ******************************************************************************
+
+* iCEcube Report
+
+* Version:            2013.12.25022
+
+* Build Date:         Dec 18 2013 15:14:20
+
+* File Generated:     Mar 6 2014 12:14:32
+
+* Purpose:            General info of design implementation
+
+* Copyright (C) 2006-2010 by Lattice Semiconductor Corp. All rights reserved.
+
+* ******************************************************************************
+
+Synthesis/Placement Summary:
+----------------------------
+    Status:  Successful
+    Runtime: 2 seconds
+
+Device Info:
+------------
+    Device Family: iCE40
+    Device:        iCE40LP8K
+    Package:       CM225
+
+Design statistics:
+------------------
+    FFs:  125
+    LUTs: 230
+    RAMs: 0
+    IOBs: 130
+    GBs:  3
+    PLLs: 0
+
+Logic Resource Utilization:
+---------------------------
+    Total Logic Cells: 230/7680
+        Combinational Logic Cells: 105      out of   7680      1.36719%
+        Sequential Logic Cells:    125      out of   7680      1.6276%
+        Logic Tiles:               78       out of   960       8.125%
+    Registers: 
+        Logic Registers:           125      out of   7680      1.6276%
+        IO Registers:              16       out of   1280      1.25
+    Block RAMs:                    0        out of   32        0%
+    Pins:
+        Input Pins:                50       out of   178       28.0899%
+        Output Pins:               64       out of   178       35.9551%
+        InOut Pins:                16       out of   178       8.98876%
+    Global Buffers:                3        out of   8         37.5%
+    PLLs:                          0        out of   2         0%
+
+IO Bank Utilization:
+--------------------
+    Bank 3: 46       out of   46        100%
+    Bank 1: 40       out of   42        95.2381%
+    Bank 0: 44       out of   46        95.6522%
+    Bank 2: 0        out of   44        0%
+
+Detailed I/O Info:
+------------------
+    Input Pins: 
+    Pin Number  Direction  IO Standard  Pull Up  IO Bank  IO Function                                    Signal Name            
+    ----------  ---------  -----------  -------  -------  -----------                                    -----------            
+    A6          Input      SB_LVCMOS    No       0        Simple Input                                   i_addr[3]              
+    A7          Input      SB_LVCMOS    No       0        Simple Input                                   i_addr[13]             
+    A8          Input      SB_LVCMOS    No       0        Simple Input                                   i_addr[6]              
+    A9          Input      SB_LVCMOS    No       0        Simple Input                                   i_addr[17]             
+    A11         Input      SB_LVCMOS    No       0        Simple Input                                   i_addr[8]              
+    A15         Input      SB_LVCMOS    No       0        Simple Input                                   i_data[4]              
+    B6          Input      SB_LVCMOS    No       0        Simple Input                                   i_addr[0]              
+    B7          Input      SB_LVCMOS    No       0        Simple Input                                   i_addr[21]             
+    B8          Input      SB_LVCMOS    No       0        Simple Input                                   i_addr[15]             
+    B9          Input      SB_LVCMOS    No       0        Simple Input                                   i_addr[5]              
+    B10         Input      SB_LVCMOS    No       0        Simple Input                                   i_addr[18]             
+    B11         Input      SB_LVCMOS    No       0        Simple Input                                   i_addr[19]             
+    B12         Input      SB_LVCMOS    No       0        Simple Input                                   i_data[1]              
+    B13         Input      SB_LVCMOS    No       0        Simple Input                                   i_data[13]             
+    B14         Input      SB_LVCMOS    No       0        Simple Input                                   i_data[5]              
+    B15         Input      SB_LVCMOS    No       1        Simple Input                                   i_data[6]              
+    C6          Input      SB_LVCMOS    No       0        Simple Input                                   i_addr[12]             
+    C7          Input      SB_LVCMOS    No       0        Simple Input                                   i_addr[2]              
+    C8          Input      SB_LVCMOS    No       0        Simple Input                                   i_addr[16]             
+    C9          Input      SB_LVCMOS    No       0        Simple Input                                   i_addr[7]              
+    C10         Input      SB_LVCMOS    No       0        Simple Input                                   i_addr[14]             
+    C11         Input      SB_LVCMOS    No       0        Simple Input                                   i_addr[9]              
+    C12         Input      SB_LVCMOS    No       0        Simple Input                                   i_data[3]              
+    C13         Input      SB_LVCMOS    No       0        Simple Input                                   i_data[2]              
+    C14         Input      SB_LVCMOS    No       1        Simple Input                                   i_data[7]              
+    D7          Input      SB_LVCMOS    No       0        Simple Input                                   i_addr[4]              
+    D8          Input      SB_LVCMOS    No       0        Simple Input                                   i_addr[11]             
+    D9          Input      SB_LVCMOS    No       0        Simple Input                                   i_data[11]             
+    D10         Input      SB_LVCMOS    No       0        Simple Input                                   i_data[0]              
+    D11         Input      SB_LVCMOS    No       0        Simple Input                                   i_data[14]             
+    D13         Input      SB_LVCMOS    No       1        Simple Input                                   i_data[9]              
+    E9          Input      SB_LVCMOS    No       0        Simple Input                                   i_data[10]             
+    E10         Input      SB_LVCMOS    No       0        Simple Input                                   i_data[12]             
+    E11         Input      SB_LVCMOS    No       0        Simple Input                                   i_data[15]             
+    E13         Input      SB_LVCMOS    No       1        Simple Input                                   i_data[8]              
+    F9          Input      SB_LVCMOS    No       0        Simple Input                                   i_addr[1]              
+    G4          Input      SB_LVCMOS    No       3        Simple Input                                   i_rst                  
+    H5          Input      SB_LVCMOS    No       3        Simple Input                                   i_clk                  
+    K3          Input      SB_LVCMOS    No       3        Simple Input                                   i_precharge_req        
+    K4          Input      SB_LVCMOS    No       3        Simple Input                                   i_adv                  
+    K5          Input      SB_LVCMOS    No       3        Simple Input                                   i_burststop_req        
+    L1          Input      SB_LVCMOS    No       3        Simple Input                                   i_addr[10]             
+    L3          Input      SB_LVCMOS    No       3        Simple Input                                   i_loadmod_req          
+    L4          Input      SB_LVCMOS    No       3        Simple Input                                   i_disable_autorefresh  
+    M1          Input      SB_LVCMOS    No       3        Simple Input                                   i_rwn                  
+    M2          Input      SB_LVCMOS    No       3        Simple Input                                   i_selfrefresh_req      
+    M3          Input      SB_LVCMOS    No       3        Simple Input                                   i_disable_active       
+    M4          Input      SB_LVCMOS    No       3        Simple Input                                   i_disable_precharge    
+    N2          Input      SB_LVCMOS    No       3        Simple Input                                   i_addr[20]             
+    P1          Input      SB_LVCMOS    No       3        Simple Input                                   i_power_down           
+
+    Output Pins: 
+    Pin Number  Direction  IO Standard  Pull Up  IO Bank  IO Function                                    Signal Name            
+    ----------  ---------  -----------  -------  -------  -----------                                    -----------            
+    A1          Output     SB_LVCMOS    No       0        Simple Output                                  o_sdram_wen            
+    A5          Output     SB_LVCMOS    No       0        Simple Output                                  o_sdram_blkaddr[1]     
+    B1          Output     SB_LVCMOS    No       3        Simple Output                                  o_sdram_dqm[1]         
+    B4          Output     SB_LVCMOS    No       0        Simple Output                                  o_data_req             
+    B5          Output     SB_LVCMOS    No       0        Output Tristatable by Enable                   o_sdram_addr[11]       
+    C1          Output     SB_LVCMOS    No       3        Simple Output                                  o_sdram_blkaddr[0]     
+    C2          Output     SB_LVCMOS    No       3        Simple Output                                  o_sdram_rasn           
+    C5          Output     SB_LVCMOS    No       0        Simple Output                                  o_data_valid           
+    D1          Output     SB_LVCMOS    No       3        Simple Output                                  o_write_done           
+    D2          Output     SB_LVCMOS    No       3        Simple Output                                  o_sdram_cke            
+    D3          Output     SB_LVCMOS    No       3        Simple Output                                  o_sdram_addr[8]        
+    D4          Output     SB_LVCMOS    No       3        Simple Output                                  o_read_done            
+    D14         Output     SB_LVCMOS    No       1        Output Registered                              o_data[1]              
+    D15         Output     SB_LVCMOS    No       1        Simple Output                                  o_data[0]              
+    E3          Output     SB_LVCMOS    No       3        Simple Output                                  o_init_done            
+    E4          Output     SB_LVCMOS    No       3        Simple Output                                  o_sdram_dqm[0]         
+    E5          Output     SB_LVCMOS    No       3        Simple Output                                  o_sdram_addr[9]        
+    E6          Output     SB_LVCMOS    No       3        Simple Output                                  o_sdram_addr[10]       
+    E14         Output     SB_LVCMOS    No       1        Output Registered                              o_data[11]             
+    F1          Output     SB_LVCMOS    No       3        Simple Output                                  o_sdram_addr[5]        
+    F2          Output     SB_LVCMOS    No       3        Simple Output                                  o_sdram_addr[7]        
+    F3          Output     SB_LVCMOS    No       3        Simple Output                                  o_sdram_clk            
+    F7          Output     SB_LVCMOS    No       0        Simple Output                                  o_sdram_casn           
+    F11         Output     SB_LVCMOS    No       1        Output Registered                              o_data[10]             
+    F12         Output     SB_LVCMOS    No       1        Output Registered                              o_data[12]             
+    F13         Output     SB_LVCMOS    No       1        Output Registered                              o_data[13]             
+    F14         Output     SB_LVCMOS    No       1        Simple Output                                  o_data[16]             
+    F15         Output     SB_LVCMOS    No       1        Output Registered                              o_data[14]             
+    G1          Output     SB_LVCMOS    No       3        Simple Output                                  o_sdram_addr[1]        
+    G2          Output     SB_LVCMOS    No       3        Simple Output                                  o_sdram_addr[6]        
+    G3          Output     SB_LVCMOS    No       3        Simple Output                                  o_sdram_addr[4]        
+    G5          Output     SB_LVCMOS    No       3        Simple Output                                  o_sdram_addr[3]        
+    G10         Output     SB_LVCMOS    No       1        Simple Output                                  o_data[17]             
+    G11         Output     SB_LVCMOS    No       1        Simple Output                                  o_data[19]             
+    G12         Output     SB_LVCMOS    No       1        Output Registered                              o_data[15]             
+    G13         Output     SB_LVCMOS    No       1        Simple Output                                  o_data[20]             
+    G14         Output     SB_LVCMOS    No       1        Simple Output                                  o_data[18]             
+    G15         Output     SB_LVCMOS    No       1        Output Registered                              o_data[2]              
+    H1          Output     SB_LVCMOS    No       3        Simple Output                                  o_ack                  
+    H2          Output     SB_LVCMOS    No       3        Simple Output                                  o_sdram_addr[2]        
+    H6          Output     SB_LVCMOS    No       3        Simple Output                                  o_sdram_addr[0]        
+    H11         Output     SB_LVCMOS    No       1        Simple Output                                  o_data[24]             
+    H12         Output     SB_LVCMOS    No       1        Simple Output                                  o_data[21]             
+    H13         Output     SB_LVCMOS    No       1        Simple Output                                  o_data[22]             
+    H14         Output     SB_LVCMOS    No       1        Simple Output                                  o_data[23]             
+    J10         Output     SB_LVCMOS    No       1        Output Registered                              o_data[6]              
+    J11         Output     SB_LVCMOS    No       1        Simple Output                                  o_data[29]             
+    J12         Output     SB_LVCMOS    No       1        Output Registered                              o_data[4]              
+    J13         Output     SB_LVCMOS    No       1        Simple Output                                  o_data[28]             
+    J14         Output     SB_LVCMOS    No       1        Simple Output                                  o_data[25]             
+    J15         Output     SB_LVCMOS    No       1        Simple Output                                  o_data[26]             
+    K1          Output     SB_LVCMOS    No       3        Simple Output                                  o_busy                 
+    K12         Output     SB_LVCMOS    No       1        Simple Output                                  o_data[8]              
+    K13         Output     SB_LVCMOS    No       1        Simple Output                                  o_data[7]              
+    K14         Output     SB_LVCMOS    No       1        Simple Output                                  o_data[27]             
+    K15         Output     SB_LVCMOS    No       1        Output Registered                              o_data[3]              
+    L12         Output     SB_LVCMOS    No       1        Output Tristatable by Enable                   o_sdram_addr[12]       
+    L13         Output     SB_LVCMOS    No       1        Output Registered                              o_data[5]              
+    L14         Output     SB_LVCMOS    No       1        Simple Output                                  o_data[31]             
+    M13         Output     SB_LVCMOS    No       1        Simple Output                                  o_data[9]              
+    M14         Output     SB_LVCMOS    No       1        Simple Output                                  o_data[30]             
+    M15         Output     SB_LVCMOS    No       1        Simple Output                                  o_sdram_csn            
+    P14         Output     SB_LVCMOS    No       1        Output Tristatable by Enable                   o_sdram_dqm[2]         
+    R14         Output     SB_LVCMOS    No       1        Output Tristatable by Enable                   o_sdram_dqm[3]         
+
+    Inoutput Pins: 
+    Pin Number  Direction  IO Standard  Pull Up  IO Bank  IO Function                                    Signal Name            
+    ----------  ---------  -----------  -------  -------  -----------                                    -----------            
+    A2          InOut      SB_LVCMOS    No       0        Simple Input Output Tristatable by Enable      io_sdram_dq[14]        
+    B2          InOut      SB_LVCMOS    No       0        Simple Input Output Tristatable by Enable      io_sdram_dq[12]        
+    B3          InOut      SB_LVCMOS    No       0        Simple Input Output Tristatable by Enable      io_sdram_dq[2]         
+    C3          InOut      SB_LVCMOS    No       0        Simple Input Output Tristatable by Enable      io_sdram_dq[11]        
+    C4          InOut      SB_LVCMOS    No       0        Simple Input Output Tristatable by Enable      io_sdram_dq[13]        
+    D5          InOut      SB_LVCMOS    No       0        Simple Input Output Tristatable by Enable      io_sdram_dq[15]        
+    E2          InOut      SB_LVCMOS    No       3        Simple Input Output Tristatable by Enable      io_sdram_dq[10]        
+    F4          InOut      SB_LVCMOS    No       3        Input Registered Output Tristatable by Enable  io_sdram_dq[0]         
+    F5          InOut      SB_LVCMOS    No       3        Simple Input Output Tristatable by Enable      io_sdram_dq[1]         
+    H3          InOut      SB_LVCMOS    No       3        Simple Input Output Tristatable by Enable      io_sdram_dq[5]         
+    H4          InOut      SB_LVCMOS    No       3        Simple Input Output Tristatable by Enable      io_sdram_dq[3]         
+    J1          InOut      SB_LVCMOS    No       3        Input Registered Output Tristatable by Enable  io_sdram_dq[9]         
+    J2          InOut      SB_LVCMOS    No       3        Input Registered Output Tristatable by Enable  io_sdram_dq[7]         
+    J3          InOut      SB_LVCMOS    No       3        Simple Input Output Tristatable by Enable      io_sdram_dq[4]         
+    J4          InOut      SB_LVCMOS    No       3        Simple Input Output Tristatable by Enable      io_sdram_dq[6]         
+    J5          InOut      SB_LVCMOS    No       3        Input Registered Output Tristatable by Enable  io_sdram_dq[8]         
+
+Detailed Global Buffer Info:
+----------------------------
+    Buffer Number  IO Bank  Driven By  Fanout  Signal Name  
+    -------------  -------  ---------  ------  -----------  
+    1              3        IO         142     i_clk_c_g    
+    4              3        IO         102     i_rst_c_g    
+    3              3                   20      i_rst_c_i_g  
+
+
+Router Summary:
+---------------
+    Status:  Successful
+    Runtime: 41 seconds
+
+Routing Resource Utilization:
+-----------------------------
+              Local line of tile     1737 out of 146184      1.18823%
+                          Span 4      416 out of  29696      1.40086%
+                         Span 12      225 out of   5632      3.99503%
+                  Global network        3 out of      8      37.5%
+      Vertical Inter-LUT Connect       36 out of   6720      0.535714%
+

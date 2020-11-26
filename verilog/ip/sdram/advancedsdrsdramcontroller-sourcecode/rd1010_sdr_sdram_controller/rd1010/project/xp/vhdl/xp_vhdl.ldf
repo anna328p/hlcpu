@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<BaliProject version="3.2" title="xp_vhdl" device="LFXP20C-5F484C" default_implementation="xp_vhdl">
+    <Options/>
+    <Implementation title="xp_vhdl" dir="xp_vhdl" description="xp_vhdl" synthesis="synplify" default_strategy="Strategy1">
+        <Options def_top="sdr_top"/>
+        <Source name="../../../source/vhdl/sdr_ctrl.vhd" type="VHDL" type_short="VHDL">
+            <Options/>
+        </Source>
+        <Source name="../../../source/vhdl/sdr_data.vhd" type="VHDL" type_short="VHDL">
+            <Options/>
+        </Source>
+        <Source name="../../../source/vhdl/sdr_sig.vhd" type="VHDL" type_short="VHDL">
+            <Options/>
+        </Source>
+        <Source name="../../../source/vhdl/sdr_top.vhd" type="VHDL" type_short="VHDL">
+            <Options top_module="sdr_top"/>
+        </Source>
+        <Source name="../../../testbench/vhdl/sdr_tb.vhd" type="VHDL" type_short="VHDL" syn_sim="SimOnly">
+            <Options/>
+        </Source>
+        <Source name="../../../source/vhdl/sdr_par.vhd" type="VHDL" type_short="VHDL" syn_sim="SynOnly">
+            <Options/>
+        </Source>
+        <Source name="hreh/hreh.spf" type="Simulation Project File" type_short="SPF">
+            <Options/>
+        </Source>
+        <Source name="hrt/hrt.spf" type="Simulation Project File" type_short="SPF">
+            <Options/>
+        </Source>
+        <Source name="xp_vhdl.lpf" type="Logic Preference" type_short="LPF">
+            <Options/>
+        </Source>
+    </Implementation>
+    <Strategy name="Strategy1" file="xp_vhdl1.sty"/>
+</BaliProject>

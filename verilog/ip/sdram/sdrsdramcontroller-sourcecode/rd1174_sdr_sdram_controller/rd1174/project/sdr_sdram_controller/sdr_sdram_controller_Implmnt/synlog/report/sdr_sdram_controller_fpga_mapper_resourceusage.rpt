@@ -1,0 +1,31 @@
+---------------------------------------
+Resource Usage Report for sdram_controller 
+
+Mapping to part: ice40lp8kcm225
+Cell usage:
+GND             5 uses
+SB_CARRY        9 uses
+SB_DFF          20 uses
+SB_DFFE         20 uses
+SB_DFFER        20 uses
+SB_DFFES        26 uses
+SB_DFFR         53 uses
+SB_DFFS         2 uses
+SB_GB           1 use
+VCC             5 uses
+SB_LUT4         188 uses
+
+I/O ports: 167
+I/O primitives: 130
+SB_GB_IO       2 uses
+SB_IO          128 uses
+
+I/O Register bits:                  0
+Register bits not including I/Os:   141 (1%)
+
+Mapping Summary:
+Total  LUTs: 188 (2%)
+
+Distribution of All Consumed LUTs = LUT4 
+Distribution of All Consumed Luts 188 = 188 
+

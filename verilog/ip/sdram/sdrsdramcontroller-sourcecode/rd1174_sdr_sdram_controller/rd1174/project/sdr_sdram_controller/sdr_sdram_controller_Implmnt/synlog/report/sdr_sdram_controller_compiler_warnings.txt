@@ -1,0 +1,15 @@
+@W: CG360 :"G:\VEERAJ\RD\WORKING\RD1174\source\Verilog\Micron8M16\sdram_control_fsm.v":617:32:617:46|No assignment to wire sdram_dq_reg0_i
+@W: CG360 :"G:\VEERAJ\RD\WORKING\RD1174\source\Verilog\Micron8M16\sdram_control_fsm.v":618:32:618:46|No assignment to wire sdram_dq_reg1_i
+@W: CG360 :"G:\VEERAJ\RD\WORKING\RD1174\source\Verilog\Micron8M16\sdram_control_fsm.v":619:32:619:46|No assignment to wire sdram_dq_reg2_i
+@W: CG360 :"G:\VEERAJ\RD\WORKING\RD1174\source\Verilog\Micron8M16\sdram_control_fsm.v":620:32:620:46|No assignment to wire sdram_dq_reg3_i
+@W: CL169 :"G:\VEERAJ\RD\WORKING\RD1174\source\Verilog\Micron8M16\sdram_control_fsm.v":691:4:691:9|Pruning register cpu_data_reg_i[15:0] 
+@W: CL169 :"G:\VEERAJ\RD\WORKING\RD1174\source\Verilog\Micron8M16\sdram_control_fsm.v":671:4:671:9|Pruning register cpu2sdram_reg_i[15:0] 
+@W: CL189 :"G:\VEERAJ\RD\WORKING\RD1174\source\Verilog\Micron8M16\sdram_control_fsm.v":781:4:781:9|Register bit o_sdram_csn is always 0, optimizing ...
+@W: CG133 :"G:\VEERAJ\RD\WORKING\RD1174\source\Verilog\Micron8M16\sdram_controller.v":247:37:247:53|No assignment to power_down_reg2_i
+@W: CG133 :"G:\VEERAJ\RD\WORKING\RD1174\source\Verilog\Micron8M16\sdram_controller.v":248:37:248:53|No assignment to power_down_reg3_i
+@W: CL246 :"G:\VEERAJ\RD\WORKING\RD1174\source\Verilog\Micron8M16\sdram_controller.v":180:36:180:41|Input port bits 26 to 23 of i_addr[26:0] are unused
+@W: CL246 :"G:\VEERAJ\RD\WORKING\RD1174\source\Verilog\Micron8M16\sdram_controller.v":219:36:219:41|Input port bits 31 to 16 of i_data[31:0] are unused
+@W: CL157 :"G:\VEERAJ\RD\WORKING\RD1174\source\Verilog\Micron8M16\sdram_controller.v":203:36:203:47|*Output o_sdram_addr has undriven bits -- simulation mismatch possible.
+@W: CL157 :"G:\VEERAJ\RD\WORKING\RD1174\source\Verilog\Micron8M16\sdram_controller.v":208:36:208:46|*Output o_sdram_dqm has undriven bits -- simulation mismatch possible.
+@W: CL247 :"G:\VEERAJ\RD\WORKING\RD1174\source\Verilog\Micron8M16\sdram_control_fsm.v":129:36:129:41|Input port bit 22 of i_addr[22:0] is unused
+

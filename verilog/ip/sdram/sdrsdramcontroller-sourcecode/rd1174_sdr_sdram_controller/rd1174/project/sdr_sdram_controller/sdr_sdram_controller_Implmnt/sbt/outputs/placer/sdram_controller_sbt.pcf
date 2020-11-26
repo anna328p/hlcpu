@@ -1,0 +1,496 @@
+set_location U0.clk_count_i_RNICBAP2[3] 3 18 6 # SB_LUT4 (LogicCell: U0.clk_count_i_RNICBAP2[3]_LC_0)
+set_location U0.clk_count_i_RNICEBA_0[2] 3 18 1 # SB_LUT4 (LogicCell: U0.clk_count_i_RNICEBA_0[2]_LC_1)
+set_location U0.clk_count_i_RNICEBA[2] 2 18 0 # SB_LUT4 (LogicCell: U0.clk_count_i_RNICEBA[2]_LC_2)
+set_location U0.clk_count_i_RNIEGBA[3] 3 17 5 # SB_LUT4 (LogicCell: U0.clk_count_i_RNIEGBA[3]_LC_3)
+set_location U0.clk_count_i_RNIJ6HF[0] 2 18 5 # SB_LUT4 (LogicCell: U0.clk_count_i_RNIJ6HF[0]_LC_4)
+set_location U0.clk_count_i_RNIQUMK_0[2] 3 17 2 # SB_LUT4 (LogicCell: U0.clk_count_i_RNIQUMK_0[2]_LC_5)
+set_location U0.clk_count_i_RNIQUMK_1[2] 3 18 0 # SB_LUT4 (LogicCell: U0.clk_count_i_RNIQUMK_1[2]_LC_6)
+set_location U0.clk_count_i_RNIQUMK[2] 3 17 6 # SB_LUT4 (LogicCell: U0.clk_count_i_RNIQUMK[2]_LC_7)
+set_location U0.clk_count_i_RNIQUMK_2[2] 3 19 4 # SB_LUT4 (LogicCell: U0.clk_count_i_RNIQUMK_2[2]_LC_8)
+set_location U0.clk_count_i_RNO[0] 3 18 5 # SB_LUT4 (LogicCell: U0.clk_count_i[0]_LC_9)
+set_location U0.clk_count_i[0] 3 18 5 # SB_DFF (LogicCell: U0.clk_count_i[0]_LC_9)
+set_location U0.clk_count_i_RNO[1] 3 18 3 # SB_LUT4 (LogicCell: U0.clk_count_i[1]_LC_10)
+set_location U0.clk_count_i[1] 3 18 3 # SB_DFF (LogicCell: U0.clk_count_i[1]_LC_10)
+set_location U0.clk_count_i_RNO[2] 3 18 4 # SB_LUT4 (LogicCell: U0.clk_count_i[2]_LC_11)
+set_location U0.clk_count_i[2] 3 18 4 # SB_DFF (LogicCell: U0.clk_count_i[2]_LC_11)
+set_location U0.clk_count_i_RNO[3] 3 18 2 # SB_LUT4 (LogicCell: U0.clk_count_i[3]_LC_12)
+set_location U0.clk_count_i[3] 3 18 2 # SB_DFF (LogicCell: U0.clk_count_i[3]_LC_12)
+set_location U0.cmd_fsm_states_i_RNI2NBJ[3] 2 20 6 # SB_LUT4 (LogicCell: U0.cmd_fsm_states_i_RNI2NBJ[3]_LC_13)
+set_location U0.cmd_fsm_states_i_RNI57RU[15] 3 19 2 # SB_LUT4 (LogicCell: U0.cmd_fsm_states_i_RNI57RU[15]_LC_14)
+set_location U0.cmd_fsm_states_i_RNI5GQE[2] 3 21 2 # SB_LUT4 (LogicCell: U0.cmd_fsm_states_i_RNI5GQE[2]_LC_15)
+set_location U0.cmd_fsm_states_i_RNI5KQT[20] 4 18 3 # SB_LUT4 (LogicCell: U0.cmd_fsm_states_i_RNI5KQT[20]_LC_16)
+set_location U0.cmd_fsm_states_i_RNI5P1L[16] 3 19 1 # SB_LUT4 (LogicCell: U0.cmd_fsm_states_i_RNI5P1L[16]_LC_17)
+set_location U0.cmd_fsm_states_i_RNI7RGR[21] 3 17 1 # SB_LUT4 (LogicCell: U0.cmd_fsm_states_i_RNI7RGR[21]_LC_18)
+set_location U0.cmd_fsm_states_i_RNI8S29[15] 3 20 0 # SB_LUT4 (LogicCell: U0.cmd_fsm_states_i_RNI8S29[15]_LC_19)
+set_location U0.cmd_fsm_states_i_RNIFU38[8] 4 20 6 # SB_LUT4 (LogicCell: U0.cmd_fsm_states_i_RNIFU38[8]_LC_20)
+set_location U0.cmd_fsm_states_i_RNIIR29[18] 4 18 0 # SB_LUT4 (LogicCell: U0.cmd_fsm_states_i_RNIIR29[18]_LC_21)
+set_location U0.cmd_fsm_states_i_RNIKEUM[2] 4 21 0 # SB_LUT4 (LogicCell: U0.cmd_fsm_states_i_RNIKEUM[2]_LC_22)
+set_location U0.cmd_fsm_states_i_RNIM13P1[9] 4 16 5 # SB_LUT4 (LogicCell: U0.cmd_fsm_states_i_RNIM13P1[9]_LC_23)
+set_location U0.cmd_fsm_states_i_RNIO2PQ[14] 2 17 0 # SB_LUT4 (LogicCell: U0.cmd_fsm_states_i_RNIO2PQ[14]_LC_24)
+set_location U0.cmd_fsm_states_i_RNIO6101[17] 2 20 7 # SB_LUT4 (LogicCell: U0.cmd_fsm_states_i_RNIO6101[17]_LC_25)
+set_location U0.cmd_fsm_states_i_RNIOR75[10] 3 21 4 # SB_LUT4 (LogicCell: U0.cmd_fsm_states_i_RNIOR75[10]_LC_26)
+set_location U0.cmd_fsm_states_i_RNIP0602[18] 4 18 4 # SB_LUT4 (LogicCell: U0.cmd_fsm_states_i_RNIP0602[18]_LC_27)
+set_location U0.cmd_fsm_states_i_RNIPOUB[14] 2 17 2 # SB_LUT4 (LogicCell: U0.cmd_fsm_states_i_RNIPOUB[14]_LC_28)
+set_location U0.cmd_fsm_states_i_RNITB2K[10] 4 22 7 # SB_LUT4 (LogicCell: U0.cmd_fsm_states_i_RNITB2K[10]_LC_29)
+set_location U0.cmd_fsm_states_i_RNO[0] 3 17 0 # SB_LUT4 (LogicCell: U0.cmd_fsm_states_i[0]_LC_30)
+set_location U0.cmd_fsm_states_i[0] 3 17 0 # SB_DFFS (LogicCell: U0.cmd_fsm_states_i[0]_LC_30)
+set_location U0.cmd_fsm_states_i_RNO_0[0] 3 17 4 # SB_LUT4 (LogicCell: U0.cmd_fsm_states_i_RNO_0[0]_LC_31)
+set_location U0.cmd_fsm_states_i_RNO_0[11] 2 16 1 # SB_LUT4 (LogicCell: U0.cmd_fsm_states_i_RNO_0[11]_LC_32)
+set_location U0.cmd_fsm_states_i_RNO_0[17] 3 20 1 # SB_LUT4 (LogicCell: U0.cmd_fsm_states_i_RNO_0[17]_LC_33)
+set_location U0.cmd_fsm_states_i_RNO_0[18] 4 15 7 # SB_LUT4 (LogicCell: U0.cmd_fsm_states_i_RNO_0[18]_LC_34)
+set_location U0.cmd_fsm_states_i_RNO_0[4] 2 19 0 # SB_LUT4 (LogicCell: U0.cmd_fsm_states_i_RNO_0[4]_LC_35)
+set_location U0.cmd_fsm_states_i_RNO_0[9] 1 15 0 # SB_LUT4 (LogicCell: U0.cmd_fsm_states_i_RNO_0[9]_LC_36)
+set_location U0.cmd_fsm_states_i_RNO[1] 2 17 1 # SB_LUT4 (LogicCell: U0.cmd_fsm_states_i[1]_LC_37)
+set_location U0.cmd_fsm_states_i[1] 2 17 1 # SB_DFFR (LogicCell: U0.cmd_fsm_states_i[1]_LC_37)
+set_location U0.cmd_fsm_states_i_RNO[10] 4 19 7 # SB_LUT4 (LogicCell: U0.cmd_fsm_states_i[10]_LC_38)
+set_location U0.cmd_fsm_states_i[10] 4 19 7 # SB_DFFR (LogicCell: U0.cmd_fsm_states_i[10]_LC_38)
+set_location U0.cmd_fsm_states_i_RNO[11] 3 16 6 # SB_LUT4 (LogicCell: U0.cmd_fsm_states_i[11]_LC_39)
+set_location U0.cmd_fsm_states_i[11] 3 16 6 # SB_DFFR (LogicCell: U0.cmd_fsm_states_i[11]_LC_39)
+set_location U0.cmd_fsm_states_i_RNO[12] 3 19 5 # SB_LUT4 (LogicCell: U0.cmd_fsm_states_i[12]_LC_40)
+set_location U0.cmd_fsm_states_i[12] 3 19 5 # SB_DFFR (LogicCell: U0.cmd_fsm_states_i[12]_LC_40)
+set_location U0.cmd_fsm_states_i_RNO[13] 3 20 3 # SB_LUT4 (LogicCell: U0.cmd_fsm_states_i[13]_LC_41)
+set_location U0.cmd_fsm_states_i[13] 3 20 3 # SB_DFFR (LogicCell: U0.cmd_fsm_states_i[13]_LC_41)
+set_location U0.cmd_fsm_states_i_RNO[15] 3 20 4 # SB_LUT4 (LogicCell: U0.cmd_fsm_states_i[15]_LC_42)
+set_location U0.cmd_fsm_states_i[15] 3 20 4 # SB_DFFR (LogicCell: U0.cmd_fsm_states_i[15]_LC_42)
+set_location U0.cmd_fsm_states_i_RNO[16] 3 19 6 # SB_LUT4 (LogicCell: U0.cmd_fsm_states_i[16]_LC_43)
+set_location U0.cmd_fsm_states_i[16] 3 19 6 # SB_DFFR (LogicCell: U0.cmd_fsm_states_i[16]_LC_43)
+set_location U0.cmd_fsm_states_i_RNO[17] 3 20 2 # SB_LUT4 (LogicCell: U0.cmd_fsm_states_i[17]_LC_44)
+set_location U0.cmd_fsm_states_i[17] 3 20 2 # SB_DFFR (LogicCell: U0.cmd_fsm_states_i[17]_LC_44)
+set_location U0.cmd_fsm_states_i_RNO[18] 4 18 6 # SB_LUT4 (LogicCell: U0.cmd_fsm_states_i[18]_LC_45)
+set_location U0.cmd_fsm_states_i[18] 4 18 6 # SB_DFFR (LogicCell: U0.cmd_fsm_states_i[18]_LC_45)
+set_location U0.cmd_fsm_states_i_RNO[19] 2 18 7 # SB_LUT4 (LogicCell: U0.cmd_fsm_states_i[19]_LC_46)
+set_location U0.cmd_fsm_states_i[19] 2 18 7 # SB_DFFR (LogicCell: U0.cmd_fsm_states_i[19]_LC_46)
+set_location U0.cmd_fsm_states_i_RNO_1[0] 2 18 2 # SB_LUT4 (LogicCell: U0.cmd_fsm_states_i_RNO_1[0]_LC_47)
+set_location U0.cmd_fsm_states_i_RNO[2] 3 21 0 # SB_LUT4 (LogicCell: U0.cmd_fsm_states_i[2]_LC_48)
+set_location U0.cmd_fsm_states_i[2] 3 21 0 # SB_DFFR (LogicCell: U0.cmd_fsm_states_i[2]_LC_48)
+set_location U0.cmd_fsm_states_i_RNO[20] 4 18 5 # SB_LUT4 (LogicCell: U0.cmd_fsm_states_i[20]_LC_49)
+set_location U0.cmd_fsm_states_i[20] 4 18 5 # SB_DFFR (LogicCell: U0.cmd_fsm_states_i[20]_LC_49)
+set_location U0.cmd_fsm_states_i_RNO[21] 2 19 6 # SB_LUT4 (LogicCell: U0.cmd_fsm_states_i[21]_LC_50)
+set_location U0.cmd_fsm_states_i[21] 2 19 6 # SB_DFFR (LogicCell: U0.cmd_fsm_states_i[21]_LC_50)
+set_location U0.cmd_fsm_states_i_RNO_2[0] 4 17 2 # SB_LUT4 (LogicCell: U0.cmd_fsm_states_i_RNO_2[0]_LC_51)
+set_location U0.cmd_fsm_states_i_RNO[3] 2 19 3 # SB_LUT4 (LogicCell: U0.cmd_fsm_states_i[3]_LC_52)
+set_location U0.cmd_fsm_states_i[3] 2 19 3 # SB_DFFR (LogicCell: U0.cmd_fsm_states_i[3]_LC_52)
+set_location U0.cmd_fsm_states_i_RNO_3[0] 3 17 3 # SB_LUT4 (LogicCell: U0.cmd_fsm_states_i_RNO_3[0]_LC_53)
+set_location U0.cmd_fsm_states_i_RNO[4] 2 19 1 # SB_LUT4 (LogicCell: U0.cmd_fsm_states_i[4]_LC_54)
+set_location U0.cmd_fsm_states_i[4] 2 19 1 # SB_DFFR (LogicCell: U0.cmd_fsm_states_i[4]_LC_54)
+set_location U0.cmd_fsm_states_i_RNO_4[0] 2 18 1 # SB_LUT4 (LogicCell: U0.cmd_fsm_states_i_RNO_4[0]_LC_55)
+set_location U0.cmd_fsm_states_i_RNO[5] 3 21 1 # SB_LUT4 (LogicCell: U0.cmd_fsm_states_i[5]_LC_56)
+set_location U0.cmd_fsm_states_i[5] 3 21 1 # SB_DFFR (LogicCell: U0.cmd_fsm_states_i[5]_LC_56)
+set_location U0.cmd_fsm_states_i_RNO[6] 1 16 7 # SB_LUT4 (LogicCell: U0.cmd_fsm_states_i[6]_LC_57)
+set_location U0.cmd_fsm_states_i[6] 1 16 7 # SB_DFFR (LogicCell: U0.cmd_fsm_states_i[6]_LC_57)
+set_location U0.cmd_fsm_states_i_RNO[7] 3 19 0 # SB_LUT4 (LogicCell: U0.cmd_fsm_states_i[7]_LC_58)
+set_location U0.cmd_fsm_states_i[7] 3 19 0 # SB_DFFR (LogicCell: U0.cmd_fsm_states_i[7]_LC_58)
+set_location U0.cmd_fsm_states_i_RNO[8] 3 20 6 # SB_LUT4 (LogicCell: U0.cmd_fsm_states_i[8]_LC_59)
+set_location U0.cmd_fsm_states_i[8] 3 20 6 # SB_DFFR (LogicCell: U0.cmd_fsm_states_i[8]_LC_59)
+set_location U0.cmd_fsm_states_i_RNO[9] 1 16 2 # SB_LUT4 (LogicCell: U0.cmd_fsm_states_i[9]_LC_60)
+set_location U0.cmd_fsm_states_i[9] 1 16 2 # SB_DFFR (LogicCell: U0.cmd_fsm_states_i[9]_LC_60)
+set_location U0.cmd_fsm_states_i_ns_a2_0_a2_0_0[10] 4 16 0 # SB_LUT4 (LogicCell: U0.cmd_fsm_states_i_ns_a2_0_a2_0_0[10]_LC_61)
+set_location U0.cmd_fsm_states_i_ns_i_a2_4_0[0] 4 16 6 # SB_LUT4 (LogicCell: U0.cmd_fsm_states_i_ns_i_a2_4_0[0]_LC_62)
+set_location U0.cpu_den_i_RNO 3 20 5 # SB_LUT4 (LogicCell: U0.cpu_den_i_LC_63)
+set_location U0.cpu_den_i 3 20 5 # SB_DFFR (LogicCell: U0.cpu_den_i_LC_63)
+set_location U0.init_fsm_states_i_RNI6PC1[1] 2 21 1 # SB_LUT4 (LogicCell: U0.init_fsm_states_i_RNI6PC1[1]_LC_64)
+set_location U0.init_fsm_states_i_RNI71VK1[2] 3 19 3 # SB_LUT4 (LogicCell: U0.init_fsm_states_i_RNI71VK1[2]_LC_65)
+set_location U0.init_fsm_states_i_RNI9BLQ[0] 4 18 7 # SB_LUT4 (LogicCell: U0.init_fsm_states_i_RNI9BLQ[0]_LC_66)
+set_location U0.init_fsm_states_i_RNIB5PG1[4] 3 17 7 # SB_LUT4 (LogicCell: U0.init_fsm_states_i_RNIB5PG1[4]_LC_67)
+set_location U0.init_fsm_states_i_RNIM3PV5[9] 3 18 7 # SB_LUT4 (LogicCell: U0.init_fsm_states_i_RNIM3PV5[9]_LC_68)
+set_location U0.init_fsm_states_i_RNIT1HF[9] 4 20 5 # SB_LUT4 (LogicCell: U0.init_fsm_states_i_RNIT1HF[9]_LC_69)
+set_location U0.init_fsm_states_i_RNO[0] 5 21 2 # SB_LUT4 (LogicCell: U0.init_fsm_states_i[0]_LC_70)
+set_location U0.init_fsm_states_i[0] 5 21 2 # SB_DFFS (LogicCell: U0.init_fsm_states_i[0]_LC_70)
+set_location U0.init_fsm_states_i_RNO[1] 5 21 5 # SB_LUT4 (LogicCell: U0.init_fsm_states_i[1]_LC_71)
+set_location U0.init_fsm_states_i[1] 5 21 5 # SB_DFFR (LogicCell: U0.init_fsm_states_i[1]_LC_71)
+set_location U0.init_fsm_states_i_RNO[2] 6 19 3 # SB_LUT4 (LogicCell: U0.init_fsm_states_i[2]_LC_72)
+set_location U0.init_fsm_states_i[2] 6 19 3 # SB_DFFR (LogicCell: U0.init_fsm_states_i[2]_LC_72)
+set_location U0.init_fsm_states_i_RNO[3] 6 19 4 # SB_LUT4 (LogicCell: U0.init_fsm_states_i[3]_LC_73)
+set_location U0.init_fsm_states_i[3] 6 19 4 # SB_DFFR (LogicCell: U0.init_fsm_states_i[3]_LC_73)
+set_location U0.init_fsm_states_i_RNO[4] 6 19 5 # SB_LUT4 (LogicCell: U0.init_fsm_states_i[4]_LC_74)
+set_location U0.init_fsm_states_i[4] 6 19 5 # SB_DFFR (LogicCell: U0.init_fsm_states_i[4]_LC_74)
+set_location U0.init_fsm_states_i_RNO[5] 5 17 0 # SB_LUT4 (LogicCell: U0.init_fsm_states_i[5]_LC_75)
+set_location U0.init_fsm_states_i[5] 5 17 0 # SB_DFFR (LogicCell: U0.init_fsm_states_i[5]_LC_75)
+set_location U0.init_fsm_states_i_RNO[6] 3 15 1 # SB_LUT4 (LogicCell: U0.init_fsm_states_i[6]_LC_76)
+set_location U0.init_fsm_states_i[6] 3 15 1 # SB_DFFR (LogicCell: U0.init_fsm_states_i[6]_LC_76)
+set_location U0.init_fsm_states_i_RNO[7] 5 21 7 # SB_LUT4 (LogicCell: U0.init_fsm_states_i[7]_LC_77)
+set_location U0.init_fsm_states_i[7] 5 21 7 # SB_DFFR (LogicCell: U0.init_fsm_states_i[7]_LC_77)
+set_location U0.init_fsm_states_i_RNO[8] 7 19 1 # SB_LUT4 (LogicCell: U0.init_fsm_states_i[8]_LC_78)
+set_location U0.init_fsm_states_i[8] 7 19 1 # SB_DFFR (LogicCell: U0.init_fsm_states_i[8]_LC_78)
+set_location U0.init_fsm_states_i_RNO[9] 3 21 7 # SB_LUT4 (LogicCell: U0.init_fsm_states_i[9]_LC_79)
+set_location U0.init_fsm_states_i[9] 3 21 7 # SB_DFFR (LogicCell: U0.init_fsm_states_i[9]_LC_79)
+set_location U0.o_ack_RNO 2 17 5 # SB_LUT4 (LogicCell: U0.o_ack_LC_80)
+set_location U0.o_ack 2 17 5 # SB_DFFR (LogicCell: U0.o_ack_LC_80)
+set_location U0.o_ack_RNO_0 2 17 4 # SB_LUT4 (LogicCell: U0.o_ack_RNO_0_LC_81)
+set_location U0.o_ack_RNO_1 2 17 3 # SB_LUT4 (LogicCell: U0.o_ack_RNO_1_LC_82)
+set_location U0.o_autoref_ack_RNIDR1O 2 19 5 # SB_LUT4 (LogicCell: latch_ref_req_i_LC_83)
+set_location latch_ref_req_i 2 19 5 # SB_DFFR (LogicCell: latch_ref_req_i_LC_83)
+set_location U0.o_busy_RNITFQ01 4 17 4 # SB_LUT4 (LogicCell: refresh_req_i_LC_84)
+set_location refresh_req_i 4 17 4 # SB_DFFR (LogicCell: refresh_req_i_LC_84)
+set_location U0.o_busy_RNO 5 18 4 # SB_LUT4 (LogicCell: U0.o_busy_LC_85)
+set_location U0.o_busy 5 18 4 # SB_DFFR (LogicCell: U0.o_busy_LC_85)
+set_location U0.o_busy_RNO_0 4 20 0 # SB_LUT4 (LogicCell: U0.o_busy_RNO_0_LC_86)
+set_location U0.o_init_done_RNI25C92 4 20 4 # SB_LUT4 (LogicCell: U0.o_init_done_RNI25C92_LC_87)
+set_location U0.o_init_done_RNI7APJ 4 25 2 # SB_LUT4 (LogicCell: autorefresh_enable_i_LC_88)
+set_location autorefresh_enable_i 4 25 2 # SB_DFFR (LogicCell: autorefresh_enable_i_LC_88)
+set_location U0.o_init_done_RNIKMDT 4 17 6 # SB_LUT4 (LogicCell: U0.o_init_done_RNIKMDT_LC_89)
+set_location U0.o_init_done_RNISS9D1 4 17 7 # SB_LUT4 (LogicCell: U0.o_init_done_RNISS9D1_LC_90)
+set_location U0.o_init_done_RNIUJ281 4 16 7 # SB_LUT4 (LogicCell: U0.o_init_done_RNIUJ281_LC_91)
+set_location U0.o_sdram_addr_1_RNO[0] 4 21 2 # SB_LUT4 (LogicCell: U0.o_sdram_addr_1[0]_LC_92)
+set_location U0.o_sdram_addr_1[0] 4 21 2 # SB_DFFE (LogicCell: U0.o_sdram_addr_1[0]_LC_92)
+set_location U0.o_sdram_addr_1_RNO_0[0] 4 21 1 # SB_LUT4 (LogicCell: U0.o_sdram_addr_1_RNO_0[0]_LC_93)
+set_location U0.o_sdram_addr_1_RNO_0[10] 4 20 7 # SB_LUT4 (LogicCell: U0.o_sdram_addr_1_RNO_0[10]_LC_94)
+set_location U0.o_sdram_addr_1_RNO_0[11] 3 22 1 # SB_LUT4 (LogicCell: U0.o_sdram_addr_1_RNO_0[11]_LC_95)
+set_location U0.o_sdram_addr_1_RNO_0[2] 4 21 3 # SB_LUT4 (LogicCell: U0.o_sdram_addr_1_RNO_0[2]_LC_96)
+set_location U0.o_sdram_addr_1_RNO_0[3] 4 21 5 # SB_LUT4 (LogicCell: U0.o_sdram_addr_1_RNO_0[3]_LC_97)
+set_location U0.o_sdram_addr_1_RNO_0[4] 5 22 2 # SB_LUT4 (LogicCell: U0.o_sdram_addr_1_RNO_0[4]_LC_98)
+set_location U0.o_sdram_addr_1_RNO_0[6] 5 22 7 # SB_LUT4 (LogicCell: U0.o_sdram_addr_1_RNO_0[6]_LC_99)
+set_location U0.o_sdram_addr_1_RNO_0[7] 6 21 4 # SB_LUT4 (LogicCell: U0.o_sdram_addr_1_RNO_0[7]_LC_100)
+set_location U0.o_sdram_addr_1_RNO_0[8] 4 22 0 # SB_LUT4 (LogicCell: U0.o_sdram_addr_1_RNO_0[8]_LC_101)
+set_location U0.o_sdram_addr_1_RNO_0[9] 4 22 2 # SB_LUT4 (LogicCell: U0.o_sdram_addr_1_RNO_0[9]_LC_102)
+set_location U0.o_sdram_addr_1_RNO[1] 6 21 0 # SB_LUT4 (LogicCell: U0.o_sdram_addr_1[1]_LC_103)
+set_location U0.o_sdram_addr_1[1] 6 21 0 # SB_DFFE (LogicCell: U0.o_sdram_addr_1[1]_LC_103)
+set_location U0.o_sdram_addr_1_RNO[10] 4 22 5 # SB_LUT4 (LogicCell: U0.o_sdram_addr_1[10]_LC_104)
+set_location U0.o_sdram_addr_1[10] 4 22 5 # SB_DFFE (LogicCell: U0.o_sdram_addr_1[10]_LC_104)
+set_location U0.o_sdram_addr_1_RNO[11] 3 22 2 # SB_LUT4 (LogicCell: U0.o_sdram_addr_1[11]_LC_105)
+set_location U0.o_sdram_addr_1[11] 3 22 2 # SB_DFFE (LogicCell: U0.o_sdram_addr_1[11]_LC_105)
+set_location U0.o_sdram_addr_1_RNO_1[10] 3 21 6 # SB_LUT4 (LogicCell: U0.o_sdram_addr_1_RNO_1[10]_LC_106)
+set_location U0.o_sdram_addr_1_RNO[2] 4 21 4 # SB_LUT4 (LogicCell: U0.o_sdram_addr_1[2]_LC_107)
+set_location U0.o_sdram_addr_1[2] 4 21 4 # SB_DFFE (LogicCell: U0.o_sdram_addr_1[2]_LC_107)
+set_location U0.o_sdram_addr_1_RNO_2[10] 3 21 5 # SB_LUT4 (LogicCell: U0.o_sdram_addr_1_RNO_2[10]_LC_108)
+set_location U0.o_sdram_addr_1_RNO[3] 4 21 6 # SB_LUT4 (LogicCell: U0.o_sdram_addr_1[3]_LC_109)
+set_location U0.o_sdram_addr_1[3] 4 21 6 # SB_DFFE (LogicCell: U0.o_sdram_addr_1[3]_LC_109)
+set_location U0.o_sdram_addr_1_RNO_3[10] 3 21 3 # SB_LUT4 (LogicCell: U0.o_sdram_addr_1_RNO_3[10]_LC_110)
+set_location U0.o_sdram_addr_1_RNO[4] 6 21 6 # SB_LUT4 (LogicCell: U0.o_sdram_addr_1[4]_LC_111)
+set_location U0.o_sdram_addr_1[4] 6 21 6 # SB_DFFE (LogicCell: U0.o_sdram_addr_1[4]_LC_111)
+set_location U0.o_sdram_addr_1_RNO[5] 6 21 1 # SB_LUT4 (LogicCell: U0.o_sdram_addr_1[5]_LC_112)
+set_location U0.o_sdram_addr_1[5] 6 21 1 # SB_DFFE (LogicCell: U0.o_sdram_addr_1[5]_LC_112)
+set_location U0.o_sdram_addr_1_RNO[6] 6 21 3 # SB_LUT4 (LogicCell: U0.o_sdram_addr_1[6]_LC_113)
+set_location U0.o_sdram_addr_1[6] 6 21 3 # SB_DFFE (LogicCell: U0.o_sdram_addr_1[6]_LC_113)
+set_location U0.o_sdram_addr_1_RNO[7] 6 21 5 # SB_LUT4 (LogicCell: U0.o_sdram_addr_1[7]_LC_114)
+set_location U0.o_sdram_addr_1[7] 6 21 5 # SB_DFFE (LogicCell: U0.o_sdram_addr_1[7]_LC_114)
+set_location U0.o_sdram_addr_1_RNO[8] 4 22 1 # SB_LUT4 (LogicCell: U0.o_sdram_addr_1[8]_LC_115)
+set_location U0.o_sdram_addr_1[8] 4 22 1 # SB_DFFE (LogicCell: U0.o_sdram_addr_1[8]_LC_115)
+set_location U0.o_sdram_addr_1_RNO[9] 4 22 3 # SB_LUT4 (LogicCell: U0.o_sdram_addr_1[9]_LC_116)
+set_location U0.o_sdram_addr_1[9] 4 22 3 # SB_DFFE (LogicCell: U0.o_sdram_addr_1[9]_LC_116)
+set_location U0.o_sdram_blkaddr_RNO[0] 5 23 7 # SB_LUT4 (LogicCell: U0.o_sdram_blkaddr[0]_LC_117)
+set_location U0.o_sdram_blkaddr[0] 5 23 7 # SB_DFFE (LogicCell: U0.o_sdram_blkaddr[0]_LC_117)
+set_location U0.o_sdram_blkaddr_RNO[1] 4 23 1 # SB_LUT4 (LogicCell: U0.o_sdram_blkaddr[1]_LC_118)
+set_location U0.o_sdram_blkaddr[1] 4 23 1 # SB_DFFE (LogicCell: U0.o_sdram_blkaddr[1]_LC_118)
+set_location U0.o_sdram_casn_RNO 7 18 3 # SB_LUT4 (LogicCell: U0.o_sdram_casn_LC_119)
+set_location U0.o_sdram_casn 7 18 3 # SB_DFFE (LogicCell: U0.o_sdram_casn_LC_119)
+set_location U0.o_sdram_casn_RNO_0 6 18 1 # SB_LUT4 (LogicCell: U0.o_sdram_casn_RNO_0_LC_120)
+set_location U0.o_sdram_casn_RNO_1 6 18 6 # SB_LUT4 (LogicCell: U0.o_sdram_casn_RNO_1_LC_121)
+set_location U0.o_sdram_cke_RNO 1 19 6 # SB_LUT4 (LogicCell: U0.o_sdram_cke_LC_122)
+set_location U0.o_sdram_cke 1 19 6 # SB_DFFE (LogicCell: U0.o_sdram_cke_LC_122)
+set_location U0.o_sdram_rasn_RNO 1 20 4 # SB_LUT4 (LogicCell: U0.o_sdram_rasn_LC_123)
+set_location U0.o_sdram_rasn 1 20 4 # SB_DFFE (LogicCell: U0.o_sdram_rasn_LC_123)
+set_location U0.o_sdram_wen_RNO 1 21 7 # SB_LUT4 (LogicCell: U0.o_sdram_wen_LC_124)
+set_location U0.o_sdram_wen 1 21 7 # SB_DFFE (LogicCell: U0.o_sdram_wen_LC_124)
+set_location U0.o_sdram_wen_RNO_0 2 20 2 # SB_LUT4 (LogicCell: U0.o_sdram_wen_RNO_0_LC_125)
+set_location U0.read_data_req_i_RNO 6 22 5 # SB_LUT4 (LogicCell: U0.read_data_req_i_LC_126)
+set_location U0.read_data_req_i 6 22 5 # SB_DFFR (LogicCell: U0.read_data_req_i_LC_126)
+set_location U0.read_data_req_i_RNO_0 4 19 4 # SB_LUT4 (LogicCell: U0.read_data_req_i_RNO_0_LC_127)
+set_location U0.read_data_req_i_RNO_1 4 20 3 # SB_LUT4 (LogicCell: U0.read_data_req_i_RNO_1_LC_128)
+set_location U0.read_done_i_RNO 5 18 6 # SB_LUT4 (LogicCell: U0.read_done_i_LC_129)
+set_location U0.read_done_i 5 18 6 # SB_DFFR (LogicCell: U0.read_done_i_LC_129)
+set_location U0.read_done_i_RNO_0 4 19 1 # SB_LUT4 (LogicCell: U0.read_done_i_RNO_0_LC_130)
+set_location U0.read_done_reg_i_RNIL8T8 1 26 5 # SB_LUT4 (LogicCell: U0.read_done_reg_i_RNIL8T8_LC_131)
+set_location U0.read_req_cnt_i_RNI5874[9] 5 22 3 # SB_LUT4 (LogicCell: U0.read_req_cnt_i_RNI5874[9]_LC_132)
+set_location U0.read_req_cnt_i_RNIMRD8[2] 5 22 5 # SB_LUT4 (LogicCell: U0.read_req_cnt_i_RNIMRD8[2]_LC_133)
+set_location U0.read_req_cnt_i_RNIS7SG[6] 5 22 6 # SB_LUT4 (LogicCell: U0.read_req_cnt_i_RNIS7SG[6]_LC_134)
+set_location U0.read_req_cnt_i_RNO[0] 5 19 0 # SB_LUT4 (LogicCell: U0.read_req_cnt_i[0]_LC_135)
+set_location U0.read_req_cnt_i[0] 5 19 0 # SB_DFFES (LogicCell: U0.read_req_cnt_i[0]_LC_135)
+set_location U0.read_req_cnt_i_cry_c[0] 5 19 0 # SB_CARRY (LogicCell: U0.read_req_cnt_i[0]_LC_135)
+set_location U0.read_req_cnt_i_RNO[1] 5 19 1 # SB_LUT4 (LogicCell: U0.read_req_cnt_i[1]_LC_136)
+set_location U0.read_req_cnt_i[1] 5 19 1 # SB_DFFES (LogicCell: U0.read_req_cnt_i[1]_LC_136)
+set_location U0.read_req_cnt_i_cry_c[1] 5 19 1 # SB_CARRY (LogicCell: U0.read_req_cnt_i[1]_LC_136)
+set_location U0.read_req_cnt_i_RNO[2] 5 19 2 # SB_LUT4 (LogicCell: U0.read_req_cnt_i[2]_LC_137)
+set_location U0.read_req_cnt_i[2] 5 19 2 # SB_DFFES (LogicCell: U0.read_req_cnt_i[2]_LC_137)
+set_location U0.read_req_cnt_i_cry_c[2] 5 19 2 # SB_CARRY (LogicCell: U0.read_req_cnt_i[2]_LC_137)
+set_location U0.read_req_cnt_i_RNO[3] 5 19 3 # SB_LUT4 (LogicCell: U0.read_req_cnt_i[3]_LC_138)
+set_location U0.read_req_cnt_i[3] 5 19 3 # SB_DFFES (LogicCell: U0.read_req_cnt_i[3]_LC_138)
+set_location U0.read_req_cnt_i_cry_c[3] 5 19 3 # SB_CARRY (LogicCell: U0.read_req_cnt_i[3]_LC_138)
+set_location U0.read_req_cnt_i_RNO[4] 5 19 4 # SB_LUT4 (LogicCell: U0.read_req_cnt_i[4]_LC_139)
+set_location U0.read_req_cnt_i[4] 5 19 4 # SB_DFFES (LogicCell: U0.read_req_cnt_i[4]_LC_139)
+set_location U0.read_req_cnt_i_cry_c[4] 5 19 4 # SB_CARRY (LogicCell: U0.read_req_cnt_i[4]_LC_139)
+set_location U0.read_req_cnt_i_RNO[5] 5 19 5 # SB_LUT4 (LogicCell: U0.read_req_cnt_i[5]_LC_140)
+set_location U0.read_req_cnt_i[5] 5 19 5 # SB_DFFES (LogicCell: U0.read_req_cnt_i[5]_LC_140)
+set_location U0.read_req_cnt_i_cry_c[5] 5 19 5 # SB_CARRY (LogicCell: U0.read_req_cnt_i[5]_LC_140)
+set_location U0.read_req_cnt_i_RNO[6] 5 19 6 # SB_LUT4 (LogicCell: U0.read_req_cnt_i[6]_LC_141)
+set_location U0.read_req_cnt_i[6] 5 19 6 # SB_DFFES (LogicCell: U0.read_req_cnt_i[6]_LC_141)
+set_location U0.read_req_cnt_i_cry_c[6] 5 19 6 # SB_CARRY (LogicCell: U0.read_req_cnt_i[6]_LC_141)
+set_location U0.read_req_cnt_i_RNO[7] 5 19 7 # SB_LUT4 (LogicCell: U0.read_req_cnt_i[7]_LC_142)
+set_location U0.read_req_cnt_i[7] 5 19 7 # SB_DFFES (LogicCell: U0.read_req_cnt_i[7]_LC_142)
+set_location U0.read_req_cnt_i_cry_c[7] 5 19 7 # SB_CARRY (LogicCell: U0.read_req_cnt_i[7]_LC_142)
+set_location U0.read_req_cnt_i_RNO[8] 5 20 0 # SB_LUT4 (LogicCell: U0.read_req_cnt_i[8]_LC_143)
+set_location U0.read_req_cnt_i[8] 5 20 0 # SB_DFFES (LogicCell: U0.read_req_cnt_i[8]_LC_143)
+set_location U0.read_req_cnt_i_cry_c[8] 5 20 0 # SB_CARRY (LogicCell: U0.read_req_cnt_i[8]_LC_143)
+set_location U0.read_req_cnt_i_RNO[9] 5 20 1 # SB_LUT4 (LogicCell: U0.read_req_cnt_i[9]_LC_144)
+set_location U0.read_req_cnt_i[9] 5 20 1 # SB_DFFES (LogicCell: U0.read_req_cnt_i[9]_LC_144)
+set_location U0.read_req_cnt_rst_i_RNI4R9C 4 19 3 # SB_LUT4 (LogicCell: U0.read_req_cnt_rst_i_RNI4R9C_LC_145)
+set_location U0.read_req_cnt_rst_i_RNIR3QR 4 19 6 # SB_LUT4 (LogicCell: U0.read_req_cnt_rst_i_RNIR3QR_LC_146)
+set_location U0.read_req_cnt_rst_i_RNO 2 18 6 # SB_LUT4 (LogicCell: U0.read_req_cnt_rst_i_LC_147)
+set_location U0.read_req_cnt_rst_i 2 18 6 # SB_DFFR (LogicCell: U0.read_req_cnt_rst_i_LC_147)
+set_location U0.sdram_dqm_i_RNO 1 20 1 # SB_LUT4 (LogicCell: U0.sdram_dqm_i_LC_148)
+set_location U0.sdram_dqm_i 1 20 1 # SB_DFFE (LogicCell: U0.sdram_dqm_i_LC_148)
+set_location U0.write_done_i_RNO 5 17 4 # SB_LUT4 (LogicCell: U0.write_done_i_LC_149)
+set_location U0.write_done_i 5 17 4 # SB_DFFR (LogicCell: U0.write_done_i_LC_149)
+set_location U0.write_done_i_RNO_0 4 19 2 # SB_LUT4 (LogicCell: U0.write_done_i_RNO_0_LC_150)
+set_location U0.write_done_reg_i_RNIJJ8L 2 25 1 # SB_LUT4 (LogicCell: U0.write_done_reg_i_RNIJJ8L_LC_151)
+set_location U1.U1.lfsr_reg_i_RNIOLEK[0] 3 22 6 # SB_LUT4 (LogicCell: U1.U1.lfsr_reg_i_RNIOLEK[0]_LC_152)
+set_location U1.U1.lfsr_reg_i_RNO[0] 2 22 5 # SB_LUT4 (LogicCell: U1.U1.lfsr_reg_i[0]_LC_153)
+set_location U1.U1.lfsr_reg_i[0] 2 22 5 # SB_DFFR (LogicCell: U1.U1.lfsr_reg_i[0]_LC_153)
+set_location U1.U1.o_lfsr_64_done_RNII2021 2 23 0 # SB_LUT4 (LogicCell: U1.U1.o_lfsr_64_done_RNII2021_LC_154)
+set_location U1.U1.o_lfsr_64_done_RNO 2 23 1 # SB_LUT4 (LogicCell: U1.U1.o_lfsr_64_done_LC_155)
+set_location U1.U1.o_lfsr_64_done 2 23 1 # SB_DFFR (LogicCell: U1.U1.o_lfsr_64_done_LC_155)
+set_location U1.U5.lfsr_reg_i_RNO[0] 3 23 0 # SB_LUT4 (LogicCell: U1.U5.lfsr_reg_i[0]_LC_156)
+set_location U1.U5.lfsr_reg_i[0] 3 23 0 # SB_DFFER (LogicCell: U1.U5.lfsr_reg_i[0]_LC_156)
+set_location U1.U5.o_lfsr_256_done_RNO 3 23 2 # SB_LUT4 (LogicCell: U1.U5.o_lfsr_256_done_LC_157)
+set_location U1.U5.o_lfsr_256_done 3 23 2 # SB_DFFER (LogicCell: U1.U5.o_lfsr_256_done_LC_157)
+set_location U1.U5.o_lfsr_256_done_RNO_0 3 23 3 # SB_LUT4 (LogicCell: U1.U5.o_lfsr_256_done_RNO_0_LC_158)
+set_location U1.U5.o_lfsr_256_done_RNO_1 3 23 1 # SB_LUT4 (LogicCell: U1.U5.o_lfsr_256_done_RNO_1_LC_159)
+set_location U2.genblk1.lfsr_reg_i_RNI0Q681[10] 5 26 5 # SB_LUT4 (LogicCell: U2.genblk1.lfsr_reg_i_RNI0Q681[10]_LC_160)
+set_location U2.genblk1.lfsr_reg_i_RNI1BQ91[3] 5 26 1 # SB_LUT4 (LogicCell: U2.genblk1.lfsr_reg_i_RNI1BQ91[3]_LC_161)
+set_location U2.genblk1.lfsr_reg_i_RNI7CTK[9] 5 26 2 # SB_LUT4 (LogicCell: U2.genblk1.lfsr_reg_i_RNI7CTK[9]_LC_162)
+set_location U2.genblk1.lfsr_reg_i_RNIN2DH3[4] 5 26 3 # SB_LUT4 (LogicCell: U2.genblk1.lfsr_reg_i_RNIN2DH3[4]_LC_163)
+set_location U2.genblk1.lfsr_reg_i_RNO[0] 6 26 1 # SB_LUT4 (LogicCell: U2.genblk1.lfsr_reg_i[0]_LC_164)
+set_location U2.genblk1.lfsr_reg_i[0] 6 26 1 # SB_DFFER (LogicCell: U2.genblk1.lfsr_reg_i[0]_LC_164)
+set_location U2.genblk1.lfsr_reg_i_RNO[1] 6 27 1 # SB_LUT4 (LogicCell: U2.genblk1.lfsr_reg_i[1]_LC_165)
+set_location U2.genblk1.lfsr_reg_i[1] 6 27 1 # SB_DFFER (LogicCell: U2.genblk1.lfsr_reg_i[1]_LC_165)
+set_location U2.genblk1.lfsr_reg_i_RNO[2] 5 27 1 # SB_LUT4 (LogicCell: U2.genblk1.lfsr_reg_i[2]_LC_166)
+set_location U2.genblk1.lfsr_reg_i[2] 5 27 1 # SB_DFFER (LogicCell: U2.genblk1.lfsr_reg_i[2]_LC_166)
+set_location U2.genblk1.lfsr_reg_i_RNO[3] 6 26 0 # SB_LUT4 (LogicCell: U2.genblk1.lfsr_reg_i[3]_LC_167)
+set_location U2.genblk1.lfsr_reg_i[3] 6 26 0 # SB_DFFER (LogicCell: U2.genblk1.lfsr_reg_i[3]_LC_167)
+set_location U2.genblk1.lfsr_reg_i_RNO[5] 6 26 5 # SB_LUT4 (LogicCell: U2.genblk1.lfsr_reg_i[5]_LC_168)
+set_location U2.genblk1.lfsr_reg_i[5] 6 26 5 # SB_DFFER (LogicCell: U2.genblk1.lfsr_reg_i[5]_LC_168)
+set_location i_rst_ibuf_gb_io_RNI59N6 1 17 6 # SB_LUT4 (LogicCell: i_rst_ibuf_gb_io_RNI59N6_LC_169)
+set_location io_sdram_dq_iobuf_RNO[0] 1 22 2 # SB_LUT4 (LogicCell: io_sdram_dq_iobuf_RNO[0]_LC_170)
+set_location io_sdram_dq_iobuf_RNO[1] 1 22 7 # SB_LUT4 (LogicCell: io_sdram_dq_iobuf_RNO[1]_LC_171)
+set_location io_sdram_dq_iobuf_RNO[10] 1 24 1 # SB_LUT4 (LogicCell: io_sdram_dq_iobuf_RNO[10]_LC_172)
+set_location io_sdram_dq_iobuf_RNO[11] 2 32 1 # SB_LUT4 (LogicCell: io_sdram_dq_iobuf_RNO[11]_LC_173)
+set_location io_sdram_dq_iobuf_RNO[12] 2 31 3 # SB_LUT4 (LogicCell: io_sdram_dq_iobuf_RNO[12]_LC_174)
+set_location io_sdram_dq_iobuf_RNO[13] 3 32 4 # SB_LUT4 (LogicCell: io_sdram_dq_iobuf_RNO[13]_LC_175)
+set_location io_sdram_dq_iobuf_RNO[14] 3 32 0 # SB_LUT4 (LogicCell: io_sdram_dq_iobuf_RNO[14]_LC_176)
+set_location io_sdram_dq_iobuf_RNO[15] 4 32 1 # SB_LUT4 (LogicCell: io_sdram_dq_iobuf_RNO[15]_LC_177)
+set_location io_sdram_dq_iobuf_RNO[2] 4 32 6 # SB_LUT4 (LogicCell: io_sdram_dq_iobuf_RNO[2]_LC_178)
+set_location io_sdram_dq_iobuf_RNO[3] 1 14 4 # SB_LUT4 (LogicCell: io_sdram_dq_iobuf_RNO[3]_LC_179)
+set_location io_sdram_dq_iobuf_RNO[4] 1 14 6 # SB_LUT4 (LogicCell: io_sdram_dq_iobuf_RNO[4]_LC_180)
+set_location io_sdram_dq_iobuf_RNO[5] 1 14 5 # SB_LUT4 (LogicCell: io_sdram_dq_iobuf_RNO[5]_LC_181)
+set_location io_sdram_dq_iobuf_RNO[6] 1 11 5 # SB_LUT4 (LogicCell: io_sdram_dq_iobuf_RNO[6]_LC_182)
+set_location io_sdram_dq_iobuf_RNO[7] 2 12 1 # SB_LUT4 (LogicCell: io_sdram_dq_iobuf_RNO[7]_LC_183)
+set_location io_sdram_dq_iobuf_RNO[8] 1 12 0 # SB_LUT4 (LogicCell: io_sdram_dq_iobuf_RNO[8]_LC_184)
+set_location io_sdram_dq_iobuf_RNO[9] 2 13 7 # SB_LUT4 (LogicCell: io_sdram_dq_iobuf_RNO[9]_LC_185)
+set_location o_sdram_addr_obuft_RNO[11] 7 25 5 # SB_LUT4 (LogicCell: o_sdram_addr_obuft_RNO[11]_LC_186)
+set_location o_sdram_clk_obuf_RNO 1 17 3 # SB_LUT4 (LogicCell: o_sdram_clk_obuf_RNO_LC_187)
+set_location U0.cmd_fsm_states_i_RNIIR29_18_U0.cmd_fsm_states_i_14_REP_LUT4_0 2 17 7 # SB_LUT4 (LogicCell: U0.cmd_fsm_states_i[14]_LC_188)
+set_location U0.cmd_fsm_states_i[14] 2 17 7 # SB_DFFR (LogicCell: U0.cmd_fsm_states_i[14]_LC_188)
+set_location U0.init_fsm_states_i_RNIT1HF_9_U0.o_sdram_addr_cl_i_0_REP_LUT4_0 4 23 6 # SB_LUT4 (LogicCell: U0.o_sdram_addr_cl_i[0]_LC_189)
+set_location U0.o_sdram_addr_cl_i[0] 4 23 6 # SB_DFFE (LogicCell: U0.o_sdram_addr_cl_i[0]_LC_189)
+set_location U0.o_autoref_ack_THRU_LUT4_0 2 19 4 # SB_LUT4 (LogicCell: U0.o_autoref_ack_LC_190)
+set_location U0.o_autoref_ack 2 19 4 # SB_DFFR (LogicCell: U0.o_autoref_ack_LC_190)
+set_location U0.o_init_done_THRU_LUT4_0 4 17 3 # SB_LUT4 (LogicCell: U0.o_init_done_LC_191)
+set_location U0.o_init_done 4 17 3 # SB_DFFR (LogicCell: U0.o_init_done_LC_191)
+set_location U0.read_done_reg_i_THRU_LUT4_0 2 26 5 # SB_LUT4 (LogicCell: U0.read_done_reg_i_LC_192)
+set_location U0.read_done_reg_i 2 26 5 # SB_DFFR (LogicCell: U0.read_done_reg_i_LC_192)
+set_location U0.sdram_dq_en_THRU_LUT4_0 4 31 6 # SB_LUT4 (LogicCell: U0.sdram_dq_en_LC_193)
+set_location U0.sdram_dq_en 4 31 6 # SB_DFFES (LogicCell: U0.sdram_dq_en_LC_193)
+set_location U0.sdram_dq_en_i_rep0_i_THRU_LUT4_0 1 23 4 # SB_LUT4 (LogicCell: U0.sdram_dq_en_i_rep0_i_LC_194)
+set_location U0.sdram_dq_en_i_rep0_i 1 23 4 # SB_DFFES (LogicCell: U0.sdram_dq_en_i_rep0_i_LC_194)
+set_location U0.sdram_dq_en_i_rep10_i_THRU_LUT4_0 2 24 2 # SB_LUT4 (LogicCell: U0.sdram_dq_en_i_rep10_i_LC_195)
+set_location U0.sdram_dq_en_i_rep10_i 2 24 2 # SB_DFFES (LogicCell: U0.sdram_dq_en_i_rep10_i_LC_195)
+set_location U0.sdram_dq_en_i_rep11_i_THRU_LUT4_0 3 31 1 # SB_LUT4 (LogicCell: U0.sdram_dq_en_i_rep11_i_LC_196)
+set_location U0.sdram_dq_en_i_rep11_i 3 31 1 # SB_DFFES (LogicCell: U0.sdram_dq_en_i_rep11_i_LC_196)
+set_location U0.sdram_dq_en_i_rep12_i_THRU_LUT4_0 3 31 3 # SB_LUT4 (LogicCell: U0.sdram_dq_en_i_rep12_i_LC_197)
+set_location U0.sdram_dq_en_i_rep12_i 3 31 3 # SB_DFFES (LogicCell: U0.sdram_dq_en_i_rep12_i_LC_197)
+set_location U0.sdram_dq_en_i_rep13_i_THRU_LUT4_0 3 31 2 # SB_LUT4 (LogicCell: U0.sdram_dq_en_i_rep13_i_LC_198)
+set_location U0.sdram_dq_en_i_rep13_i 3 31 2 # SB_DFFES (LogicCell: U0.sdram_dq_en_i_rep13_i_LC_198)
+set_location U0.sdram_dq_en_i_rep14_i_THRU_LUT4_0 3 30 4 # SB_LUT4 (LogicCell: U0.sdram_dq_en_i_rep14_i_LC_199)
+set_location U0.sdram_dq_en_i_rep14_i 3 30 4 # SB_DFFES (LogicCell: U0.sdram_dq_en_i_rep14_i_LC_199)
+set_location U0.sdram_dq_en_i_rep1_i_THRU_LUT4_0 1 23 0 # SB_LUT4 (LogicCell: U0.sdram_dq_en_i_rep1_i_LC_200)
+set_location U0.sdram_dq_en_i_rep1_i 1 23 0 # SB_DFFES (LogicCell: U0.sdram_dq_en_i_rep1_i_LC_200)
+set_location U0.sdram_dq_en_i_rep2_i_THRU_LUT4_0 4 31 1 # SB_LUT4 (LogicCell: U0.sdram_dq_en_i_rep2_i_LC_201)
+set_location U0.sdram_dq_en_i_rep2_i 4 31 1 # SB_DFFES (LogicCell: U0.sdram_dq_en_i_rep2_i_LC_201)
+set_location U0.sdram_dq_en_i_rep3_i_THRU_LUT4_0 2 15 3 # SB_LUT4 (LogicCell: U0.sdram_dq_en_i_rep3_i_LC_202)
+set_location U0.sdram_dq_en_i_rep3_i 2 15 3 # SB_DFFES (LogicCell: U0.sdram_dq_en_i_rep3_i_LC_202)
+set_location U0.sdram_dq_en_i_rep4_i_THRU_LUT4_0 2 14 2 # SB_LUT4 (LogicCell: U0.sdram_dq_en_i_rep4_i_LC_203)
+set_location U0.sdram_dq_en_i_rep4_i 2 14 2 # SB_DFFES (LogicCell: U0.sdram_dq_en_i_rep4_i_LC_203)
+set_location U0.sdram_dq_en_i_rep5_i_THRU_LUT4_0 2 14 1 # SB_LUT4 (LogicCell: U0.sdram_dq_en_i_rep5_i_LC_204)
+set_location U0.sdram_dq_en_i_rep5_i 2 14 1 # SB_DFFES (LogicCell: U0.sdram_dq_en_i_rep5_i_LC_204)
+set_location U0.sdram_dq_en_i_rep6_i_THRU_LUT4_0 3 13 5 # SB_LUT4 (LogicCell: U0.sdram_dq_en_i_rep6_i_LC_205)
+set_location U0.sdram_dq_en_i_rep6_i 3 13 5 # SB_DFFES (LogicCell: U0.sdram_dq_en_i_rep6_i_LC_205)
+set_location U0.sdram_dq_en_i_rep7_i_THRU_LUT4_0 3 13 2 # SB_LUT4 (LogicCell: U0.sdram_dq_en_i_rep7_i_LC_206)
+set_location U0.sdram_dq_en_i_rep7_i 3 13 2 # SB_DFFES (LogicCell: U0.sdram_dq_en_i_rep7_i_LC_206)
+set_location U0.sdram_dq_en_i_rep8_i_THRU_LUT4_0 1 13 7 # SB_LUT4 (LogicCell: U0.sdram_dq_en_i_rep8_i_LC_207)
+set_location U0.sdram_dq_en_i_rep8_i 1 13 7 # SB_DFFES (LogicCell: U0.sdram_dq_en_i_rep8_i_LC_207)
+set_location U0.sdram_dq_en_i_rep9_i_THRU_LUT4_0 3 13 0 # SB_LUT4 (LogicCell: U0.sdram_dq_en_i_rep9_i_LC_208)
+set_location U0.sdram_dq_en_i_rep9_i 3 13 0 # SB_DFFES (LogicCell: U0.sdram_dq_en_i_rep9_i_LC_208)
+set_location U0.write_done_reg_i_THRU_LUT4_0 3 25 0 # SB_LUT4 (LogicCell: U0.write_done_reg_i_LC_209)
+set_location U0.write_done_reg_i 3 25 0 # SB_DFFR (LogicCell: U0.write_done_reg_i_LC_209)
+set_location U1.U1.lfsr_reg_i_1_THRU_LUT4_0 2 22 1 # SB_LUT4 (LogicCell: U1.U1.lfsr_reg_i[1]_LC_210)
+set_location U1.U1.lfsr_reg_i[1] 2 22 1 # SB_DFFR (LogicCell: U1.U1.lfsr_reg_i[1]_LC_210)
+set_location U1.U1.lfsr_reg_i_2_THRU_LUT4_0 2 22 6 # SB_LUT4 (LogicCell: U1.U1.lfsr_reg_i[2]_LC_211)
+set_location U1.U1.lfsr_reg_i[2] 2 22 6 # SB_DFFR (LogicCell: U1.U1.lfsr_reg_i[2]_LC_211)
+set_location U1.U1.lfsr_reg_i_3_THRU_LUT4_0 2 22 2 # SB_LUT4 (LogicCell: U1.U1.lfsr_reg_i[3]_LC_212)
+set_location U1.U1.lfsr_reg_i[3] 2 22 2 # SB_DFFR (LogicCell: U1.U1.lfsr_reg_i[3]_LC_212)
+set_location U1.U1.lfsr_reg_i_4_THRU_LUT4_0 2 22 7 # SB_LUT4 (LogicCell: U1.U1.lfsr_reg_i[4]_LC_213)
+set_location U1.U1.lfsr_reg_i[4] 2 22 7 # SB_DFFR (LogicCell: U1.U1.lfsr_reg_i[4]_LC_213)
+set_location U1.U1.lfsr_reg_i_5_THRU_LUT4_0 2 22 4 # SB_LUT4 (LogicCell: U1.U1.lfsr_reg_i[5]_LC_214)
+set_location U1.U1.lfsr_reg_i[5] 2 22 4 # SB_DFFR (LogicCell: U1.U1.lfsr_reg_i[5]_LC_214)
+set_location U1.U5.lfsr_reg_i_1_THRU_LUT4_0 3 23 6 # SB_LUT4 (LogicCell: U1.U5.lfsr_reg_i[1]_LC_215)
+set_location U1.U5.lfsr_reg_i[1] 3 23 6 # SB_DFFER (LogicCell: U1.U5.lfsr_reg_i[1]_LC_215)
+set_location U1.U5.lfsr_reg_i_2_THRU_LUT4_0 3 23 7 # SB_LUT4 (LogicCell: U1.U5.lfsr_reg_i[2]_LC_216)
+set_location U1.U5.lfsr_reg_i[2] 3 23 7 # SB_DFFER (LogicCell: U1.U5.lfsr_reg_i[2]_LC_216)
+set_location U1.U5.lfsr_reg_i_3_THRU_LUT4_0 3 24 0 # SB_LUT4 (LogicCell: U1.U5.lfsr_reg_i[3]_LC_217)
+set_location U1.U5.lfsr_reg_i[3] 3 24 0 # SB_DFFER (LogicCell: U1.U5.lfsr_reg_i[3]_LC_217)
+set_location U1.U5.lfsr_reg_i_4_THRU_LUT4_0 3 24 1 # SB_LUT4 (LogicCell: U1.U5.lfsr_reg_i[4]_LC_218)
+set_location U1.U5.lfsr_reg_i[4] 3 24 1 # SB_DFFER (LogicCell: U1.U5.lfsr_reg_i[4]_LC_218)
+set_location U1.U5.lfsr_reg_i_5_THRU_LUT4_0 3 24 2 # SB_LUT4 (LogicCell: U1.U5.lfsr_reg_i[5]_LC_219)
+set_location U1.U5.lfsr_reg_i[5] 3 24 2 # SB_DFFER (LogicCell: U1.U5.lfsr_reg_i[5]_LC_219)
+set_location U1.U5.lfsr_reg_i_6_THRU_LUT4_0 3 23 4 # SB_LUT4 (LogicCell: U1.U5.lfsr_reg_i[6]_LC_220)
+set_location U1.U5.lfsr_reg_i[6] 3 23 4 # SB_DFFER (LogicCell: U1.U5.lfsr_reg_i[6]_LC_220)
+set_location U1.U5.lfsr_reg_i_7_THRU_LUT4_0 3 23 5 # SB_LUT4 (LogicCell: U1.U5.lfsr_reg_i[7]_LC_221)
+set_location U1.U5.lfsr_reg_i[7] 3 23 5 # SB_DFFER (LogicCell: U1.U5.lfsr_reg_i[7]_LC_221)
+set_location U2.genblk1_lfsr_reg_i_10_THRU_LUT4_0 5 25 4 # SB_LUT4 (LogicCell: U2.genblk1.lfsr_reg_i[10]_LC_222)
+set_location U2.genblk1.lfsr_reg_i[10] 5 25 4 # SB_DFFER (LogicCell: U2.genblk1.lfsr_reg_i[10]_LC_222)
+set_location U2.genblk1_lfsr_reg_i_4_THRU_LUT4_0 6 26 4 # SB_LUT4 (LogicCell: U2.genblk1.lfsr_reg_i[4]_LC_223)
+set_location U2.genblk1.lfsr_reg_i[4] 6 26 4 # SB_DFFER (LogicCell: U2.genblk1.lfsr_reg_i[4]_LC_223)
+set_location U2.genblk1_lfsr_reg_i_6_THRU_LUT4_0 5 25 7 # SB_LUT4 (LogicCell: U2.genblk1.lfsr_reg_i[6]_LC_224)
+set_location U2.genblk1.lfsr_reg_i[6] 5 25 7 # SB_DFFER (LogicCell: U2.genblk1.lfsr_reg_i[6]_LC_224)
+set_location U2.genblk1_lfsr_reg_i_7_THRU_LUT4_0 5 25 1 # SB_LUT4 (LogicCell: U2.genblk1.lfsr_reg_i[7]_LC_225)
+set_location U2.genblk1.lfsr_reg_i[7] 5 25 1 # SB_DFFER (LogicCell: U2.genblk1.lfsr_reg_i[7]_LC_225)
+set_location U2.genblk1_lfsr_reg_i_8_THRU_LUT4_0 5 25 6 # SB_LUT4 (LogicCell: U2.genblk1.lfsr_reg_i[8]_LC_226)
+set_location U2.genblk1.lfsr_reg_i[8] 5 25 6 # SB_DFFER (LogicCell: U2.genblk1.lfsr_reg_i[8]_LC_226)
+set_location U2.genblk1_lfsr_reg_i_9_THRU_LUT4_0 5 25 2 # SB_LUT4 (LogicCell: U2.genblk1.lfsr_reg_i[9]_LC_227)
+set_location U2.genblk1.lfsr_reg_i[9] 5 25 2 # SB_DFFER (LogicCell: U2.genblk1.lfsr_reg_i[9]_LC_227)
+set_location U2.genblk1_lfsr_reg_i_RNIN2DH3_4_U2.genblk1_o_refresh_count_done_REP_LUT4_0 4 26 1 # SB_LUT4 (LogicCell: U2.genblk1.o_refresh_count_done_LC_228)
+set_location U2.genblk1.o_refresh_count_done 4 26 1 # SB_DFFR (LogicCell: U2.genblk1.o_refresh_count_done_LC_228)
+set_location power_down_reg1_i_THRU_LUT4_0 1 16 6 # SB_LUT4 (LogicCell: power_down_reg1_i_LC_229)
+set_location power_down_reg1_i 1 16 6 # SB_DFFR (LogicCell: power_down_reg1_i_LC_229)
+set_location GND -1 -1 -1 # GND
+set_io i_addr_ibuf[0] 10 33 0 # ICE_IO
+set_io i_addr_ibuf[1] 20 33 1 # ICE_IO
+set_io i_addr_ibuf[10] 0 9 0 # ICE_IO
+set_io i_addr_ibuf[11] 16 33 1 # ICE_IO
+set_io i_addr_ibuf[12] 13 33 0 # ICE_IO
+set_io i_addr_ibuf[13] 12 33 0 # ICE_IO
+set_io i_addr_ibuf[14] 20 33 0 # ICE_IO
+set_io i_addr_ibuf[15] 19 33 1 # ICE_IO
+set_io i_addr_ibuf[16] 19 33 0 # ICE_IO
+set_io i_addr_ibuf[17] 18 33 1 # ICE_IO
+set_io i_addr_ibuf[18] 22 33 0 # ICE_IO
+set_io i_addr_ibuf[19] 23 33 0 # ICE_IO
+set_io i_addr_ibuf[2] 11 33 1 # ICE_IO
+set_io i_addr_ibuf[20] 0 5 1 # ICE_IO
+set_io i_addr_ibuf[21] 14 33 0 # ICE_IO
+set_io i_addr_ibuf[3] 11 33 0 # ICE_IO
+set_io i_addr_ibuf[4] 10 33 1 # ICE_IO
+set_io i_addr_ibuf[5] 18 33 0 # ICE_IO
+set_io i_addr_ibuf[6] 17 33 1 # ICE_IO
+set_io i_addr_ibuf[7] 17 33 0 # ICE_IO
+set_io i_addr_ibuf[8] 23 33 1 # ICE_IO
+set_io i_addr_ibuf[9] 24 33 1 # ICE_IO
+set_io i_adv_ibuf 0 4 0 # ICE_IO
+set_io i_burststop_req_ibuf 0 6 1 # ICE_IO
+set_io i_clk_ibuf_gb_io 0 16 1 # ICE_GB_IO
+set_io i_data_ibuf[0] 25 33 0 # ICE_IO
+set_io i_data_ibuf[1] 25 33 1 # ICE_IO
+set_io i_data_ibuf[10] 26 33 0 # ICE_IO
+set_io i_data_ibuf[11] 26 33 1 # ICE_IO
+set_io i_data_ibuf[12] 27 33 0 # ICE_IO
+set_io i_data_ibuf[13] 27 33 1 # ICE_IO
+set_io i_data_ibuf[14] 28 33 1 # ICE_IO
+set_io i_data_ibuf[15] 29 33 1 # ICE_IO
+set_io i_data_ibuf[2] 30 33 0 # ICE_IO
+set_io i_data_ibuf[3] 30 33 1 # ICE_IO
+set_io i_data_ibuf[4] 31 33 0 # ICE_IO
+set_io i_data_ibuf[5] 31 33 1 # ICE_IO
+set_io i_data_ibuf[6] 33 31 0 # ICE_IO
+set_io i_data_ibuf[7] 33 30 0 # ICE_IO
+set_io i_data_ibuf[8] 33 28 0 # ICE_IO
+set_io i_data_ibuf[9] 33 27 1 # ICE_IO
+set_io i_disable_active_ibuf 0 5 0 # ICE_IO
+set_io i_disable_autorefresh_ibuf 0 3 0 # ICE_IO
+set_io i_disable_precharge_ibuf 0 3 1 # ICE_IO
+set_io i_loadmod_req_ibuf 0 7 1 # ICE_IO
+set_io i_power_down_ibuf 0 4 1 # ICE_IO
+set_io i_precharge_req_ibuf 0 9 1 # ICE_IO
+set_io i_rst_ibuf_gb_io 0 17 0 # ICE_GB_IO
+set_io i_rst_ibuf_gb_io_RNI59N6_0 0 17 0 # ICE_GB
+set_io i_rwn_ibuf 0 7 0 # ICE_IO
+set_io i_selfrefresh_req_ibuf 0 6 0 # ICE_IO
+set_io io_sdram_dq_iobuf[0] 0 22 0 # ICE_IO
+set_io io_sdram_dq_iobuf[1] 0 22 1 # ICE_IO
+set_io io_sdram_dq_iobuf[10] 0 24 0 # ICE_IO
+set_io io_sdram_dq_iobuf[11] 2 33 0 # ICE_IO
+set_io io_sdram_dq_iobuf[12] 2 33 1 # ICE_IO
+set_io io_sdram_dq_iobuf[13] 3 33 0 # ICE_IO
+set_io io_sdram_dq_iobuf[14] 3 33 1 # ICE_IO
+set_io io_sdram_dq_iobuf[15] 4 33 0 # ICE_IO
+set_io io_sdram_dq_iobuf[2] 4 33 1 # ICE_IO
+set_io io_sdram_dq_iobuf[3] 0 13 1 # ICE_IO
+set_io io_sdram_dq_iobuf[4] 0 14 0 # ICE_IO
+set_io io_sdram_dq_iobuf[5] 0 14 1 # ICE_IO
+set_io io_sdram_dq_iobuf[6] 0 11 1 # ICE_IO
+set_io io_sdram_dq_iobuf[7] 0 12 0 # ICE_IO
+set_io io_sdram_dq_iobuf[8] 0 12 1 # ICE_IO
+set_io io_sdram_dq_iobuf[9] 0 13 0 # ICE_IO
+set_io o_ack_obuf 0 16 0 # ICE_IO
+set_io o_busy_obuf 0 11 0 # ICE_IO
+set_io o_data_obuf[0] 33 27 0 # ICE_IO
+set_io o_data_obuf[1] 33 25 0 # ICE_IO
+set_io o_data_obuf[10] 33 24 1 # ICE_IO
+set_io o_data_obuf[11] 33 24 0 # ICE_IO
+set_io o_data_obuf[12] 33 23 1 # ICE_IO
+set_io o_data_obuf[13] 33 23 0 # ICE_IO
+set_io o_data_obuf[14] 33 22 0 # ICE_IO
+set_io o_data_obuf[15] 33 21 1 # ICE_IO
+set_io o_data_obuf[16] 33 21 0 # ICE_IO
+set_io o_data_obuf[17] 33 20 1 # ICE_IO
+set_io o_data_obuf[18] 33 20 0 # ICE_IO
+set_io o_data_obuf[19] 33 19 1 # ICE_IO
+set_io o_data_obuf[2] 33 19 0 # ICE_IO
+set_io o_data_obuf[20] 33 17 0 # ICE_IO
+set_io o_data_obuf[21] 33 16 1 # ICE_IO
+set_io o_data_obuf[22] 33 15 1 # ICE_IO
+set_io o_data_obuf[23] 33 15 0 # ICE_IO
+set_io o_data_obuf[24] 33 14 1 # ICE_IO
+set_io o_data_obuf[25] 33 14 0 # ICE_IO
+set_io o_data_obuf[26] 33 13 0 # ICE_IO
+set_io o_data_obuf[27] 33 12 0 # ICE_IO
+set_io o_data_obuf[28] 33 11 0 # ICE_IO
+set_io o_data_obuf[29] 33 10 1 # ICE_IO
+set_io o_data_obuf[3] 33 9 0 # ICE_IO
+set_io o_data_obuf[30] 33 8 0 # ICE_IO
+set_io o_data_obuf[31] 33 7 0 # ICE_IO
+set_io o_data_obuf[4] 33 6 1 # ICE_IO
+set_io o_data_obuf[5] 33 6 0 # ICE_IO
+set_io o_data_obuf[6] 33 5 1 # ICE_IO
+set_io o_data_obuf[7] 33 5 0 # ICE_IO
+set_io o_data_obuf[8] 33 4 1 # ICE_IO
+set_io o_data_obuf[9] 33 4 0 # ICE_IO
+set_io o_data_req_obuf 5 33 1 # ICE_IO
+set_io o_data_valid_obuf 5 33 0 # ICE_IO
+set_io o_init_done_obuf 0 28 1 # ICE_IO
+set_io o_read_done_obuf 0 30 0 # ICE_IO
+set_io o_sdram_addr_obuf[0] 0 17 1 # ICE_IO
+set_io o_sdram_addr_obuf[1] 0 19 0 # ICE_IO
+set_io o_sdram_addr_obuf[10] 0 25 1 # ICE_IO
+set_io o_sdram_addr_obuf[2] 0 18 0 # ICE_IO
+set_io o_sdram_addr_obuf[3] 0 18 1 # ICE_IO
+set_io o_sdram_addr_obuf[4] 0 19 1 # ICE_IO
+set_io o_sdram_addr_obuf[5] 0 20 0 # ICE_IO
+set_io o_sdram_addr_obuf[6] 0 20 1 # ICE_IO
+set_io o_sdram_addr_obuf[7] 0 21 0 # ICE_IO
+set_io o_sdram_addr_obuf[8] 0 27 0 # ICE_IO
+set_io o_sdram_addr_obuf[9] 0 27 1 # ICE_IO
+set_io o_sdram_addr_obuft[11] 7 33 1 # ICE_IO
+set_io o_sdram_addr_obuft[12] 33 3 1 # ICE_IO
+set_io o_sdram_blkaddr_obuf[0] 0 28 0 # ICE_IO
+set_io o_sdram_blkaddr_obuf[1] 6 33 1 # ICE_IO
+set_io o_sdram_casn_obuf 8 33 1 # ICE_IO
+set_io o_sdram_cke_obuf 0 24 1 # ICE_IO
+set_io o_sdram_clk_obuf 0 21 1 # ICE_IO
+set_io o_sdram_csn_obuf 33 3 0 # ICE_IO
+set_io o_sdram_dqm_obuf[0] 0 30 1 # ICE_IO
+set_io o_sdram_dqm_obuf[1] 0 31 0 # ICE_IO
+set_io o_sdram_dqm_obuft[2] 33 2 1 # ICE_IO
+set_io o_sdram_dqm_obuft[3] 33 2 0 # ICE_IO
+set_io o_sdram_rasn_obuf 0 31 1 # ICE_IO
+set_io o_sdram_wen_obuf 1 33 1 # ICE_IO
+set_io o_write_done_obuf 0 25 0 # ICE_IO

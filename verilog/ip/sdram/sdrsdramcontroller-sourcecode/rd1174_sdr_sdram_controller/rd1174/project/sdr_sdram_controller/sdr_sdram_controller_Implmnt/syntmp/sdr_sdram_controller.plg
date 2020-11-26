@@ -1,0 +1,28 @@
+@P:  Worst Slack : 987.420
+@P:  i_cpu_clk - Estimated Frequency : NA
+@P:  i_cpu_clk - Requested Frequency : 100.0 MHz
+@P:  i_cpu_clk - Estimated Period : NA
+@P:  i_cpu_clk - Requested Period : 10.000
+@P:  i_cpu_clk - Slack : NA
+@P:  sdram_controller|i_clk - Estimated Frequency : 79.5 MHz
+@P:  sdram_controller|i_clk - Requested Frequency : 1.0 MHz
+@P:  sdram_controller|i_clk - Estimated Period : 12.580
+@P:  sdram_controller|i_clk - Requested Period : 1000.000
+@P:  sdram_controller|i_clk - Slack : 987.420
+@P:  Worst Slack(min analysis) : 2.246
+@P:  i_cpu_clk - Estimated Frequency(min analysis) : NA
+@P:  i_cpu_clk - Requested Frequency(min analysis) : 100.0 MHz
+@P:  i_cpu_clk - Estimated Period(min analysis) : NA
+@P:  i_cpu_clk - Requested Period(min analysis) : 10.000
+@P:  i_cpu_clk - Slack(min analysis) : NA
+@P:  sdram_controller|i_clk - Estimated Frequency(min analysis) : 79.5 MHz
+@P:  sdram_controller|i_clk - Requested Frequency(min analysis) : 1.0 MHz
+@P:  sdram_controller|i_clk - Estimated Period(min analysis) : 12.580
+@P:  sdram_controller|i_clk - Requested Period(min analysis) : 1000.000
+@P:  sdram_controller|i_clk - Slack(min analysis) : 987.420
+@P: sdram_controller Part : ice40lp8kcm225
+@P: sdram_controller I/O primitives : 130
+@P: sdram_controller I/O Register bits : 0
+@P: sdram_controller Register bits (Non I/O) : 141 (1%)
+@P: sdram_controller Total Luts : 188 (2%)
+@P:  CPU Time : 0h:00m:06s

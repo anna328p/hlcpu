@@ -1,0 +1,4 @@
+@W: MT529 :"g:\veeraj\rd\working\rd1174\source\verilog\micron8m16\lfsr_count64.v":53:4:53:9|Found inferred clock sdram_controller|i_clk which controls 117 sequential elements including U1.U1.lfsr_reg_i[5:0]. This clock has no specified timing constraint which may prevent conversion of gated or generated clocks and may adversely impact design performance. 
+@W: MO111 :"g:\veeraj\rd\working\rd1174\source\verilog\micron8m16\sdram_controller.v":282:49:282:81|Tristate driver o_sdram_dqm_1 on net o_sdram_dqm_1 has its enable tied to GND (module sdram_controller) 
+@W: MO111 :"g:\veeraj\rd\working\rd1174\source\verilog\micron8m16\sdram_controller.v":282:49:282:81|Tristate driver o_sdram_dqm_2 on net o_sdram_dqm_2 has its enable tied to GND (module sdram_controller) 
+@W: MO111 :"g:\veeraj\rd\working\rd1174\source\verilog\micron8m16\sdram_controller.v":279:49:279:83|Tristate driver o_sdram_addr_1 on net o_sdram_addr_1 has its enable tied to GND (module sdram_controller) 

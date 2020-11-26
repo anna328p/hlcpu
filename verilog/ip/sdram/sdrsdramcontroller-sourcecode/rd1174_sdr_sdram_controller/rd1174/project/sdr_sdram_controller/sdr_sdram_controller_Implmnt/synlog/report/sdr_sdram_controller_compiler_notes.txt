@@ -1,0 +1,10 @@
+@N|Running in 64-bit mode
+@N: CG364 :"G:\VEERAJ\RD\WORKING\RD1174\source\Verilog\Micron8M16\sdram_control_fsm.v":46:7:46:23|Synthesizing module sdram_control_fsm
+@N: CG364 :"G:\VEERAJ\RD\WORKING\RD1174\source\Verilog\Micron8M16\lfsr_count64.v":42:7:42:18|Synthesizing module lfsr_count64
+@N: CG364 :"G:\VEERAJ\RD\WORKING\RD1174\source\Verilog\Micron8M16\lfsr_count255.v":43:7:43:19|Synthesizing module lfsr_count255
+@N: CG364 :"G:\VEERAJ\RD\WORKING\RD1174\source\Verilog\Micron8M16\delay_gen150us.v":44:7:44:20|Synthesizing module delay_gen150us
+@N: CG364 :"G:\VEERAJ\RD\WORKING\RD1174\source\Verilog\Micron8M16\autorefresh_counter.v":44:7:44:25|Synthesizing module autorefresh_counter
+@N: CG364 :"G:\VEERAJ\RD\WORKING\RD1174\source\Verilog\Micron8M16\sdram_controller.v":47:7:47:22|Synthesizing module sdram_controller
+@N: CL201 :"G:\VEERAJ\RD\WORKING\RD1174\source\Verilog\Micron8M16\sdram_control_fsm.v":303:4:303:9|Trying to extract state machine for register cmd_fsm_states_i
+@N: CL201 :"G:\VEERAJ\RD\WORKING\RD1174\source\Verilog\Micron8M16\sdram_control_fsm.v":239:4:239:9|Trying to extract state machine for register init_fsm_states_i
+

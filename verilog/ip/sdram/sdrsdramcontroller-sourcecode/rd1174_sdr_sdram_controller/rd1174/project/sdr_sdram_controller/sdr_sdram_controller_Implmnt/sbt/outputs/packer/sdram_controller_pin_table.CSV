@@ -1,0 +1,247 @@
+* ******************************************************************************
+
+* iCEcube Pin Table
+
+* Version:            2013.12.25022
+
+* Build Date:         Dec 18 2013 15:14:20
+
+* File Generated:     Mar 6 2014 12:14:31
+
+* Purpose:            Detailed IO and package pin info
+
+* Copyright (C) 2006-2010 by Lattice Semiconductor Corp. All rights reserved.
+
+* ******************************************************************************
+
+Device, iCE40LP8K
+Package, CM225
+
+Pin Number, Pin Type Name, Signal Name, Direction, Global Buffer, IO Standard, Pull Up, IO Function, IO Bank, 
+---------------, ---------------, ---------------, ---------------, ---------------, ---------------, ---------------, ---------------, ---------------, 
+A1, PIO, o_sdram_wen, Output, , SB_LVCMOS, No Pull Up, Simple Output, topBank
+A2, PIO, io_sdram_dq[14], InOut, , SB_LVCMOS, No Pull Up, Simple Input Output Tristatable by Enable, topBank
+A3, VCCIO_0, not used, , , , , , topBank
+A4, GND, not used, , , , , , UnknownBank
+A5, PIO, o_sdram_blkaddr[1], Output, , SB_LVCMOS, No Pull Up, Simple Output, topBank
+A6, PIO, i_addr[3], Input, , SB_LVCMOS, No Pull Up, Simple Input, topBank
+A7, PIO, i_addr[13], Input, , SB_LVCMOS, No Pull Up, Simple Input, topBank
+A8, PIO, i_addr[6], Input, , SB_LVCMOS, No Pull Up, Simple Input, topBank
+A9, PIO, i_addr[17], Input, , SB_LVCMOS, No Pull Up, Simple Input, topBank
+A10, PIO, not used, , , , , , topBank
+A11, PIO, i_addr[8], Input, , SB_LVCMOS, No Pull Up, Simple Input, topBank
+A12, GND, not used, , , , , , UnknownBank
+A13, VCCIO_0, not used, , , , , , topBank
+A14, VCC, not used, , , , , , UnknownBank
+A15, PIO, i_data[4], Input, , SB_LVCMOS, No Pull Up, Simple Input, topBank
+B1, PIO, o_sdram_dqm[1], Output, , SB_LVCMOS, No Pull Up, Simple Output, leftBank
+B2, PIO, io_sdram_dq[12], InOut, , SB_LVCMOS, No Pull Up, Simple Input Output Tristatable by Enable, topBank
+B3, PIO, io_sdram_dq[2], InOut, , SB_LVCMOS, No Pull Up, Simple Input Output Tristatable by Enable, topBank
+B4, PIO, o_data_req, Output, , SB_LVCMOS, No Pull Up, Simple Output, topBank
+B5, PIO, o_sdram_addr[11], Output, , SB_LVCMOS, No Pull Up, Output Tristatable by Enable, topBank
+B6, PIO, i_addr[0], Input, , SB_LVCMOS, No Pull Up, Simple Input, topBank
+B7, PIO, i_addr[21], Input, , SB_LVCMOS, No Pull Up, Simple Input, topBank
+B8, PIO, i_addr[15], Input, , SB_LVCMOS, No Pull Up, Simple Input, topBank
+B9, PIO, i_addr[5], Input, , SB_LVCMOS, No Pull Up, Simple Input, topBank
+B10, PIO, i_addr[18], Input, , SB_LVCMOS, No Pull Up, Simple Input, topBank
+B11, PIO, i_addr[19], Input, , SB_LVCMOS, No Pull Up, Simple Input, topBank
+B12, PIO, i_data[1], Input, , SB_LVCMOS, No Pull Up, Simple Input, topBank
+B13, PIO, i_data[13], Input, , SB_LVCMOS, No Pull Up, Simple Input, topBank
+B14, PIO, i_data[5], Input, , SB_LVCMOS, No Pull Up, Simple Input, topBank
+B15, PIO, i_data[6], Input, , SB_LVCMOS, No Pull Up, Simple Input, rightBank
+C1, PIO, o_sdram_blkaddr[0], Output, , SB_LVCMOS, No Pull Up, Simple Output, leftBank
+C2, PIO, o_sdram_rasn, Output, , SB_LVCMOS, No Pull Up, Simple Output, leftBank
+C3, PIO, io_sdram_dq[11], InOut, , SB_LVCMOS, No Pull Up, Simple Input Output Tristatable by Enable, topBank
+C4, PIO, io_sdram_dq[13], InOut, , SB_LVCMOS, No Pull Up, Simple Input Output Tristatable by Enable, topBank
+C5, PIO, o_data_valid, Output, , SB_LVCMOS, No Pull Up, Simple Output, topBank
+C6, PIO, i_addr[12], Input, , SB_LVCMOS, No Pull Up, Simple Input, topBank
+C7, PIO, i_addr[2], Input, , SB_LVCMOS, No Pull Up, Simple Input, topBank
+C8, PIO, i_addr[16], Input, , SB_LVCMOS, No Pull Up, Simple Input, topBank
+C9, PIO_GBIN, i_addr[7], Input, , SB_LVCMOS, No Pull Up, Simple Input, topBank
+C10, PIO, i_addr[14], Input, , SB_LVCMOS, No Pull Up, Simple Input, topBank
+C11, PIO, i_addr[9], Input, , SB_LVCMOS, No Pull Up, Simple Input, topBank
+C12, PIO, i_data[3], Input, , SB_LVCMOS, No Pull Up, Simple Input, topBank
+C13, PIO, i_data[2], Input, , SB_LVCMOS, No Pull Up, Simple Input, topBank
+C14, PIO, i_data[7], Input, , SB_LVCMOS, No Pull Up, Simple Input, rightBank
+C15, VCCIO_1, not used, , , , , , rightBank
+D1, PIO, o_write_done, Output, , SB_LVCMOS, No Pull Up, Simple Output, leftBank
+D2, PIO, o_sdram_cke, Output, , SB_LVCMOS, No Pull Up, Simple Output, leftBank
+D3, PIO, o_sdram_addr[8], Output, , SB_LVCMOS, No Pull Up, Simple Output, leftBank
+D4, PIO, o_read_done, Output, , SB_LVCMOS, No Pull Up, Simple Output, leftBank
+D5, PIO, io_sdram_dq[15], InOut, , SB_LVCMOS, No Pull Up, Simple Input Output Tristatable by Enable, topBank
+D6, PIO, not used, , , , , , topBank
+D7, PIO, i_addr[4], Input, , SB_LVCMOS, No Pull Up, Simple Input, topBank
+D8, PIO_GBIN, i_addr[11], Input, , SB_LVCMOS, No Pull Up, Simple Input, topBank
+D9, PIO, i_data[11], Input, , SB_LVCMOS, No Pull Up, Simple Input, topBank
+D10, PIO, i_data[0], Input, , SB_LVCMOS, No Pull Up, Simple Input, topBank
+D11, PIO, i_data[14], Input, , SB_LVCMOS, No Pull Up, Simple Input, topBank
+D12, VPP_DIRECT, not used, , , , , , UnknownBank
+D13, PIO, i_data[9], Input, , SB_LVCMOS, No Pull Up, Simple Input, rightBank
+D14, PIO, o_data[1], Output, , SB_LVCMOS, No Pull Up, Output Registered, rightBank
+D15, PIO, o_data[0], Output, , SB_LVCMOS, No Pull Up, Simple Output, rightBank
+E1, VCCIO_3, not used, , , , , , leftBank
+E2, PIO, io_sdram_dq[10], InOut, , SB_LVCMOS, No Pull Up, Simple Input Output Tristatable by Enable, leftBank
+E3, PIO, o_init_done, Output, , SB_LVCMOS, No Pull Up, Simple Output, leftBank
+E4, PIO, o_sdram_dqm[0], Output, , SB_LVCMOS, No Pull Up, Simple Output, leftBank
+E5, PIO, o_sdram_addr[9], Output, , SB_LVCMOS, No Pull Up, Simple Output, leftBank
+E6, PIO, o_sdram_addr[10], Output, , SB_LVCMOS, No Pull Up, Simple Output, leftBank
+E7, AGND_TOP, not used, , , , , , UnknownBank
+E8, AVDD_TOP, not used, , , , , , UnknownBank
+E9, PIO, i_data[10], Input, , SB_LVCMOS, No Pull Up, Simple Input, topBank
+E10, PIO, i_data[12], Input, , SB_LVCMOS, No Pull Up, Simple Input, topBank
+E11, PIO, i_data[15], Input, , SB_LVCMOS, No Pull Up, Simple Input, topBank
+E12, VPP_PUMP, not used, , , , , , UnknownBank
+E13, PIO, i_data[8], Input, , SB_LVCMOS, No Pull Up, Simple Input, rightBank
+E14, PIO, o_data[11], Output, , SB_LVCMOS, No Pull Up, Output Registered, rightBank
+E15, GND, not used, , , , , , UnknownBank
+F1, PIO, o_sdram_addr[5], Output, , SB_LVCMOS, No Pull Up, Simple Output, leftBank
+F2, PIO, o_sdram_addr[7], Output, , SB_LVCMOS, No Pull Up, Simple Output, leftBank
+F3, PIO, o_sdram_clk, Output, , SB_LVCMOS, No Pull Up, Simple Output, leftBank
+F4, PIO, io_sdram_dq[0], InOut, , SB_LVCMOS, No Pull Up, Input Registered Output Tristatable by Enable, leftBank
+F5, PIO, io_sdram_dq[1], InOut, , SB_LVCMOS, No Pull Up, Simple Input Output Tristatable by Enable, leftBank
+F6, VCC, not used, , , , , , UnknownBank
+F7, PIO, o_sdram_casn, Output, , SB_LVCMOS, No Pull Up, Simple Output, topBank
+F8, VCCIO_0, not used, , , , , , topBank
+F9, PIO, i_addr[1], Input, , SB_LVCMOS, No Pull Up, Simple Input, topBank
+F10, VCC, not used, , , , , , UnknownBank
+F11, PIO, o_data[10], Output, , SB_LVCMOS, No Pull Up, Output Registered, rightBank
+F12, PIO, o_data[12], Output, , SB_LVCMOS, No Pull Up, Output Registered, rightBank
+F13, PIO, o_data[13], Output, , SB_LVCMOS, No Pull Up, Output Registered, rightBank
+F14, PIO, o_data[16], Output, , SB_LVCMOS, No Pull Up, Simple Output, rightBank
+F15, PIO, o_data[14], Output, , SB_LVCMOS, No Pull Up, Output Registered, rightBank
+G1, PIO, o_sdram_addr[1], Output, , SB_LVCMOS, No Pull Up, Simple Output, leftBank
+G2, PIO, o_sdram_addr[6], Output, , SB_LVCMOS, No Pull Up, Simple Output, leftBank
+G3, PIO, o_sdram_addr[4], Output, , SB_LVCMOS, No Pull Up, Simple Output, leftBank
+G4, PIO_GBIN, i_rst, Input, glb Buff, SB_LVCMOS, No Pull Up, Simple Input, leftBank
+G5, PIO, o_sdram_addr[3], Output, , SB_LVCMOS, No Pull Up, Simple Output, leftBank
+G6, VCCIO_3, not used, , , , , , leftBank
+G7, GND, not used, , , , , , UnknownBank
+G8, GND, not used, , , , , , UnknownBank
+G9, GND, not used, , , , , , UnknownBank
+G10, PIO, o_data[17], Output, , SB_LVCMOS, No Pull Up, Simple Output, rightBank
+G11, PIO, o_data[19], Output, , SB_LVCMOS, No Pull Up, Simple Output, rightBank
+G12, PIO, o_data[15], Output, , SB_LVCMOS, No Pull Up, Output Registered, rightBank
+G13, PIO_GBIN, o_data[20], Output, , SB_LVCMOS, No Pull Up, Simple Output, rightBank
+G14, PIO, o_data[18], Output, , SB_LVCMOS, No Pull Up, Simple Output, rightBank
+G15, PIO, o_data[2], Output, , SB_LVCMOS, No Pull Up, Output Registered, rightBank
+H1, PIO, o_ack, Output, , SB_LVCMOS, No Pull Up, Simple Output, leftBank
+H2, PIO, o_sdram_addr[2], Output, , SB_LVCMOS, No Pull Up, Simple Output, leftBank
+H3, PIO, io_sdram_dq[5], InOut, , SB_LVCMOS, No Pull Up, Simple Input Output Tristatable by Enable, leftBank
+H4, PIO, io_sdram_dq[3], InOut, , SB_LVCMOS, No Pull Up, Simple Input Output Tristatable by Enable, leftBank
+H5, PIO_GBIN, i_clk, Input, glb Buff, SB_LVCMOS, No Pull Up, Simple Input, leftBank
+H6, PIO, o_sdram_addr[0], Output, , SB_LVCMOS, No Pull Up, Simple Output, leftBank
+H7, GND, not used, , , , , , UnknownBank
+H8, GND, not used, , , , , , UnknownBank
+H9, GND, not used, , , , , , UnknownBank
+H10, VCCIO_1, not used, , , , , , rightBank
+H11, PIO, o_data[24], Output, , SB_LVCMOS, No Pull Up, Simple Output, rightBank
+H12, PIO_GBIN, o_data[21], Output, , SB_LVCMOS, No Pull Up, Simple Output, rightBank
+H13, PIO, o_data[22], Output, , SB_LVCMOS, No Pull Up, Simple Output, rightBank
+H14, PIO, o_data[23], Output, , SB_LVCMOS, No Pull Up, Simple Output, rightBank
+H15, VCC, not used, , , , , , UnknownBank
+J1, PIO, io_sdram_dq[9], InOut, , SB_LVCMOS, No Pull Up, Input Registered Output Tristatable by Enable, leftBank
+J2, PIO, io_sdram_dq[7], InOut, , SB_LVCMOS, No Pull Up, Input Registered Output Tristatable by Enable, leftBank
+J3, PIO, io_sdram_dq[4], InOut, , SB_LVCMOS, No Pull Up, Simple Input Output Tristatable by Enable, leftBank
+J4, PIO, io_sdram_dq[6], InOut, , SB_LVCMOS, No Pull Up, Simple Input Output Tristatable by Enable, leftBank
+J5, PIO, io_sdram_dq[8], InOut, , SB_LVCMOS, No Pull Up, Input Registered Output Tristatable by Enable, leftBank
+J6, VCCIO_3, not used, , , , , , leftBank
+J7, GND, not used, , , , , , UnknownBank
+J8, GND, not used, , , , , , UnknownBank
+J9, GND, not used, , , , , , UnknownBank
+J10, PIO, o_data[6], Output, , SB_LVCMOS, No Pull Up, Output Registered, rightBank
+J11, PIO, o_data[29], Output, , SB_LVCMOS, No Pull Up, Simple Output, rightBank
+J12, PIO, o_data[4], Output, , SB_LVCMOS, No Pull Up, Output Registered, rightBank
+J13, PIO, o_data[28], Output, , SB_LVCMOS, No Pull Up, Simple Output, rightBank
+J14, PIO, o_data[25], Output, , SB_LVCMOS, No Pull Up, Simple Output, rightBank
+J15, PIO, o_data[26], Output, , SB_LVCMOS, No Pull Up, Simple Output, rightBank
+K1, PIO, o_busy, Output, , SB_LVCMOS, No Pull Up, Simple Output, leftBank
+K2, GND, not used, , , , , , UnknownBank
+K3, PIO, i_precharge_req, Input, , SB_LVCMOS, No Pull Up, Simple Input, leftBank
+K4, PIO, i_adv, Input, , SB_LVCMOS, No Pull Up, Simple Input, leftBank
+K5, PIO, i_burststop_req, Input, , SB_LVCMOS, No Pull Up, Simple Input, leftBank
+K6, VCC, not used, , , , , , UnknownBank
+K7, GND, not used, , , , , , UnknownBank
+K8, VCCIO_2, not used, , , , , , bottomBank
+K9, PIO, not used, , , , , , bottomBank
+K10, VCC, not used, , , , , , UnknownBank
+K11, PIO, not used, , , , , , bottomBank
+K12, PIO, o_data[8], Output, , SB_LVCMOS, No Pull Up, Simple Output, rightBank
+K13, PIO, o_data[7], Output, , SB_LVCMOS, No Pull Up, Simple Output, rightBank
+K14, PIO, o_data[27], Output, , SB_LVCMOS, No Pull Up, Simple Output, rightBank
+K15, PIO, o_data[3], Output, , SB_LVCMOS, No Pull Up, Output Registered, rightBank
+L1, PIO, i_addr[10], Input, , SB_LVCMOS, No Pull Up, Simple Input, leftBank
+L2, VCC, not used, , , , , , UnknownBank
+L3, PIO, i_loadmod_req, Input, , SB_LVCMOS, No Pull Up, Simple Input, leftBank
+L4, PIO, i_disable_autorefresh, Input, , SB_LVCMOS, No Pull Up, Simple Input, leftBank
+L5, PIO, not used, , , , , , bottomBank
+L6, PIO, not used, , , , , , bottomBank
+L7, PIO, not used, , , , , , bottomBank
+L8, AVDD_BOT, not used, , , , , , UnknownBank
+L9, PIO_GBIN, not used, , , , , , bottomBank
+L10, PIO, not used, , , , , , bottomBank
+L11, SPI_SI, not used, , , , , , bottomBank
+L12, PIO, o_sdram_addr[12], Output, , SB_LVCMOS, No Pull Up, Output Tristatable by Enable, rightBank
+L13, PIO, o_data[5], Output, , SB_LVCMOS, No Pull Up, Output Registered, rightBank
+L14, PIO, o_data[31], Output, , SB_LVCMOS, No Pull Up, Simple Output, rightBank
+L15, GND, not used, , , , , , UnknownBank
+M1, PIO, i_rwn, Input, , SB_LVCMOS, No Pull Up, Simple Input, leftBank
+M2, PIO, i_selfrefresh_req, Input, , SB_LVCMOS, No Pull Up, Simple Input, leftBank
+M3, PIO, i_disable_active, Input, , SB_LVCMOS, No Pull Up, Simple Input, leftBank
+M4, PIO, i_disable_precharge, Input, , SB_LVCMOS, No Pull Up, Simple Input, leftBank
+M5, PIO, not used, , , , , , bottomBank
+M6, PIO, not used, , , , , , bottomBank
+M7, PIO, not used, , , , , , bottomBank
+M8, PIO, not used, , , , , , bottomBank
+M9, PIO, not used, , , , , , bottomBank
+M10, CDONE, not used, , , , , , bottomBank
+M11, SPI_SO, not used, , , , , , bottomBank
+M12, SPI_SS_B, not used, , , , , , bottomBank
+M13, PIO, o_data[9], Output, , SB_LVCMOS, No Pull Up, Simple Output, rightBank
+M14, PIO, o_data[30], Output, , SB_LVCMOS, No Pull Up, Simple Output, rightBank
+M15, PIO, o_sdram_csn, Output, , SB_LVCMOS, No Pull Up, Simple Output, rightBank
+N1, VCCIO_3, not used, , , , , , leftBank
+N2, PIO, i_addr[20], Input, , SB_LVCMOS, No Pull Up, Simple Input, leftBank
+N3, PIO, not used, , , , , , bottomBank
+N4, PIO, not used, , , , , , bottomBank
+N5, PIO, not used, , , , , , bottomBank
+N6, PIO, not used, , , , , , bottomBank
+N7, PIO_GBIN, not used, , , , , , bottomBank
+N8, AGND_BOT, not used, , , , , , UnknownBank
+N9, PIO, not used, , , , , , bottomBank
+N10, PIO, not used, , , , , , bottomBank
+N11, CRESET_B, not used, , , , , , bottomBank
+N12, SPI_SCK, not used, , , , , , bottomBank
+N13, VDDIO_SPI, not used, , , , , , bottomBank
+N14, TRST_B, not used, , , , , , rightBank
+N15, VCCIO_1, not used, , , , , , rightBank
+P1, PIO, i_power_down, Input, , SB_LVCMOS, No Pull Up, Simple Input, leftBank
+P2, PIO, not used, , , , , , bottomBank
+P3, VCCIO_2, not used, , , , , , bottomBank
+P4, PIO, not used, , , , , , bottomBank
+P5, PIO, not used, , , , , , bottomBank
+P6, PIO, not used, , , , , , bottomBank
+P7, PIO, not used, , , , , , bottomBank
+P8, PIO, not used, , , , , , bottomBank
+P9, PIO, not used, , , , , , bottomBank
+P10, PIO, not used, , , , , , bottomBank
+P11, PIO, not used, , , , , , bottomBank
+P12, PIO, not used, , , , , , bottomBank
+P13, PIO, not used, , , , , , bottomBank
+P14, PIO, o_sdram_dqm[2], Output, , SB_LVCMOS, No Pull Up, Output Tristatable by Enable, rightBank
+P15, PIO, not used, , , , , , rightBank
+R1, PIO, not used, , , , , , bottomBank
+R2, PIO, not used, , , , , , bottomBank
+R3, PIO, not used, , , , , , bottomBank
+R4, PIO, not used, , , , , , bottomBank
+R5, PIO, not used, , , , , , bottomBank
+R6, PIO, not used, , , , , , bottomBank
+R7, GND, not used, , , , , , UnknownBank
+R8, VCC, not used, , , , , , UnknownBank
+R9, PIO, not used, , , , , , bottomBank
+R10, PIO, not used, , , , , , bottomBank
+R11, PIO, not used, , , , , , bottomBank
+R12, PIO, not used, , , , , , bottomBank
+R13, VCCIO_2, not used, , , , , , bottomBank
+R14, PIO, o_sdram_dqm[3], Output, , SB_LVCMOS, No Pull Up, Output Tristatable by Enable, rightBank
+R15, PIO, not used, , , , , , rightBank
+Total Number of Used Pins, 130

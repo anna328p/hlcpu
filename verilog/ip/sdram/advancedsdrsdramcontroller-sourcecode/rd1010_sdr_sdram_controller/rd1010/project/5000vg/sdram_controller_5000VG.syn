@@ -1,0 +1,18 @@
+JDF B
+// Created by Version 2.2 
+PROJECT sdram_controller_5000VG
+DESIGN sdram_controller_5000vg Normal
+DEVKIT LC51024VG-5F484C
+ENTRY Pure Verilog HDL
+TESTFIXTURE ..\..\testbech\sdr_tb.tf
+MODULE ..\..\source\sdr_top.v
+MODSTYLE sdr_top Normal
+MODULE ..\..\source\sdr_ctrl.v
+MODSTYLE sdr_ctrl Normal
+MODULE ..\..\source\sdr_sig.v
+MODSTYLE sdr_sig Normal
+MODULE ..\..\source\sdr_data.v
+MODSTYLE sdr_data Normal
+SYNTHESIS_TOOL Synplify
+SIMULATOR_TOOL ActiveHDL
+TOPMODULE sdr_top

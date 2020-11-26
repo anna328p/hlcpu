@@ -1,0 +1,53 @@
+Synopsys Lattice Technology Pre-mapping, Version maplat, Build 006R, Built Dec 13 2013 02:09:32
+Copyright (C) 1994-2013, Synopsys, Inc. This software and the associated documentation are proprietary to Synopsys, Inc. This software may only be used in accordance with the terms and conditions of a written license agreement with Synopsys, Inc.  All other use or distribution of the software is strictly prohibited.
+Product Version I-2013.09L 
+
+Mapper Startup Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 99MB peak: 100MB)
+
+Reading constraint file: G:\VEERAJ\RD\WORKING\RD1174\constraints\sdram_controller_syn.sdc
+@L: G:\VEERAJ\RD\WORKING\RD1174\project\sdr_sdram_controller\sdr_sdram_controller_Implmnt\sdr_sdram_controller_scck.rpt 
+Printing clock  summary report in "G:\VEERAJ\RD\WORKING\RD1174\project\sdr_sdram_controller\sdr_sdram_controller_Implmnt\sdr_sdram_controller_scck.rpt" file 
+@N: MF248 |Running in 64-bit mode.
+@N: MF666 |Clock conversion enabled 
+
+Design Input Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 100MB peak: 103MB)
+
+
+Mapper Initialization Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 100MB peak: 103MB)
+
+
+Start loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 101MB peak: 103MB)
+
+
+Finished loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 101MB peak: 103MB)
+
+
+syn_allowed_resources : blockrams=32  set on top level netlist sdram_controller
+
+
+Clock Summary
+**************
+
+Start                                         Requested     Requested     Clock                                     Clock              
+Clock                                         Frequency     Period        Type                                      Group              
+---------------------------------------------------------------------------------------------------------------------------------------
+i_cpu_clk                                     100.0 MHz     10.000        declared                                  default_clkgroup_0 
+lfsr_count64|o_lfsr_64_done_derived_clock     1.0 MHz       1000.000      derived (from sdram_controller|i_clk)     Inferred_clkgroup_0
+sdram_controller|i_clk                        1.0 MHz       1000.000      inferred                                  Inferred_clkgroup_0
+=======================================================================================================================================
+
+@W: MT529 :"g:\veeraj\rd\working\rd1174\source\verilog\micron8m16\lfsr_count64.v":53:4:53:9|Found inferred clock sdram_controller|i_clk which controls 117 sequential elements including U1.U1.lfsr_reg_i[5:0]. This clock has no specified timing constraint which may prevent conversion of gated or generated clocks and may adversely impact design performance. 
+
+Finished Pre Mapping Phase.
+@W: MO111 :"g:\veeraj\rd\working\rd1174\source\verilog\micron8m16\sdram_controller.v":282:49:282:81|Tristate driver o_sdram_dqm_1 on net o_sdram_dqm_1 has its enable tied to GND (module sdram_controller) 
+@W: MO111 :"g:\veeraj\rd\working\rd1174\source\verilog\micron8m16\sdram_controller.v":282:49:282:81|Tristate driver o_sdram_dqm_2 on net o_sdram_dqm_2 has its enable tied to GND (module sdram_controller) 
+@W: MO111 :"g:\veeraj\rd\working\rd1174\source\verilog\micron8m16\sdram_controller.v":279:49:279:83|Tristate driver o_sdram_addr_1 on net o_sdram_addr_1 has its enable tied to GND (module sdram_controller) 
+@N: BN225 |Writing default property annotation file G:\VEERAJ\RD\WORKING\RD1174\project\sdr_sdram_controller\sdr_sdram_controller_Implmnt\sdr_sdram_controller.sap.
+Pre-mapping successful!
+
+At Mapper Exit (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 69MB peak: 133MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+# Thu Mar 06 12:10:59 2014
+
+###########################################################]

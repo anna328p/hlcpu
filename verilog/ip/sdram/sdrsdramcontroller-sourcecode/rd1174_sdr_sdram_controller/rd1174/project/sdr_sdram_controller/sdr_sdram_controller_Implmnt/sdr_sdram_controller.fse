@@ -1,0 +1,72 @@
+
+fsm_encoding {1030343031} onehot
+
+fsm_state_encoding {1030343031} CMD_STATE_IDLE {0000000000000000000001}
+
+fsm_state_encoding {1030343031} CMD_STATE_SELFREFRESH {0000000000000000000010}
+
+fsm_state_encoding {1030343031} CMD_STATE_WRITE_AUTOPRECHARGE {0000000000000000000100}
+
+fsm_state_encoding {1030343031} CMD_STATE_AUTOREFRESH {0000000000000000001000}
+
+fsm_state_encoding {1030343031} CMD_STATE_SELFREFRESH_DELAY {0000000000000000010000}
+
+fsm_state_encoding {1030343031} CMD_STATE_READ_AUTOPRECHARGE {0000000000000000100000}
+
+fsm_state_encoding {1030343031} CMD_STATE_BURSTSTOP_WRITE {0000000000000001000000}
+
+fsm_state_encoding {1030343031} CMD_STATE_LOAD_MODEREG_DELAY {0000000000000010000000}
+
+fsm_state_encoding {1030343031} CMD_STATE_LOAD_MODEREG {0000000000000100000000}
+
+fsm_state_encoding {1030343031} CMD_STATE_POWER_DOWN_MODE {0000000000001000000000}
+
+fsm_state_encoding {1030343031} CMD_STATE_ACTIVE {0000000000010000000000}
+
+fsm_state_encoding {1030343031} CMD_STATE_DATAIN2ACTIVE {0000000000100000000000}
+
+fsm_state_encoding {1030343031} CMD_STATE_ACTIVE2RW_DELAY {0000000001000000000000}
+
+fsm_state_encoding {1030343031} CMD_STATE_BURSTSTOP_READ_DELAY {0000000010000000000000}
+
+fsm_state_encoding {1030343031} CMD_STATE_BURSTSTOP_READ {0000000100000000000000}
+
+fsm_state_encoding {1030343031} CMD_STATE_BURSTSTOP_WRITE_DELAY {0000001000000000000000}
+
+fsm_state_encoding {1030343031} CMD_STATE_CAS_LATENCY {0000010000000000000000}
+
+fsm_state_encoding {1030343031} CMD_STATE_PRECHARGE {0000100000000000000000}
+
+fsm_state_encoding {1030343031} CMD_STATE_READ_DATA {0001000000000000000000}
+
+fsm_state_encoding {1030343031} CMD_STATE_PRECHARGE_DELAY {0010000000000000000000}
+
+fsm_state_encoding {1030343031} CMD_STATE_WRITE_DATA {0100000000000000000000}
+
+fsm_state_encoding {1030343031} CMD_STATE_AUTOREFRESH_DELAY {1000000000000000000000}
+
+fsm_registers {1030343031} {cmd_fsm_states_i[21]}  {cmd_fsm_states_i[20]}  {cmd_fsm_states_i[19]}  {cmd_fsm_states_i[18]}  {cmd_fsm_states_i[17]}  {cmd_fsm_states_i[16]}  {cmd_fsm_states_i[15]}  {cmd_fsm_states_i[14]}  {cmd_fsm_states_i[13]}  {cmd_fsm_states_i[12]}  {cmd_fsm_states_i[11]}  {cmd_fsm_states_i[10]}  {cmd_fsm_states_i[9]}  {cmd_fsm_states_i[8]}  {cmd_fsm_states_i[7]}  {cmd_fsm_states_i[6]}  {cmd_fsm_states_i[5]}  {cmd_fsm_states_i[4]}  {cmd_fsm_states_i[3]}  {cmd_fsm_states_i[2]}  {cmd_fsm_states_i[1]}  {cmd_fsm_states_i[0]} 
+
+fsm_encoding {1023942392} onehot
+
+fsm_state_encoding {1023942392} INIT_STATE_IDLE {0000000001}
+
+fsm_state_encoding {1023942392} INIT_STATE_PRECHARGEALL {0000000010}
+
+fsm_state_encoding {1023942392} INIT_STATE_PRECHARGE_DELAY {0000000100}
+
+fsm_state_encoding {1023942392} INIT_STATE_AUTOREFRESH_1 {0000001000}
+
+fsm_state_encoding {1023942392} INIT_STATE_AUTOREFRESH_DELAY_1 {0000010000}
+
+fsm_state_encoding {1023942392} INIT_STATE_AUTOREFRESH_2 {0000100000}
+
+fsm_state_encoding {1023942392} INIT_STATE_AUTOREFRESH_DELAY_2 {0001000000}
+
+fsm_state_encoding {1023942392} INIT_STATE_LOAD_MODEREG {0010000000}
+
+fsm_state_encoding {1023942392} INIT_STATE_LOAD_MODEREG_DELAY {0100000000}
+
+fsm_state_encoding {1023942392} INIT_STATE_INIT_DONE {1000000000}
+
+fsm_registers {1023942392} {init_fsm_states_i[9]}  {init_fsm_states_i[8]}  {init_fsm_states_i[7]}  {init_fsm_states_i[6]}  {init_fsm_states_i[5]}  {init_fsm_states_i[4]}  {init_fsm_states_i[3]}  {init_fsm_states_i[2]}  {init_fsm_states_i[1]}  {init_fsm_states_i[0]} 

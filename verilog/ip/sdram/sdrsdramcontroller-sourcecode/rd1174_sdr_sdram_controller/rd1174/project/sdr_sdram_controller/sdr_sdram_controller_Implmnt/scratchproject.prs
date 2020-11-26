@@ -1,0 +1,63 @@
+#--  Synopsys, Inc.
+#--  Version I-2013.09L 
+#--  Project file G:\VEERAJ\RD\WORKING\RD1174\project\sdr_sdram_controller\sdr_sdram_controller_Implmnt\scratchproject.prs
+
+#project files
+add_file -verilog "G:/VEERAJ/RD/WORKING/RD1174/source/Verilog/Micron8M16/autorefresh_counter.v"
+add_file -verilog "G:/VEERAJ/RD/WORKING/RD1174/source/Verilog/Micron8M16/delay_gen150us.v"
+add_file -verilog "G:/VEERAJ/RD/WORKING/RD1174/source/Verilog/Micron8M16/lfsr_count255.v"
+add_file -verilog "G:/VEERAJ/RD/WORKING/RD1174/source/Verilog/Micron8M16/lfsr_count64.v"
+add_file -verilog "G:/VEERAJ/RD/WORKING/RD1174/source/Verilog/Micron8M16/sdram_control_fsm.v"
+add_file -verilog "G:/VEERAJ/RD/WORKING/RD1174/source/Verilog/Micron8M16/sdram_controller.v"
+add_file -constraint "G:/VEERAJ/RD/WORKING/RD1174/constraints/sdram_controller_syn.sdc"
+
+
+
+#implementation: "sdr_sdram_controller_Implmnt"
+impl -add G:\VEERAJ\RD\WORKING\RD1174\project\sdr_sdram_controller\sdr_sdram_controller_Implmnt -type fpga
+
+#
+#implementation attributes
+
+set_option -vlog_std v2001
+set_option -project_relative_includes 1
+set_option -include_path {G:/VEERAJ/RD/WORKING/RD1174/project/sdr_sdram_controller/}
+
+#device options
+set_option -technology SBTiCE40
+set_option -part iCE40LP8K
+set_option -package CM225
+set_option -speed_grade ""
+set_option -part_companion ""
+
+#compilation/mapping options
+
+# mapper_options
+set_option -frequency auto
+set_option -write_verilog 0
+set_option -write_vhdl 0
+set_option -srs_instrumentation 1
+
+# Lattice iCE40
+set_option -maxfan 10000
+set_option -RWCheckOnRam 0
+set_option -disable_io_insertion 0
+set_option -pipe 1
+set_option -retiming 0
+set_option -update_models_cp 0
+set_option -fix_gated_and_generated_clocks 1
+set_option -run_prop_extract 1
+
+# sequential_optimization_options
+set_option -symbolic_fsm_compiler 1
+
+# Compiler Options
+set_option -compiler_compatible 0
+set_option -resource_sharing 1
+
+#automatic place and route (vendor) options
+set_option -write_apr_constraint 1
+
+#set result format/file last
+project -result_file "G:/VEERAJ/RD/WORKING/RD1174/project/sdr_sdram_controller/sdr_sdram_controller_Implmnt/sdr_sdram_controller.edf"
+impl -active "sdr_sdram_controller_Implmnt"

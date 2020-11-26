@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<BaliProject version="3.0" title="xo3l_verilog_syn" device="LCMXO3L-4300C-5BG256C" default_implementation="xo3l_verilog_syn">
+    <Options/>
+    <Implementation title="xo3l_verilog_syn" dir="xo3l_verilog_syn" description="xo3l_verilog_syn" synthesis="synplify" default_strategy="Strategy1">
+        <Options def_top="sdram_controller"/>
+        <Source name="../../../../source/verilog/micron4m32/autorefresh_counter.v" type="Verilog" type_short="Verilog">
+            <Options/>
+        </Source>
+        <Source name="../../../../source/verilog/micron4m32/delay_gen150us.v" type="Verilog" type_short="Verilog">
+            <Options/>
+        </Source>
+        <Source name="../../../../source/verilog/micron4m32/lfsr_count64.v" type="Verilog" type_short="Verilog">
+            <Options/>
+        </Source>
+        <Source name="../../../../source/verilog/micron4m32/lfsr_count255.v" type="Verilog" type_short="Verilog">
+            <Options/>
+        </Source>
+        <Source name="../../../../source/verilog/micron4m32/sdram_control_fsm.v" type="Verilog" type_short="Verilog">
+            <Options/>
+        </Source>
+        <Source name="../../../../source/verilog/micron4m32/sdram_controller.v" type="Verilog" type_short="Verilog">
+            <Options top_module="sdram_controller"/>
+        </Source>
+        <Source name="../../../../source/verilog/micron4m32/sdram_defines.v" type="Verilog" type_short="Verilog" syn_sim="SimOnly">
+            <Options/>
+        </Source>
+        <Source name="xo3l_verilog_syn.lpf" type="Logic Preference" type_short="LPF">
+            <Options/>
+        </Source>
+    </Implementation>
+    <Strategy name="Strategy1" file="xo3l_verilog_syn1.sty"/>
+</BaliProject>

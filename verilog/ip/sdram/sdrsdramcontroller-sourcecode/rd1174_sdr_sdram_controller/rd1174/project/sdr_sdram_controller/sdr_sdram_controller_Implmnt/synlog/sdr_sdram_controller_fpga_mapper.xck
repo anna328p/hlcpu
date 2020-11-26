@@ -1,0 +1,2 @@
+CKID0001:@|S:i_clk_ibuf_gb_io@|E:refresh_req_i@|F:@syn_sample_clock_path==CKID0001@|M:ClockId0001 
+conv_instances:@|F:@syn_gc_converted==1@|M:instances

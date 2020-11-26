@@ -1,0 +1,7 @@
+#1001 define_clock {i_cpu_clk} -name {i_cpu_clk} -freq {100} -clockgroup {default_clkgroup_0}
+define_clock {i_cpu_clk}  -name {i_cpu_clk}  -freq {100}  -clockgroup {default_clkgroup_0}  
+
+#1002 define_clock {p:i_clk} -name {sdram_controller|i_clk} -ref_rise {0.000000} -ref_fall {500.000000} -uncertainty {0.000000} -period {1000.000000} -clockgroup {Inferred_clkgroup_0} -rise {0.000000} -fall {500.000000}
+#1003 define_clock {n:U1.U1.o_lfsr_64_done} -name {lfsr_count64|o_lfsr_64_done_derived_clock} -ref_rise {0.000000} -ref_fall {500.000000} -uncertainty {0.000000} -period {1000.000000} -clockgroup {Inferred_clkgroup_0} -rise {0.000000} -fall {500.000000}
+#1004 define_multicycle_path -setup -from {c:lfsr_count64|o_lfsr_64_done_derived_clock} -to {c:lfsr_count64|o_lfsr_64_done_derived_clock} {2}
+#1005 define_multicycle_path -hold -from {c:lfsr_count64|o_lfsr_64_done_derived_clock} -to {c:lfsr_count64|o_lfsr_64_done_derived_clock} {1} -disable

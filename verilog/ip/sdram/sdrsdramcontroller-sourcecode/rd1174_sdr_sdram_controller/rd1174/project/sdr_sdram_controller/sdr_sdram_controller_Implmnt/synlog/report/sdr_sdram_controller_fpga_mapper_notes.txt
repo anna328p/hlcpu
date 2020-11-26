@@ -1,0 +1,12 @@
+@N: MF248 |Running in 64-bit mode.
+@N: MF666 |Clock conversion enabled 
+@N: MT204 |Auto Constrain mode is disabled because clocks are defined in the SDC file
+@N: FX1016 :"g:\veeraj\rd\working\rd1174\source\verilog\micron8m16\sdram_controller.v":182:36:182:40|SB_GB_IO inserted on the port i_clk.
+@N: FX1016 :"g:\veeraj\rd\working\rd1174\source\verilog\micron8m16\sdram_controller.v":183:36:183:40|SB_GB_IO inserted on the port i_rst.
+@N: FX1017 :|SB_GB inserted on the net i_rst_c_i.
+@N: BW103 |Synopsys Constraint File time units using default value of 1ns 
+@N: BW107 |Synopsys Constraint File capacitance units using default value of 1pF 
+@N: MT320 |Timing report estimates place and route data. Please look at the place and route timing report for final timing.
+@N: MT322 |Clock constraints cover only FF-to-FF paths associated with the clock.
+@N: MT320 |Timing report estimates place and route data. Please look at the place and route timing report for final timing.
+@N: MT322 |Clock constraints cover only FF-to-FF paths associated with the clock.

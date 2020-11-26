@@ -1,0 +1,497 @@
+set_location IN_MUX_bfv_5_19_0_ 5 19 0 #ICE_CARRY_IN_MUX
+set_location IN_MUX_bfv_5_20_0_ 5 20 0 #ICE_CARRY_IN_MUX
+set_location power_down_reg1_i_THRU_LUT4_0 1 16 6 #SB_LUT4
+set_location U2.genblk1_lfsr_reg_i_RNIN2DH3_4_U2.genblk1_o_refresh_count_done_REP_LUT4_0 4 26 1 #SB_LUT4
+set_location U2.genblk1_lfsr_reg_i_9_THRU_LUT4_0 5 25 2 #SB_LUT4
+set_location U2.genblk1_lfsr_reg_i_8_THRU_LUT4_0 5 25 6 #SB_LUT4
+set_location U2.genblk1_lfsr_reg_i_7_THRU_LUT4_0 5 25 1 #SB_LUT4
+set_location U2.genblk1_lfsr_reg_i_6_THRU_LUT4_0 5 25 7 #SB_LUT4
+set_location U2.genblk1_lfsr_reg_i_4_THRU_LUT4_0 6 26 4 #SB_LUT4
+set_location U2.genblk1_lfsr_reg_i_10_THRU_LUT4_0 5 25 4 #SB_LUT4
+set_location U1.U5.lfsr_reg_i_7_THRU_LUT4_0 3 23 5 #SB_LUT4
+set_location U1.U5.lfsr_reg_i_6_THRU_LUT4_0 3 23 4 #SB_LUT4
+set_location U1.U5.lfsr_reg_i_5_THRU_LUT4_0 3 24 2 #SB_LUT4
+set_location U1.U5.lfsr_reg_i_4_THRU_LUT4_0 3 24 1 #SB_LUT4
+set_location U1.U5.lfsr_reg_i_3_THRU_LUT4_0 3 24 0 #SB_LUT4
+set_location U1.U5.lfsr_reg_i_2_THRU_LUT4_0 3 23 7 #SB_LUT4
+set_location U1.U5.lfsr_reg_i_1_THRU_LUT4_0 3 23 6 #SB_LUT4
+set_location U1.U1.lfsr_reg_i_5_THRU_LUT4_0 2 22 4 #SB_LUT4
+set_location U1.U1.lfsr_reg_i_4_THRU_LUT4_0 2 22 7 #SB_LUT4
+set_location U1.U1.lfsr_reg_i_3_THRU_LUT4_0 2 22 2 #SB_LUT4
+set_location U1.U1.lfsr_reg_i_2_THRU_LUT4_0 2 22 6 #SB_LUT4
+set_location U1.U1.lfsr_reg_i_1_THRU_LUT4_0 2 22 1 #SB_LUT4
+set_location U0.write_done_reg_i_THRU_LUT4_0 3 25 0 #SB_LUT4
+set_location U0.sdram_dq_en_i_rep9_i_THRU_LUT4_0 3 13 0 #SB_LUT4
+set_location U0.sdram_dq_en_i_rep8_i_THRU_LUT4_0 1 13 7 #SB_LUT4
+set_location U0.sdram_dq_en_i_rep7_i_THRU_LUT4_0 3 13 2 #SB_LUT4
+set_location U0.sdram_dq_en_i_rep6_i_THRU_LUT4_0 3 13 5 #SB_LUT4
+set_location U0.sdram_dq_en_i_rep5_i_THRU_LUT4_0 2 14 1 #SB_LUT4
+set_location U0.sdram_dq_en_i_rep4_i_THRU_LUT4_0 2 14 2 #SB_LUT4
+set_location U0.sdram_dq_en_i_rep3_i_THRU_LUT4_0 2 15 3 #SB_LUT4
+set_location U0.sdram_dq_en_i_rep2_i_THRU_LUT4_0 4 31 1 #SB_LUT4
+set_location U0.sdram_dq_en_i_rep1_i_THRU_LUT4_0 1 23 0 #SB_LUT4
+set_location U0.sdram_dq_en_i_rep14_i_THRU_LUT4_0 3 30 4 #SB_LUT4
+set_location U0.sdram_dq_en_i_rep13_i_THRU_LUT4_0 3 31 2 #SB_LUT4
+set_location U0.sdram_dq_en_i_rep12_i_THRU_LUT4_0 3 31 3 #SB_LUT4
+set_location U0.sdram_dq_en_i_rep11_i_THRU_LUT4_0 3 31 1 #SB_LUT4
+set_location U0.sdram_dq_en_i_rep10_i_THRU_LUT4_0 2 24 2 #SB_LUT4
+set_location U0.sdram_dq_en_i_rep0_i_THRU_LUT4_0 1 23 4 #SB_LUT4
+set_location U0.sdram_dq_en_THRU_LUT4_0 4 31 6 #SB_LUT4
+set_location U0.read_done_reg_i_THRU_LUT4_0 2 26 5 #SB_LUT4
+set_location U0.o_init_done_THRU_LUT4_0 4 17 3 #SB_LUT4
+set_location U0.o_autoref_ack_THRU_LUT4_0 2 19 4 #SB_LUT4
+set_location U0.init_fsm_states_i_RNIT1HF_9_U0.o_sdram_addr_cl_i_0_REP_LUT4_0 4 23 6 #SB_LUT4
+set_location U0.cmd_fsm_states_i_RNIIR29_18_U0.cmd_fsm_states_i_14_REP_LUT4_0 2 17 7 #SB_LUT4
+set_location io_sdram_dq_iobuf_RNO[5] 1 14 5 #SB_LUT4
+set_location U0.o_sdram_addr_1_RNO[6] 6 21 3 #SB_LUT4
+set_location U0.o_sdram_addr_1_RNO[10] 4 22 5 #SB_LUT4
+set_location U0.o_sdram_addr_1_RNO_0[4] 5 22 2 #SB_LUT4
+set_location U0.cmd_fsm_states_i_RNO[10] 4 19 7 #SB_LUT4
+set_location U1.U1.o_lfsr_64_done_RNO 2 23 1 #SB_LUT4
+set_location U0.read_req_cnt_i_cry_c[3] 5 19 3 #SB_CARRY
+set_location U0.read_req_cnt_i[7] 5 19 7 #SB_DFFES
+set_location U0.cmd_fsm_states_i[8] 3 20 6 #SB_DFFR
+set_location U0.write_done_i 5 17 4 #SB_DFFR
+set_location io_sdram_dq_iobuf_RNO[14] 3 32 0 #SB_LUT4
+set_location U2.genblk1.lfsr_reg_i[6] 5 25 7 #SB_DFFER
+set_location U0.o_autoref_ack_RNIDR1O 2 19 5 #SB_LUT4
+set_location U2.genblk1.lfsr_reg_i_RNI1BQ91[3] 5 26 1 #SB_LUT4
+set_location U1.U5.lfsr_reg_i[7] 3 23 5 #SB_DFFER
+set_location U0.write_done_reg_i 3 25 0 #SB_DFFR
+set_location U0.read_req_cnt_rst_i_RNIR3QR 4 19 6 #SB_LUT4
+set_location U0.o_sdram_addr_cl_i[0] 4 23 6 #SB_DFFE
+set_location U0.init_fsm_states_i_RNO[5] 5 17 0 #SB_LUT4
+set_location U0.cmd_fsm_states_i_RNO[20] 4 18 5 #SB_LUT4
+set_location U0.cmd_fsm_states_i[7] 3 19 0 #SB_DFFR
+set_location U2.genblk1.lfsr_reg_i_RNIN2DH3[4] 5 26 3 #SB_LUT4
+set_location U0.o_init_done_RNIUJ281 4 16 7 #SB_LUT4
+set_location U2.genblk1.lfsr_reg_i_RNO[0] 6 26 1 #SB_LUT4
+set_location io_sdram_dq_iobuf_RNO[0] 1 22 2 #SB_LUT4
+set_location U0.sdram_dqm_i_RNO 1 20 1 #SB_LUT4
+set_location U0.o_sdram_addr_1_RNO[5] 6 21 1 #SB_LUT4
+set_location U0.o_busy 5 18 4 #SB_DFFR
+set_location U0.clk_count_i_RNO[3] 3 18 2 #SB_LUT4
+set_location U0.clk_count_i[3] 3 18 2 #SB_DFF
+set_location U1.U1.lfsr_reg_i[2] 2 22 6 #SB_DFFR
+set_location U0.read_req_cnt_i_cry_c[0] 5 19 0 #SB_CARRY
+set_location U0.read_req_cnt_i[2] 5 19 2 #SB_DFFES
+set_location refresh_req_i 4 17 4 #SB_DFFR
+set_location U0.sdram_dq_en_i_rep10_i 2 24 2 #SB_DFFES
+set_location U0.cmd_fsm_states_i[11] 3 16 6 #SB_DFFR
+set_location U0.o_sdram_blkaddr_RNO[0] 5 23 7 #SB_LUT4
+set_location U0.o_sdram_addr_1[6] 6 21 3 #SB_DFFE
+set_location U0.init_fsm_states_i[2] 6 19 3 #SB_DFFR
+set_location U0.cmd_fsm_states_i_RNO[3] 2 19 3 #SB_LUT4
+set_location io_sdram_dq_iobuf_RNO[11] 2 32 1 #SB_LUT4
+set_location U2.genblk1.lfsr_reg_i[5] 6 26 5 #SB_DFFER
+set_location U0.cmd_fsm_states_i_RNI7RGR[21] 3 17 1 #SB_LUT4
+set_location U0.o_sdram_addr_1_RNO_0[3] 4 21 5 #SB_LUT4
+set_location U0.o_init_done_RNI25C92 4 20 4 #SB_LUT4
+set_location U0.cmd_fsm_states_i_RNO[19] 2 18 7 #SB_LUT4
+set_location U1.U5.lfsr_reg_i[2] 3 23 7 #SB_DFFER
+set_location U0.sdram_dq_en_i_rep4_i 2 14 2 #SB_DFFES
+set_location U0.init_fsm_states_i_RNO[6] 3 15 1 #SB_LUT4
+set_location U0.init_fsm_states_i_RNI9BLQ[0] 4 18 7 #SB_LUT4
+set_location U2.genblk1.lfsr_reg_i_RNO[3] 6 26 0 #SB_LUT4
+set_location U0.read_req_cnt_i_RNO[0] 5 19 0 #SB_LUT4
+set_location U0.cmd_fsm_states_i_RNIFU38[8] 4 20 6 #SB_LUT4
+set_location U0.o_sdram_wen 1 21 7 #SB_DFFE
+set_location U0.o_sdram_addr_1_RNO[8] 4 22 1 #SB_LUT4
+set_location U0.write_done_i_RNO_0 4 19 2 #SB_LUT4
+set_location U0.read_done_i 5 18 6 #SB_DFFR
+set_location U0.clk_count_i_RNO[0] 3 18 5 #SB_LUT4
+set_location U1.U1.lfsr_reg_i[1] 2 22 1 #SB_DFFR
+set_location U0.read_req_cnt_i_cry_c[5] 5 19 5 #SB_CARRY
+set_location U0.o_sdram_casn 7 18 3 #SB_DFFE
+set_location U0.sdram_dq_en_i_rep12_i 3 31 3 #SB_DFFES
+set_location U0.cmd_fsm_states_i[14] 2 17 7 #SB_DFFR
+set_location U0.o_sdram_addr_1[1] 6 21 0 #SB_DFFE
+set_location U0.init_fsm_states_i[7] 5 21 7 #SB_DFFR
+set_location U0.cmd_fsm_states_i_RNO[0] 3 17 0 #SB_LUT4
+set_location io_sdram_dq_iobuf_RNO[12] 2 31 3 #SB_LUT4
+set_location U2.genblk1.lfsr_reg_i[8] 5 25 6 #SB_DFFER
+set_location U0.sdram_dq_en_i_rep3_i 2 15 3 #SB_DFFES
+set_location U0.sdram_dq_en_i_rep2_i 4 31 1 #SB_DFFES
+set_location o_sdram_clk_obuf_RNO 1 17 3 #SB_LUT4
+set_location io_sdram_dq_iobuf_RNO[9] 2 13 7 #SB_LUT4
+set_location U0.o_sdram_addr_1_RNO[2] 4 21 4 #SB_LUT4
+set_location U0.o_sdram_addr_1_RNO_0[0] 4 21 1 #SB_LUT4
+set_location U1.U5.lfsr_reg_i[1] 3 23 6 #SB_DFFER
+set_location U0.write_done_reg_i_RNIJJ8L 2 25 1 #SB_LUT4
+set_location U0.read_done_reg_i_RNIL8T8 1 26 5 #SB_LUT4
+set_location U0.init_fsm_states_i_RNO[3] 6 19 4 #SB_LUT4
+set_location U1.U5.lfsr_reg_i_RNO[0] 3 23 0 #SB_LUT4
+set_location U0.write_done_i_RNO 5 17 4 #SB_LUT4
+set_location U0.o_sdram_addr_1[11] 3 22 2 #SB_DFFE
+set_location U0.clk_count_i_RNIQUMK[2] 3 17 6 #SB_LUT4
+set_location U0.read_req_cnt_i_RNO[7] 5 19 7 #SB_LUT4
+set_location U0.init_fsm_states_i[9] 3 21 7 #SB_DFFR
+set_location U0.cmd_fsm_states_i_RNO_1[0] 2 18 2 #SB_LUT4
+set_location U0.cmd_fsm_states_i_RNIO2PQ[14] 2 17 0 #SB_LUT4
+set_location U2.genblk1.lfsr_reg_i[2] 5 27 1 #SB_DFFER
+set_location U0.read_data_req_i_RNO_0 4 19 4 #SB_LUT4
+set_location U0.o_ack_RNO_0 2 17 4 #SB_LUT4
+set_location U0.cmd_fsm_states_i_RNO_4[0] 2 18 1 #SB_LUT4
+set_location U1.U1.lfsr_reg_i[4] 2 22 7 #SB_DFFR
+set_location U0.read_req_cnt_i[8] 5 20 0 #SB_DFFES
+set_location U0.cmd_fsm_states_i_RNITB2K[10] 4 22 7 #SB_LUT4
+set_location U0.cmd_fsm_states_i[21] 2 19 6 #SB_DFFR
+set_location o_sdram_addr_obuft_RNO[11] 7 25 5 #SB_LUT4
+set_location U0.init_fsm_states_i_RNO[9] 3 21 7 #SB_LUT4
+set_location U0.cmd_fsm_states_i[3] 2 19 3 #SB_DFFR
+set_location U0.cmd_fsm_states_i[17] 3 20 2 #SB_DFFR
+set_location U0.init_fsm_states_i[4] 6 19 5 #SB_DFFR
+set_location U0.cmd_fsm_states_i_RNO[5] 3 21 1 #SB_LUT4
+set_location U2.genblk1.o_refresh_count_done 4 26 1 #SB_DFFR
+set_location U0.read_req_cnt_i_RNO[9] 5 20 1 #SB_LUT4
+set_location U0.o_busy_RNO 5 18 4 #SB_LUT4
+set_location U0.cmd_fsm_states_i_RNIKEUM[2] 4 21 0 #SB_LUT4
+set_location io_sdram_dq_iobuf_RNO[4] 1 14 6 #SB_LUT4
+set_location U0.o_sdram_addr_1_RNO[11] 3 22 2 #SB_LUT4
+set_location U0.o_sdram_addr_1_RNO[1] 6 21 0 #SB_LUT4
+set_location U0.cmd_fsm_states_i_RNO[13] 3 20 3 #SB_LUT4
+set_location U0.init_fsm_states_i_RNIT1HF[9] 4 20 5 #SB_LUT4
+set_location U0.sdram_dq_en_i_rep1_i 1 23 0 #SB_DFFES
+set_location U0.read_req_cnt_i[6] 5 19 6 #SB_DFFES
+set_location U0.o_sdram_cke 1 19 6 #SB_DFFE
+set_location U0.o_busy_RNO_0 4 20 0 #SB_LUT4
+set_location U0.cmd_fsm_states_i[9] 1 16 2 #SB_DFFR
+set_location io_sdram_dq_iobuf_RNO[15] 4 32 1 #SB_LUT4
+set_location U2.genblk1.lfsr_reg_i[1] 6 27 1 #SB_DFFER
+set_location U1.U5.o_lfsr_256_done_RNO_1 3 23 1 #SB_LUT4
+set_location U1.U5.lfsr_reg_i[6] 3 23 4 #SB_DFFER
+set_location U0.sdram_dq_en_i_rep7_i 3 13 2 #SB_DFFES
+set_location U0.read_req_cnt_i_RNIMRD8[2] 5 22 5 #SB_LUT4
+set_location U0.cmd_fsm_states_i_RNO[21] 2 19 6 #SB_LUT4
+set_location U0.cmd_fsm_states_i[4] 2 19 1 #SB_DFFR
+set_location io_sdram_dq_iobuf_RNO[3] 1 14 4 #SB_LUT4
+set_location U0.read_req_cnt_rst_i 2 18 6 #SB_DFFR
+set_location U0.o_sdram_addr_1_RNO[4] 6 21 6 #SB_LUT4
+set_location U0.cmd_fsm_states_i_ns_a2_0_a2_0_0[10] 4 16 0 #SB_LUT4
+set_location U0.clk_count_i[0] 3 18 5 #SB_DFF
+set_location U2.genblk1.lfsr_reg_i_RNI0Q681[10] 5 26 5 #SB_LUT4
+set_location U0.read_req_cnt_i_cry_c[1] 5 19 1 #SB_CARRY
+set_location U0.read_req_cnt_i[1] 5 19 1 #SB_DFFES
+set_location U0.o_sdram_cke_RNO 1 19 6 #SB_LUT4
+set_location U0.o_autoref_ack 2 19 4 #SB_DFFR
+set_location U0.cmd_fsm_states_i[10] 4 19 7 #SB_DFFR
+set_location i_rst_ibuf_gb_io_RNI59N6 1 17 6 #SB_LUT4
+set_location U0.o_sdram_blkaddr_RNO[1] 4 23 1 #SB_LUT4
+set_location U0.o_sdram_addr_1[5] 6 21 1 #SB_DFFE
+set_location U0.init_fsm_states_i[3] 6 19 4 #SB_DFFR
+set_location U0.cmd_fsm_states_i_RNIP0602[18] 4 18 4 #SB_LUT4
+set_location U0.clk_count_i_RNICEBA_0[2] 3 18 1 #SB_LUT4
+set_location U2.genblk1.lfsr_reg_i[4] 6 26 4 #SB_DFFER
+set_location U0.o_init_done_RNISS9D1 4 17 7 #SB_LUT4
+set_location U0.cmd_fsm_states_i_RNO[18] 4 18 6 #SB_LUT4
+set_location autorefresh_enable_i 4 25 2 #SB_DFFR
+set_location U1.U5.lfsr_reg_i[5] 3 24 2 #SB_DFFER
+set_location U0.sdram_dq_en_i_rep5_i 2 14 1 #SB_DFFES
+set_location U0.sdram_dq_en_i_rep13_i 3 31 2 #SB_DFFES
+set_location U0.read_req_cnt_i_RNO[4] 5 19 4 #SB_LUT4
+set_location U0.o_sdram_addr_1[8] 4 22 1 #SB_DFFE
+set_location U0.init_fsm_states_i[8] 7 19 1 #SB_DFFR
+set_location U0.cmd_fsm_states_i_RNO[9] 1 16 2 #SB_LUT4
+set_location U2.genblk1.lfsr_reg_i[3] 6 26 0 #SB_DFFER
+set_location U0.init_fsm_states_i_RNO[7] 5 21 7 #SB_LUT4
+set_location U0.o_sdram_blkaddr[1] 4 23 1 #SB_DFFE
+set_location U0.o_sdram_addr_1_RNO_0[9] 4 22 2 #SB_LUT4
+set_location U0.o_ack_RNO_1 2 17 3 #SB_LUT4
+set_location U0.cmd_fsm_states_i_RNO_0[9] 1 15 0 #SB_LUT4
+set_location U2.genblk1.lfsr_reg_i_RNO[2] 5 27 1 #SB_LUT4
+set_location U1.U1.lfsr_reg_i[5] 2 22 4 #SB_DFFR
+set_location U0.read_req_cnt_i_RNO[3] 5 19 3 #SB_LUT4
+set_location U0.read_req_cnt_i[9] 5 20 1 #SB_DFFES
+set_location U0.read_data_req_i_RNO 6 22 5 #SB_LUT4
+set_location U0.cpu_den_i_RNO 3 20 5 #SB_LUT4
+set_location U0.cmd_fsm_states_i[20] 4 18 5 #SB_DFFR
+set_location U0.init_fsm_states_i_RNO[8] 7 19 1 #SB_LUT4
+set_location U0.init_fsm_states_i_RNIM3PV5[9] 3 18 7 #SB_LUT4
+set_location U0.cmd_fsm_states_i[2] 3 21 0 #SB_DFFR
+set_location U0.init_fsm_states_i_RNIB5PG1[4] 3 17 7 #SB_LUT4
+set_location U0.cmd_fsm_states_i_RNO[4] 2 19 1 #SB_LUT4
+set_location U0.clk_count_i_RNO[1] 3 18 3 #SB_LUT4
+set_location U0.clk_count_i_RNICBAP2[3] 3 18 6 #SB_LUT4
+set_location U1.U1.lfsr_reg_i[0] 2 22 5 #SB_DFFR
+set_location U0.read_req_cnt_i_cry_c[6] 5 19 6 #SB_CARRY
+set_location U0.o_sdram_addr_1_RNO_0[10] 4 20 7 #SB_LUT4
+set_location U0.init_fsm_states_i_RNI6PC1[1] 2 21 1 #SB_LUT4
+set_location U0.cmd_fsm_states_i[13] 3 20 3 #SB_DFFR
+set_location U0.o_sdram_addr_1[0] 4 21 2 #SB_DFFE
+set_location U0.o_init_done 4 17 3 #SB_DFFR
+set_location U0.init_fsm_states_i[0] 5 21 2 #SB_DFFS
+set_location U0.cmd_fsm_states_i_RNO[1] 2 17 1 #SB_LUT4
+set_location U0.clk_count_i_RNIEGBA[3] 3 17 5 #SB_LUT4
+set_location io_sdram_dq_iobuf_RNO[13] 3 32 4 #SB_LUT4
+set_location U0.cmd_fsm_states_i_RNIPOUB[14] 2 17 2 #SB_LUT4
+set_location U0.cmd_fsm_states_i_RNI5KQT[20] 4 18 3 #SB_LUT4
+set_location io_sdram_dq_iobuf_RNO[8] 1 12 0 #SB_LUT4
+set_location U1.U1.lfsr_reg_i_RNIOLEK[0] 3 22 6 #SB_LUT4
+set_location U0.cmd_fsm_states_i_RNO[17] 3 20 2 #SB_LUT4
+set_location U1.U5.lfsr_reg_i[0] 3 23 0 #SB_DFFER
+set_location U0.cmd_fsm_states_i_RNIM13P1[9] 4 16 5 #SB_LUT4
+set_location U0.cmd_fsm_states_i_RNI5P1L[16] 3 19 1 #SB_LUT4
+set_location U0.read_req_cnt_i_cry_c[8] 5 20 0 #SB_CARRY
+set_location U0.o_sdram_addr_1_RNO_3[10] 3 21 3 #SB_LUT4
+set_location U0.init_fsm_states_i_RNO[0] 5 21 2 #SB_LUT4
+set_location U0.cmd_fsm_states_i[19] 2 18 7 #SB_DFFR
+set_location U2.genblk1.lfsr_reg_i_RNO[5] 6 26 5 #SB_LUT4
+set_location U0.read_req_cnt_i_RNO[6] 5 19 6 #SB_LUT4
+set_location U0.read_data_req_i_RNO_1 4 20 3 #SB_LUT4
+set_location U0.sdram_dq_en_i_rep0_i 1 23 4 #SB_DFFES
+set_location U0.o_ack_RNO 2 17 5 #SB_LUT4
+set_location U0.cmd_fsm_states_i[16] 3 19 6 #SB_DFFR
+set_location U0.cmd_fsm_states_i[0] 3 17 0 #SB_DFFS
+set_location U0.o_sdram_addr_1[3] 4 21 6 #SB_DFFE
+set_location U0.init_fsm_states_i[5] 5 17 0 #SB_DFFR
+set_location U0.cmd_fsm_states_i_RNO[6] 1 16 7 #SB_LUT4
+set_location U0.read_req_cnt_i_RNO[8] 5 20 0 #SB_LUT4
+set_location U0.o_sdram_casn_RNO 7 18 3 #SB_LUT4
+set_location U0.cmd_fsm_states_i_ns_i_a2_4_0[0] 4 16 6 #SB_LUT4
+set_location io_sdram_dq_iobuf_RNO[7] 2 12 1 #SB_LUT4
+set_location U1.U1.lfsr_reg_i_RNO[0] 2 22 5 #SB_LUT4
+set_location U0.o_sdram_addr_1_RNO_0[6] 5 22 7 #SB_LUT4
+set_location U0.o_sdram_addr_1_RNO[0] 4 21 2 #SB_LUT4
+set_location U0.cmd_fsm_states_i_RNO[12] 3 19 5 #SB_LUT4
+set_location U0.cmd_fsm_states_i_RNO_0[4] 2 19 0 #SB_LUT4
+set_location U2.genblk1.lfsr_reg_i[10] 5 25 4 #SB_DFFER
+set_location U0.read_data_req_i 6 22 5 #SB_DFFR
+set_location U0.read_req_cnt_i[5] 5 19 5 #SB_DFFES
+set_location U0.o_sdram_casn_RNO_1 6 18 6 #SB_LUT4
+set_location U0.read_req_cnt_i_RNO[5] 5 19 5 #SB_LUT4
+set_location U0.o_sdram_addr_1[9] 4 22 3 #SB_DFFE
+set_location U0.cmd_fsm_states_i_RNO[8] 3 20 6 #SB_LUT4
+set_location U2.genblk1.lfsr_reg_i[0] 6 26 1 #SB_DFFER
+set_location U1.U5.o_lfsr_256_done_RNO_0 3 23 3 #SB_LUT4
+set_location U0.sdram_dq_en_i_rep6_i 3 13 5 #SB_DFFES
+set_location U0.sdram_dq_en_i_rep11_i 3 31 1 #SB_DFFES
+set_location U0.o_sdram_addr_1_RNO_1[10] 3 21 6 #SB_LUT4
+set_location U0.cmd_fsm_states_i_RNO_0[11] 2 16 1 #SB_LUT4
+set_location U0.read_req_cnt_i_RNI5874[9] 5 22 3 #SB_LUT4
+set_location U0.o_sdram_blkaddr[0] 5 23 7 #SB_DFFE
+set_location U0.o_sdram_addr_1_RNO_0[8] 4 22 0 #SB_LUT4
+set_location U0.read_done_i_RNO_0 4 19 1 #SB_LUT4
+set_location U0.cmd_fsm_states_i_RNI8S29[15] 3 20 0 #SB_LUT4
+set_location U0.read_done_i_RNO 5 18 6 #SB_LUT4
+set_location U0.cmd_fsm_states_i[5] 3 21 1 #SB_DFFR
+set_location U0.sdram_dq_en_i_rep14_i 3 30 4 #SB_DFFES
+set_location U0.cpu_den_i 3 20 5 #SB_DFFR
+set_location U0.clk_count_i_RNIJ6HF[0] 2 18 5 #SB_LUT4
+set_location U0.o_sdram_addr_1_RNO_0[11] 3 22 1 #SB_LUT4
+set_location io_sdram_dq_iobuf_RNO[2] 4 32 6 #SB_LUT4
+set_location U1.U5.o_lfsr_256_done 3 23 2 #SB_DFFER
+set_location U1.U1.o_lfsr_64_done 2 23 1 #SB_DFFR
+set_location U0.o_sdram_addr_1_RNO[7] 6 21 5 #SB_LUT4
+set_location U0.cmd_fsm_states_i_RNO[11] 3 16 6 #SB_LUT4
+set_location U0.clk_count_i[1] 3 18 3 #SB_DFF
+set_location U0.read_req_cnt_i_cry_c[2] 5 19 2 #SB_CARRY
+set_location U0.read_req_cnt_i[0] 5 19 0 #SB_DFFES
+set_location U2.genblk1.lfsr_reg_i_RNI7CTK[9] 5 26 2 #SB_LUT4
+set_location U0.o_init_done_RNIKMDT 4 17 6 #SB_LUT4
+set_location U0.clk_count_i_RNICEBA[2] 2 18 0 #SB_LUT4
+set_location latch_ref_req_i 2 19 5 #SB_DFFR
+set_location U1.U5.o_lfsr_256_done_RNO 3 23 2 #SB_LUT4
+set_location U0.read_req_cnt_rst_i_RNI4R9C 4 19 3 #SB_LUT4
+set_location U0.o_sdram_addr_1[4] 6 21 6 #SB_DFFE
+set_location U0.cmd_fsm_states_i_RNI5GQE[2] 3 21 2 #SB_LUT4
+set_location U0.clk_count_i_RNIQUMK_1[2] 3 18 0 #SB_LUT4
+set_location U2.genblk1.lfsr_reg_i[7] 5 25 1 #SB_DFFER
+set_location U0.read_done_reg_i 2 26 5 #SB_DFFR
+set_location U0.cmd_fsm_states_i_RNIO6101[17] 2 20 7 #SB_LUT4
+set_location U0.cmd_fsm_states_i_RNI2NBJ[3] 2 20 6 #SB_LUT4
+set_location U1.U5.lfsr_reg_i[4] 3 24 1 #SB_DFFER
+set_location U0.init_fsm_states_i_RNO[4] 6 19 5 #SB_LUT4
+set_location U0.cmd_fsm_states_i[6] 1 16 7 #SB_DFFR
+set_location U0.clk_count_i_RNIQUMK_0[2] 3 17 2 #SB_LUT4
+set_location U0.cmd_fsm_states_i_RNO_2[0] 4 17 2 #SB_LUT4
+set_location U2.genblk1.lfsr_reg_i_RNO[1] 6 27 1 #SB_LUT4
+set_location U0.read_req_cnt_i_RNO[2] 5 19 2 #SB_LUT4
+set_location U0.clk_count_i_RNIQUMK_2[2] 3 19 4 #SB_LUT4
+set_location io_sdram_dq_iobuf_RNO[1] 1 22 7 #SB_LUT4
+set_location U0.o_sdram_rasn_RNO 1 20 4 #SB_LUT4
+set_location U0.cmd_fsm_states_i_RNIOR75[10] 3 21 4 #SB_LUT4
+set_location U0.clk_count_i_RNO[2] 3 18 4 #SB_LUT4
+set_location U0.clk_count_i[2] 3 18 4 #SB_DFF
+set_location U1.U1.lfsr_reg_i[3] 2 22 2 #SB_DFFR
+set_location U0.read_req_cnt_i_cry_c[7] 5 19 7 #SB_CARRY
+set_location U0.read_req_cnt_i[3] 5 19 3 #SB_DFFES
+set_location U0.o_init_done_RNI7APJ 4 25 2 #SB_LUT4
+set_location U0.init_fsm_states_i_RNI71VK1[2] 3 19 3 #SB_LUT4
+set_location power_down_reg1_i 1 16 6 #SB_DFFR
+set_location U0.read_req_cnt_i_RNIS7SG[6] 5 22 6 #SB_LUT4
+set_location U0.o_sdram_wen_RNO_0 2 20 2 #SB_LUT4
+set_location U0.cmd_fsm_states_i[12] 3 19 5 #SB_DFFR
+set_location U0.o_sdram_addr_1[7] 6 21 5 #SB_DFFE
+set_location U0.init_fsm_states_i[1] 5 21 5 #SB_DFFR
+set_location U0.cmd_fsm_states_i_RNO[2] 3 21 0 #SB_LUT4
+set_location io_sdram_dq_iobuf_RNO[10] 1 24 1 #SB_LUT4
+set_location U0.cmd_fsm_states_i_RNO_0[17] 3 20 1 #SB_LUT4
+set_location U0.o_sdram_addr_1_RNO_0[2] 4 21 3 #SB_LUT4
+set_location U0.cmd_fsm_states_i_RNO[16] 3 19 6 #SB_LUT4
+set_location U0.cmd_fsm_states_i_RNO_0[0] 3 17 4 #SB_LUT4
+set_location U0.cmd_fsm_states_i_RNIIR29[18] 4 18 0 #SB_LUT4
+set_location U1.U5.lfsr_reg_i[3] 3 24 0 #SB_DFFER
+set_location U0.o_sdram_wen_RNO 1 21 7 #SB_LUT4
+set_location U0.o_busy_RNITFQ01 4 17 4 #SB_LUT4
+set_location U0.init_fsm_states_i_RNO[1] 5 21 5 #SB_LUT4
+set_location U0.sdram_dqm_i 1 20 1 #SB_DFFE
+set_location U0.cmd_fsm_states_i[18] 4 18 6 #SB_DFFR
+set_location U0.read_req_cnt_rst_i_RNO 2 18 6 #SB_LUT4
+set_location U0.read_req_cnt_i_RNO[1] 5 19 1 #SB_LUT4
+set_location U0.o_sdram_addr_1_RNO[9] 4 22 3 #SB_LUT4
+set_location U0.cmd_fsm_states_i_RNI57RU[15] 3 19 2 #SB_LUT4
+set_location U0.o_sdram_rasn 1 20 4 #SB_DFFE
+set_location U0.sdram_dq_en_i_rep9_i 3 13 0 #SB_DFFES
+set_location U0.sdram_dq_en_i_rep8_i 1 13 7 #SB_DFFES
+set_location U0.read_req_cnt_i_cry_c[4] 5 19 4 #SB_CARRY
+set_location U0.cmd_fsm_states_i_RNO_3[0] 3 17 3 #SB_LUT4
+set_location U0.cmd_fsm_states_i[15] 3 20 4 #SB_DFFR
+set_location U0.cmd_fsm_states_i[1] 2 17 1 #SB_DFFR
+set_location U0.o_sdram_addr_1[2] 4 21 4 #SB_DFFE
+set_location U0.init_fsm_states_i[6] 3 15 1 #SB_DFFR
+set_location U0.cmd_fsm_states_i_RNO[7] 3 19 0 #SB_LUT4
+set_location GND -1 -1 -1 #GND
+set_location U2.genblk1.lfsr_reg_i[9] 5 25 2 #SB_DFFER
+set_location U0.cmd_fsm_states_i_RNO_0[18] 4 15 7 #SB_LUT4
+set_location io_sdram_dq_iobuf_RNO[6] 1 11 5 #SB_LUT4
+set_location U0.o_sdram_addr_1_RNO[3] 4 21 6 #SB_LUT4
+set_location U0.o_sdram_addr_1_RNO_0[7] 6 21 4 #SB_LUT4
+set_location U0.cmd_fsm_states_i_RNO[15] 3 20 4 #SB_LUT4
+set_location U0.sdram_dq_en 4 31 6 #SB_DFFES
+set_location U1.U1.o_lfsr_64_done_RNII2021 2 23 0 #SB_LUT4
+set_location U0.read_req_cnt_i[4] 5 19 4 #SB_DFFES
+set_location U0.o_ack 2 17 5 #SB_DFFR
+set_location U0.init_fsm_states_i_RNO[2] 6 19 3 #SB_LUT4
+set_location U0.o_sdram_casn_RNO_0 6 18 1 #SB_LUT4
+set_location U0.o_sdram_addr_1_RNO_2[10] 3 21 5 #SB_LUT4
+set_location U0.o_sdram_addr_1[10] 4 22 5 #SB_DFFE
+set_io o_sdram_addr[12] L12
+set_io o_data_req B4
+set_io i_addr[11] D8
+set_io io_sdram_dq[12] B2
+set_io o_sdram_addr[3] G5
+set_io i_rwn M1
+set_io i_data[3] C12
+set_io i_addr[5] B9
+set_io i_addr[14] C10
+set_io o_sdram_dqm[3] R14
+set_io i_selfrefresh_req M2
+set_io o_sdram_addr[4] G3
+set_io o_data[11] E14
+set_io o_write_done D1
+set_io o_data[0] D15
+set_io i_power_down P1
+set_io i_data[10] E9
+set_io o_sdram_addr[9] E5
+set_io i_addr[19] B11
+set_io o_sdram_blkaddr[1] A5
+set_io o_sdram_csn M15
+set_io o_data[7] K13
+set_io o_data[22] H13
+set_io io_sdram_dq[5] H3
+set_io o_sdram_dqm[2] P14
+set_io io_sdram_dq[14] A2
+set_io i_data[14] D11
+set_io o_sdram_addr[5] F1
+set_io o_data[25] J14
+set_io o_data[16] F14
+set_io io_sdram_dq[8] J5
+set_io i_data[6] B15
+set_io i_addr[6] A8
+set_io o_sdram_addr[10] E6
+set_io o_data[3] K15
+set_io o_data[19] G11
+set_io io_sdram_dq[1] F5
+set_io i_data[11] D9
+set_io i_clk H5
+set_io i_addr[20] N2
+set_io i_addr[17] A9
+set_io o_sdram_clk F3
+set_io o_data[8] K12
+set_io o_data[30] M14
+set_io io_sdram_dq[10] E2
+set_io i_burststop_req K5
+set_io i_addr[18] B10
+set_io o_sdram_blkaddr[0] C1
+set_io o_sdram_addr[1] G1
+set_io o_data[28] J13
+set_io i_data[1] B12
+set_io i_adv K4
+set_io o_sdram_casn F7
+set_io o_init_done E3
+set_io o_data[6] J10
+set_io o_data[21] H12
+set_io o_data[12] F12
+set_io io_sdram_dq[4] J3
+set_io i_addr[2] C7
+set_io o_sdram_dqm[1] B1
+set_io io_sdram_dq[15] D5
+set_io i_precharge_req K3
+set_io i_data[15] E11
+set_io i_addr[13] A7
+set_io o_data[24] H11
+set_io o_data[17] G10
+set_io i_data[5] B14
+set_io i_addr[7] C9
+set_io o_data[2] G15
+set_io io_sdram_dq[0] F4
+set_io i_data[12] E10
+set_io i_addr[21] B7
+set_io i_addr[16] C8
+set_io o_read_done D4
+set_io o_data[31] L14
+set_io io_sdram_dq[11] C3
+set_io o_sdram_addr[6] G2
+set_io i_disable_active M3
+set_io i_data[0] D10
+set_io i_addr[8] A11
+set_io o_data[20] G13
+set_io o_data[13] F13
+set_io io_sdram_dq[7] J2
+set_io i_loadmod_req L3
+set_io i_data[9] D13
+set_io i_addr[3] A6
+set_io o_sdram_dqm[0] E4
+set_io i_addr[12] C6
+set_io o_sdram_rasn C2
+set_io o_data_valid C5
+set_io o_ack H1
+set_io o_sdram_addr[2] H2
+set_io o_data[14] F15
+set_io i_data[4] A15
+set_io i_addr[4] D7
+set_io o_data[5] L13
+set_io io_sdram_dq[3] H4
+set_io i_data[13] B13
+set_io i_addr[15] B8
+set_io o_sdram_addr[7] F2
+set_io o_busy K1
+set_io i_addr[9] C11
+set_io o_data[27] K14
+set_io o_data[10] F11
+set_io io_sdram_dq[6] J4
+set_io i_rst G4
+set_io i_disable_precharge M4
+set_io i_data[8] E13
+set_io i_addr[0] B6
+set_io o_data[1] D14
+set_io o_sdram_wen A1
+set_io o_sdram_addr[8] D3
+set_io o_data[15] G12
+set_io o_data[4] J12
+set_io o_data[23] H14
+set_io io_sdram_dq[2] B3
+set_io o_sdram_cke D2
+set_io o_data[26] J15
+set_io io_sdram_dq[9] J1
+set_io i_data[7] C14
+set_io i_addr[1] F9
+set_io o_sdram_addr[11] B5
+set_io o_data[18] G14
+set_io i_addr[10] L1
+set_io o_data[9] M13
+set_io io_sdram_dq[13] C4
+set_io o_sdram_addr[0] H6
+set_io o_data[29] J11
+set_io i_disable_autorefresh L4
+set_io i_data[2] C13

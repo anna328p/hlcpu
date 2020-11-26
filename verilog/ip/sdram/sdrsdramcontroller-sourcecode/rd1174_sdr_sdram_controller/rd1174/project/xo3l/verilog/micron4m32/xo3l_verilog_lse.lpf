@@ -1,0 +1,5 @@
+BLOCK RESETPATHS;
+BLOCK ASYNCPATHS;
+
+
+frequency port "i_clk" 100 Mhz;

@@ -1,0 +1,13 @@
+C:\lscc\iCEcube2.2013.12\synpbase\bin64\c_ver.exe  -osyn  G:\VEERAJ\RD\WORKING\RD1174\project\sdr_sdram_controller\sdr_sdram_controller_Implmnt\synwork\sdr_sdram_controller_comp.srs  -prodtype  synplify_pro  -primux -fixsmult -sdff_counter -nram -divnmod -I G:\VEERAJ\RD\WORKING\RD1174\project\sdr_sdram_controller\  -I C:\lscc\iCEcube2.2013.12\synpbase\lib  -v2001  -devicelib  C:\lscc\iCEcube2.2013.12\synpbase\lib\generic\sb_ice40.v  -encrypt  -pro  -dmgen  G:\VEERAJ\RD\WORKING\RD1174\project\sdr_sdram_controller\sdr_sdram_controller_Implmnt\dm  -ui -fid2 -ram -sharing on  -ll 2000 -autosm -lib work G:\VEERAJ\RD\WORKING\RD1174\source\Verilog\Micron8M16\autorefresh_counter.v -lib work G:\VEERAJ\RD\WORKING\RD1174\source\Verilog\Micron8M16\delay_gen150us.v -lib work G:\VEERAJ\RD\WORKING\RD1174\source\Verilog\Micron8M16\lfsr_count255.v -lib work G:\VEERAJ\RD\WORKING\RD1174\source\Verilog\Micron8M16\lfsr_count64.v -lib work G:\VEERAJ\RD\WORKING\RD1174\source\Verilog\Micron8M16\sdram_control_fsm.v -lib work G:\VEERAJ\RD\WORKING\RD1174\source\Verilog\Micron8M16\sdram_controller.v -loga  G:\VEERAJ\RD\WORKING\RD1174\project\sdr_sdram_controller\sdr_sdram_controller_Implmnt\sdr_sdram_controller.srr 
+rc:1 success:1
+G:\VEERAJ\RD\WORKING\RD1174\project\sdr_sdram_controller\sdr_sdram_controller_Implmnt\synwork\sdr_sdram_controller_comp.srs|o|1394088055|28678
+C:\lscc\iCEcube2.2013.12\synpbase\lib\generic\sb_ice40.v|i|1390970807|218883
+G:\VEERAJ\RD\WORKING\RD1174\source\Verilog\Micron8M16\autorefresh_counter.v|i|1358320406|6969
+G:\VEERAJ\RD\WORKING\RD1174\source\Verilog\Micron8M16\delay_gen150us.v|i|1358320406|3784
+G:\VEERAJ\RD\WORKING\RD1174\source\Verilog\Micron8M16\lfsr_count255.v|i|1358320406|3477
+G:\VEERAJ\RD\WORKING\RD1174\source\Verilog\Micron8M16\lfsr_count64.v|i|1358320406|3285
+G:\VEERAJ\RD\WORKING\RD1174\source\Verilog\Micron8M16\sdram_control_fsm.v|i|1358320406|48706
+G:\VEERAJ\RD\WORKING\RD1174\source\Verilog\Micron8M16\sdram_controller.v|i|1358320406|17082
+G:\VEERAJ\RD\WORKING\RD1174\project\sdr_sdram_controller\sdr_sdram_controller_Implmnt\sdr_sdram_controller.srr|o|1394088055|11259
+C:\lscc\iCEcube2.2013.12\synpbase\bin64\c_ver.exe|i|1390970794|5721600
+C:\lscc\iCEcube2.2013.12\synpbase\bin\c_ver.exe|i|1390970787|2193920

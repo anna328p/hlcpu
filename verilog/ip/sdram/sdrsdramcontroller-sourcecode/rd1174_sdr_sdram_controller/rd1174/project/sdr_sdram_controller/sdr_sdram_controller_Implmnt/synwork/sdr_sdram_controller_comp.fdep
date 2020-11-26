@@ -1,0 +1,48 @@
+#OPTIONS:"|-prodtype|synplify_pro|-primux|-fixsmult|-sdff_counter|-nram|-divnmod|-I|G:\\VEERAJ\\RD\\WORKING\\RD1174\\project\\sdr_sdram_controller\\|-I|C:\\lscc\\iCEcube2.2013.12\\synpbase\\lib|-v2001|-devicelib|C:\\lscc\\iCEcube2.2013.12\\synpbase\\lib\\generic\\sb_ice40.v|-encrypt|-pro|-ui|-fid2|-ram|-sharing|on|-ll|2000|-autosm|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work|-lib|work"
+#CUR:"C:\\lscc\\iCEcube2.2013.12\\synpbase\\bin64\\c_ver.exe":1390970794
+#CUR:"C:\\lscc\\iCEcube2.2013.12\\synpbase\\lib\\generic\\sb_ice40.v":1390970807
+#CUR:"C:\\lscc\\iCEcube2.2013.12\\synpbase\\lib\\vlog\\umr_capim.v":1390970819
+#CUR:"C:\\lscc\\iCEcube2.2013.12\\synpbase\\lib\\vlog\\scemi_objects.v":1390970819
+#CUR:"C:\\lscc\\iCEcube2.2013.12\\synpbase\\lib\\vlog\\scemi_pipes.svh":1390970819
+#CUR:"C:\\lscc\\iCEcube2.2013.12\\synpbase\\lib\\vlog\\hypermods.v":1390970819
+#CUR:"G:\\VEERAJ\\RD\\WORKING\\RD1174\\source\\Verilog\\Micron8M16\\autorefresh_counter.v":1358320406
+#CUR:"G:\\VEERAJ\\RD\\WORKING\\RD1174\\source\\Verilog\\Micron8M16\\sdram_defines.v":1358320405
+#CUR:"G:\\VEERAJ\\RD\\WORKING\\RD1174\\source\\Verilog\\Micron8M16\\delay_gen150us.v":1358320406
+#CUR:"G:\\VEERAJ\\RD\\WORKING\\RD1174\\source\\Verilog\\Micron8M16\\lfsr_count255.v":1358320406
+#CUR:"G:\\VEERAJ\\RD\\WORKING\\RD1174\\source\\Verilog\\Micron8M16\\lfsr_count64.v":1358320406
+#CUR:"G:\\VEERAJ\\RD\\WORKING\\RD1174\\source\\Verilog\\Micron8M16\\sdram_control_fsm.v":1358320406
+#CUR:"G:\\VEERAJ\\RD\\WORKING\\RD1174\\source\\Verilog\\Micron8M16\\sdram_defines.v":1358320405
+#CUR:"G:\\VEERAJ\\RD\\WORKING\\RD1174\\source\\Verilog\\Micron8M16\\sdram_controller.v":1358320406
+#CUR:"G:\\VEERAJ\\RD\\WORKING\\RD1174\\source\\Verilog\\Micron8M16\\sdram_defines.v":1358320405
+#numinternalfiles:5
+#defaultlanguage:verilog
+0			"G:\VEERAJ\RD\WORKING\RD1174\source\Verilog\Micron8M16\autorefresh_counter.v" verilog
+1		*	"G:\VEERAJ\RD\WORKING\RD1174\source\Verilog\Micron8M16\sdram_defines.v" verilog
+2			"G:\VEERAJ\RD\WORKING\RD1174\source\Verilog\Micron8M16\delay_gen150us.v" verilog
+3			"G:\VEERAJ\RD\WORKING\RD1174\source\Verilog\Micron8M16\lfsr_count255.v" verilog
+4			"G:\VEERAJ\RD\WORKING\RD1174\source\Verilog\Micron8M16\lfsr_count64.v" verilog
+5			"G:\VEERAJ\RD\WORKING\RD1174\source\Verilog\Micron8M16\sdram_control_fsm.v" verilog
+6			"G:\VEERAJ\RD\WORKING\RD1174\source\Verilog\Micron8M16\sdram_controller.v" verilog
+#Dependency Lists(Uses List)
+0 1
+1 0 5 6 1 2
+2 4 3
+3 -1
+4 -1
+5 1
+6 1 5 2 0
+#Dependency Lists(Users Of)
+0 1 6
+1 0 1 5 6
+2 1 6
+3 2
+4 2
+5 1 6
+6 1
+#Design Unit to File Association
+module work autorefresh_counter 0
+module work lfsr_count64 4
+module work lfsr_count255 3
+module work delay_gen150us 2
+module work sdram_control_fsm 5
+module work sdram_controller 6
