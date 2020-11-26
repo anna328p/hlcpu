@@ -1,6 +1,6 @@
 `timescale 1us/1ns
 
-`include "alu.v"
+`include "components/alu.v"
 
 module alu_bench;
 
@@ -10,12 +10,12 @@ wire carry;
 wire overflow;
 
 wire [2:0] opcode = op[2:0];
-wire nau_lu = op[3];
+wire select = op[3];
 wire signed [15:0] result_s = result;
 
 reg [15:0] arg1, arg2;
 
-alu alu0 (nau_lu, opcode, arg1, arg2, result, carry, overflow);
+alu alu0 (select, opcode, arg1, arg2, result, carry, overflow);
 
 task test_all (input reg [15:0] t_arg1, input reg [15:0] t_arg2);
     begin
@@ -27,7 +27,7 @@ task test_all (input reg [15:0] t_arg1, input reg [15:0] t_arg2);
 
         while (op < 5'b10000) begin
             $display("sel %d op %d res %d (%d) %16b cf %d of %d",
-                nau_lu, opcode, result, result_s, result, carry, overflow);
+                select, opcode, result, result_s, result, carry, overflow);
             op += 1;
             #5;
         end

@@ -101,9 +101,9 @@ Implicit flags are set by the ALU upon finishing an operation.
 |   1 | 001 |      JEQ | Jump if EQ         |
 |   2 | 010 |      JLT | Jump if LT         |
 |   3 | 011 |      JLE | Jump if LT \| EQ   |
-|   4 | 100 |      JCF | Jump if CF         |
-|   5 | 101 |      JOF | Jump if OF         |
-|   6 | 110 |      NOP | No operation       |
+|   4 | 100 |      NOP | No operation       |
+|   5 | 101 |      JCF | Jump if CF         |
+|   6 | 110 |      JOF | Jump if OF         |
 |   7 | 111 |     INVF | Invert all flags   |
 
 #### Register `[3, 011b]`

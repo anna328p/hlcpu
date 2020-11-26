@@ -1,10 +1,9 @@
 `timescale 1us/1ns
 
-`include "counter.v"
+`include "components/counter.v"
 
 module counter_bench;
 
-reg do_clk;
 reg clk;
 
 always 
