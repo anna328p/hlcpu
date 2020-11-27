@@ -1,15 +1,19 @@
 module regfile(
     input wire clk,
 
+    input wire         in1_we,
     input wire [3:0]   in1_sel,
     input wire [15:0]  in1_data,
+
+    input wire         in2_we,
     input wire [3:0]   in2_sel,
     input wire [15:0]  in2_data,
 
     input wire [3:0]   out1_sel,
-    output reg [15:0] out1_data,
+    output reg [15:0]  out1_data,
+
     input wire [3:0]   out2_sel,
-    output reg [15:0] out2_data);
+    output reg [15:0]  out2_data);
 
 reg [15:0] a, b, c, d, ix, iy, sp;
 
@@ -19,35 +23,39 @@ wire [7:0] hy = iy[15:8];
 wire [7:0] ly = iy[7:0];
 
 always @(posedge clk) begin
-    case (in1_sel)
-        4'b0001: a  <= in1_data;
-        4'b0010: b  <= in1_data;
-        4'b0011: c  <= in1_data;
-        4'b0100: d  <= in1_data;
-        4'b0101: ix <= in1_data;
-        4'b0110: iy <= in1_data;
-        4'b0111: sp <= in1_data;
-        4'b1100: ix[15:8] <= in1_data;
-        4'b1101: iy[15:8] <= in1_data;
-        4'b1110: ix[7:0]  <= in1_data;
-        4'b1111: iy[7:0]  <= in1_data;
-        default: a <= a;
-    endcase
+    if (in1_we) begin
+        case (in1_sel)
+            4'b0001: a  <= in1_data;
+            4'b0010: b  <= in1_data;
+            4'b0011: c  <= in1_data;
+            4'b0100: d  <= in1_data;
+            4'b0101: ix <= in1_data;
+            4'b0110: iy <= in1_data;
+            4'b0111: sp <= in1_data;
+            4'b1100: ix[15:8] <= in1_data;
+            4'b1101: iy[15:8] <= in1_data;
+            4'b1110: ix[7:0]  <= in1_data;
+            4'b1111: iy[7:0]  <= in1_data;
+            default: a <= a;
+        endcase
+    end
 
-    case (in2_sel)
-        4'b0001: a  <= in2_data;
-        4'b0010: b  <= in2_data;
-        4'b0011: c  <= in2_data;
-        4'b0100: d  <= in2_data;
-        4'b0101: ix <= in2_data;
-        4'b0110: iy <= in2_data;
-        4'b0111: sp <= in2_data;
-        4'b1100: ix[15:8] <= in2_data;
-        4'b1101: iy[15:8] <= in2_data;
-        4'b1110: ix[7:0]  <= in2_data;
-        4'b1111: iy[7:0]  <= in2_data;
-        default: a <= a;
-    endcase
+    if (in2_we) begin
+        case (in2_sel)
+            4'b0001: a  <= in2_data;
+            4'b0010: b  <= in2_data;
+            4'b0011: c  <= in2_data;
+            4'b0100: d  <= in2_data;
+            4'b0101: ix <= in2_data;
+            4'b0110: iy <= in2_data;
+            4'b0111: sp <= in2_data;
+            4'b1100: ix[15:8] <= in2_data;
+            4'b1101: iy[15:8] <= in2_data;
+            4'b1110: ix[7:0]  <= in2_data;
+            4'b1111: iy[7:0]  <= in2_data;
+            default: a <= a;
+        endcase
+    end
 end
 
 always @(*)
