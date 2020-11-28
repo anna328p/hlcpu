@@ -1,0 +1,2 @@
+read_verilog components/regfile.v
+synth_ecp5 -top regfile -json synth.json

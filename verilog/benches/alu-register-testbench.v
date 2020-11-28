@@ -48,6 +48,7 @@ assign in2_data = temp2;
 initial begin
     #5;
     // cycle 1:
+    // setup, store arguments in registers
 
     // configure the ALU
     select <= 0;
@@ -71,6 +72,7 @@ initial begin
 
     #40;
     // cycle 2:
+    // store result in register C
 
     // connect ALU output to register C
     in2_we <= 0;
@@ -80,6 +82,7 @@ initial begin
 
     #40;
     // cycle 3:
+    // read back result
 
     // get C on output port 1
     in1_we <= 0; out1_sel = 3;
