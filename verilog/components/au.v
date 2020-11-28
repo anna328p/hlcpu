@@ -7,7 +7,6 @@ module au(
     output wire overflow);
 
 wire signed [15:0] arg1s = arg1;
-wire signed [15:0] arg2s = arg2;
 
 reg [16:0] tmp_out;
 
@@ -15,8 +14,8 @@ always @(*) begin
     case (opcode)
         3'b000:  tmp_out = arg1 + arg2;   // ADD
         3'b001:  tmp_out = arg1 - arg2;   // SUB
-        3'b010:  tmp_out = arg1s + arg2s; // ADDS
-        3'b011:  tmp_out = arg1s - arg2s; // SUBS
+        3'b010:  tmp_out = arg1;          // NOP (handled elsewhere)
+        3'b011:  tmp_out = arg1;          // NOP (handled elsewhere)
         3'b100:  tmp_out = arg1 << arg2;  // SHL
         3'b101:  tmp_out = arg1 >> arg2;  // SHR
         3'b110:  tmp_out = (arg1 << arg2) | (arg1 >> (16 - arg2)); // RTL

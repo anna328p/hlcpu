@@ -73,8 +73,8 @@ Implicit flags are set by the ALU upon finishing an operation.
 |-----|-----|----------|------------------------------|
 |   0 | 000 | ADD      | A += arg, sets CF and OF     |
 |   1 | 001 | SUB      | A -= arg, sets CF and OF     |
-|   2 | 010 | NOP      | No operation                 |
-|   3 | 011 | NOP      | No operation                 |
+|   2 | 010 | CMPU     | Compare A and arg (unsigned) |
+|   3 | 011 | CMP      | Compare A and arg (signed)   |
 |   4 | 100 | SHL      | A <<= arg                    |
 |   5 | 101 | SHR      | A >>= arg                    |
 |   6 | 110 | RTL      | Rotate A left by arg bits    |

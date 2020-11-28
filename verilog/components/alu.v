@@ -16,6 +16,7 @@ wire [15:0] lu_result;
 au au0 (opcode, arg1, arg2, au_result, carry, overflow);
 lu lu0 (opcode, arg1, arg2, lu_result);
 
+
 assign result = select ? lu_result : au_result;
 
 endmodule // alu

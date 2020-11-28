@@ -43,21 +43,19 @@ initial begin
     out1_sel <= 4'b0001;
     out2_sel <= 4'b0010;
 
-    $display("out1 %x out2 %x", out1_data, out2_data);
-
     #10;
 
     $display("out1 %x out2 %x", out1_data, out2_data);
 
     in1_we <= 1;
 
-    #20;
+    #40;
 
     $display("out1 %x out2 %x", out1_data, out2_data);
 
     in2_we <= 1;
 
-    #20;
+    #40;
 
     $display("out1 %x out2 %x", out1_data, out2_data);
 
@@ -66,14 +64,14 @@ initial begin
     in1_sel <= 4'bx;
     in2_sel <= 4'bx;
 
-    #20;
+    #40;
 
     $display("out1 %x out2 %x", out1_data, out2_data);
 
     out1_sel <= 4'b0100;
     out2_sel <= 4'b0101;
 
-    #20;
+    #40;
 
     $display("out1 %x out2 %x", out1_data, out2_data);
 
