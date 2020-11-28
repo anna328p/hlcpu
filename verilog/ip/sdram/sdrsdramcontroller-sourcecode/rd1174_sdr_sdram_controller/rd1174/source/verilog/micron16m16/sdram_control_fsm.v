@@ -86,7 +86,7 @@ module sdram_control_fsm (
                           o_read_done        // Read from SDRAM is completed
                           );
 
-`include "sdram_defines.v"
+`include "micron16m16/sdram_defines.v"
 
     parameter SDRAM_DATA_WIDTH = 16;
     parameter CPU_ADDR_WIDTH = 22;

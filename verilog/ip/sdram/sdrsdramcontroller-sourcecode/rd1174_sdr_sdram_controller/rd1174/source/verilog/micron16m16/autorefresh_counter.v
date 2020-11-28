@@ -53,7 +53,7 @@ module autorefresh_counter(
                            input i_autorefresh_enable,
                            output reg o_refresh_count_done);
 
-    `include "sdram_defines.v"
+    `include "micron16m16/sdram_defines.v"
 
     parameter AUTO_REFRESH_COUNT = 1500;
    

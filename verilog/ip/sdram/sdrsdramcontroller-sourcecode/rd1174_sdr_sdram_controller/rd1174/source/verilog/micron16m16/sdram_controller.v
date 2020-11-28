@@ -48,7 +48,7 @@
 
 
 `timescale 1 ns / 1 ps
-`define DISABLE_CPU_IO_BUS 0
+`define DISABLE_CPU_IO_BUS 1
 
 module sdram_controller (/*AUTOARG*/
                          // Outputs
@@ -72,7 +72,7 @@ module sdram_controller (/*AUTOARG*/
                          i_selfrefresh_req, i_loadmod_req, i_burststop_req, i_disable_active, i_disable_precharge, i_precharge_req, i_power_down, i_disable_autorefresh
                          );
 
-`include "sdram_defines.v"
+`include "micron16m16/sdram_defines.v"
 
     parameter SDRAM_BURST_LEN_1            = 3'b000;
     parameter SDRAM_BURST_LEN_2            = 3'b001;
@@ -109,7 +109,7 @@ module sdram_controller (/*AUTOARG*/
     parameter MODEREG_CAS_LATENCY = 2;
     defparam U0.MODEREG_CAS_LATENCY = MODEREG_CAS_LATENCY;
 
-    parameter MODEREG_BURST_LENGTH = 3'b010;
+    parameter MODEREG_BURST_LENGTH = SDRAM_BURST_LEN_1;
     defparam U0.MODEREG_BURST_LENGTH = MODEREG_BURST_LENGTH;
 
     parameter MODEREG_BURST_TYPE = 1'b0;
