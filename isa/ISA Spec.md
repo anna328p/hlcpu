@@ -109,16 +109,16 @@ Implicit flags are set by the ALU upon finishing an operation.
 
 #### Register `[3, 011b]`
 
-| DEC | BIN | Mnemonic | Description                 |
-|-----|-----|----------|-----------------------------|
-|   0 | 000 |     CALL | push pc+1; jmp [pc+arg1]    |
-|   1 | 001 |      RET | pop pc                      |
-|   2 | 010 |      LDA | Copy memory at arg to A     |
-|   3 | 011 |      STA | Copy A to memory at arg     |
-|   4 | 100 |      SWP | Swaps registers arg1, arg2  |
-|   5 | 101 |      MOV | Moves register arg1 to arg2 |
-|   6 | 110 |      CMP | Compare arg to A, set flags |
-|   7 | 111 |      LDI | Loads the value given to A  |
+| DEC | BIN | Mnemonic | Description                  |
+|-----|-----|----------|------------------------------|
+|   0 | 000 |     CALL | push pc+1; jmp [pc+arg1]     |
+|   1 | 001 |      RET | pop pc                       |
+|   2 | 010 |      LDA | mov a, arg1                  |
+|   3 | 011 |      STA | mov [arg1], a                |
+|   4 | 100 |      SWP | Swaps registers arg1, arg2   |
+|   5 | 101 |      MOV | Moves register arg1 to arg2  |
+|   6 | 110 |      CMP | Compare arg1 to A, set flags |
+|   7 | 111 |       |   |
 
 #### I/O `[4, 100b]`
 
