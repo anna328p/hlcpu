@@ -24,7 +24,7 @@ These special registers are also available:
 |  13 | 1101 |   HY |     8 | Top half of IY             |
 |  15 | 1111 |   LY |     8 | Bottom half of IY          |
 
-This register cannot be accessed by any instructions other than jumps:
+This register cannot be explicitly accessed by any instructions:
 
 | DEC |  BIN | Name | Width | Purpose                    |
 |-----|------|------|-------|----------------------------|
@@ -111,8 +111,8 @@ Implicit flags are set by the ALU upon finishing an operation.
 
 | DEC | BIN | Mnemonic | Description                 |
 |-----|-----|----------|-----------------------------|
-|   0 | 000 |     CALL | Call the subroutine at arg  |
-|   1 | 001 |      RET | Return from the subroutine  |
+|   0 | 000 |     CALL | push pc+1; jmp [pc+arg1]    |
+|   1 | 001 |      RET | pop pc                      |
 |   2 | 010 |      LDA | Copy memory at arg to A     |
 |   3 | 011 |      STA | Copy A to memory at arg     |
 |   4 | 100 |      SWP | Swaps registers arg1, arg2  |
