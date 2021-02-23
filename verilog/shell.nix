@@ -1,6 +1,6 @@
 with import <nixpkgs> {}; mkShell {
   buildInputs = [
-    verilog
+    verilog gtkwave
     verilator
     yosys trellis nextpnr fujprog
   ];

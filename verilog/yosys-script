@@ -1,2 +1,2 @@
-read_verilog components/regfile.v
-synth_ecp5 -top regfile -json synth.json
+read_verilog components/memunit.v
+synth_ecp5 -top memunit -json synth.json

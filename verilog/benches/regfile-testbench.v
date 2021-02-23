@@ -78,4 +78,4 @@ initial begin
     $stop;
 end
 
-endmodule // regfile_bench
+endmodule // regfile_bench;

@@ -8,11 +8,13 @@
 module memunit(
     input  wire        clk,
     input  wire        nrst,
-    input  wire [26:0] addr,
+    input  wire [15:0] addr,
     input  wire        enable,
     input  wire        rwn,
-    input  wire [31:0] data_in,
-    output wire [31:0] data_out,
+    input  wire [15:0] data_in,
+
+    output reg         ready,
+    output wire [15:0] data_out,
     output wire        o_data_valid,
 
     output wire [12:0] o_sdram_addr,
@@ -20,16 +22,15 @@ module memunit(
     output wire        o_sdram_casn,
     output wire        o_sdram_cke,
     output wire        o_sdram_csn,
-    output wire  [3:0] o_sdram_dqm,
+    output wire  [1:0] o_sdram_dqm,
     output wire        o_sdram_rasn,
     output wire        o_sdram_wen,
     output wire        o_sdram_clk,
-    inout  wire [31:0] io_sdram_dq
+    inout  wire [15:0] io_sdram_dq
 );
 
-reg o_nrst;
-
-reg advn;
+reg o_nrst,
+    adv;
 
 wire
     burststop_req = 0,
@@ -42,7 +43,8 @@ wire
     disable_autorefresh = 0;
 
 
-wire write_done,
+wire
+    write_done,
     read_done,
     data_req,
     busy,
@@ -52,9 +54,9 @@ wire write_done,
 sdram_controller #(.CPU_ADDR_WIDTH(16)) ram (
     .i_clk(clk),
     .i_rst(o_nrst),
-    .i_adv(advn),
-    .i_rwn(write),
-    .i_addr(addr),
+    .i_adv(adv),
+    .i_rwn(rwn),
+    .i_addr(27'b0 | addr),
     .i_selfrefresh_req(selfrefresh_req),
     .i_loadmod_req(loadmod_req),
     .i_burststop_req(burststop_req),
@@ -90,29 +92,37 @@ reg [4:0] state;
 reg [2:0] counter;
 
 always @(*) if (!nrst) begin
-    state = 0;
+    state = 5'b00000;
     counter = 0;
+    adv = 0;
+    ready = 0;
 end
 
 always @(posedge clk) begin
     casex (state)
         // INIT
         5'b00000: // Reset
-            if (counter == 3) begin
-                counter <= 0;
+            if (counter < 3) begin
                 o_nrst <= 1;
-                state <= 5'b00001;
+                counter = counter + 1;
             end else begin
+                counter = 0;
                 o_nrst <= 0;
-                counter += 1;
+                state <= 5'b00001;
             end
         5'b00001: // wait for init_done
-            if (init_done) state <= 2;
-        5'b00010: // wait for enable
+            state <= init_done ? 5'b00010 : 5'b00001;
+        5'b00010: begin // wait for enable
+            ready <= 1;
+            adv <= 0;
             if (enable) begin
+                ready <= 0;
+                adv <= 1;
                 state[4:3] <= 2'b11;
+                state[2:1] <= 2'b00;
                 state[0] <= rwn;
             end
+        end
 
         // OPERATIONS
         5'b1100x: // busy wait 
@@ -120,28 +130,30 @@ always @(posedge clk) begin
 
         // WRITE
         5'b10000: begin // begin write
-            advn <= 0;
             state <= 5'b10010;
         end
         5'b10010: // write, wait for data_req
-            if (data_req) state <= 5'b10100;
-        5'b10100: // wait two cycles
-            if (counter == 2) begin
-                counter <= 0;
+            if (data_req) begin
                 state <= 5'b10110;
-            end else counter += 1;
+                adv <= 0;
+            end
+        5'b10100: // wait one cycle
+            state <= 5'b10110;
         5'b10110: // wait for write done
             if (write_done) state = 5'b00010;
 
         // READ
         5'b10001: begin // begin read
-            advn <= 0;
-            state <= 5'b10011;
+            adv <= 1;
+            state <= 5'b10101;
         end
         5'b10101: // wait for data_valid
-            if (o_data_valid) state <= 5'b10101;
+            if (read_done || o_data_valid) begin
+                state <= 5'b10111;
+                adv <= 0;
+            end
         5'b10111: // return to main menu
-            if (read_done) state <= 5'b00010;
+            if (read_done || !o_data_valid) state <= 5'b00010;
 
         default: state <= 0;
     endcase

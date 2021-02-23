@@ -211,7 +211,7 @@ module sdram_controller (/*AUTOARG*/
     output                          o_sdram_casn;           // From U0 of sdram_control_fsm.v
     output                          o_sdram_cke;            // From U0 of sdram_control_fsm.v
     output                          o_sdram_csn;            // From U0 of sdram_control_fsm.v
-    output [3:0]                    o_sdram_dqm;            // From U0 of sdram_control_fsm.v
+    output [1:0]                    o_sdram_dqm;            // From U0 of sdram_control_fsm.v
     output                          o_sdram_rasn;           // From U0 of sdram_control_fsm.v
     output                          o_sdram_wen;            // From U0 of sdram_control_fsm.v
     output                          o_sdram_clk;            // From U0 of sdram_control_fsm.v
@@ -222,12 +222,12 @@ module sdram_controller (/*AUTOARG*/
     
     /*AUTOINOUT*/
 `ifdef DISABLE_CPU_IO_BUS
-    input [31:0]                    i_data;            // To/From U0 of sdram_control_fsm.v
-    output [31:0]                   o_data;            // To/From U0 of sdram_control_fsm.v
+    input [15:0]                    i_data;            // To/From U0 of sdram_control_fsm.v
+    output [15:0]                   o_data;            // To/From U0 of sdram_control_fsm.v
 `else
     inout [31:0]                    io_data;            // To/From U0 of sdram_control_fsm.v
 `endif
-    inout [31:0]                    io_sdram_dq;            // To/From U0 of sdram_control_fsm.v
+    inout [15:0]                    io_sdram_dq;            // To/From U0 of sdram_control_fsm.v
     
     wire                            delay_done150us_i;     // To U0 of sdram_control_fsm.v
     wire                            refresh_count_done_i;   // From U2 of autorefresh_counter.v

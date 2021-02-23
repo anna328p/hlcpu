@@ -64,6 +64,7 @@ Implicit flags are set by the ALU upon finishing an operation.
 |   2 | 010 | Jump        |
 |   3 | 011 | Register    |
 |   4 | 100 | I/O         |
+|   5 | 101 | Stack       |
 
 ### O (3 bits) - Opcode
 
@@ -125,6 +126,19 @@ Implicit flags are set by the ALU upon finishing an operation.
 |-----|-----|----------|---------------------------------|
 |   0 | 000 |      INB | Reads the IO port at arg to A   |
 |   1 | 001 |     OUTB | Writes A to the I/O port at arg |
+|   2 | 010 |  |  |
+|   3 | 011 |  |  |
+|   4 | 100 |  |  |
+|   5 | 101 |  |  |
+|   6 | 110 |  |  |
+|   7 | 111 |  |  |
+
+#### Stack `[5, 101b]`
+
+| DEC | BIN | Mnemonic | Description                     |
+|-----|-----|----------|---------------------------------|
+|   0 | 000 |     PUSH | lda [sp]; add sp, #-1           |
+|   1 | 001 |      POP | sta [sp]; sub sp, #1            |
 |   2 | 010 |  |  |
 |   3 | 011 |  |  |
 |   4 | 100 |  |  |
